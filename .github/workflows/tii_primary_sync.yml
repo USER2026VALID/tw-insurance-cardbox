@@ -1,0 +1,62 @@
+name: TII Primary Four-Company Master Sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_page:
+        description: 'TII 起始頁（預設壽險資料區段）'
+        required: true
+        default: '2600'
+      end_page:
+        description: 'TII 結束頁'
+        required: true
+        default: '3400'
+      workers:
+        description: '並行工作數（建議 2-4）'
+        required: true
+        default: '4'
+
+permissions:
+  contents: write
+
+jobs:
+  tii-master:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -r requirements.txt
+      - name: Scan TII pages with checkpoint
+        run: python tii_primary_catalog.py sync --start-page "${{ inputs.start_page }}" --end-page "${{ inputs.end_page }}" --workers "${{ inputs.workers }}"
+      - name: Merge TII master with official supplements
+        run: |
+          python -m unittest discover -v
+          python merge_tii_catalog.py
+          python catalog_sync.py export-metadata
+      - name: Validate four-company master
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          rows = json.loads(Path('catalog/tii_master.json').read_text(encoding='utf-8'))
+          expected = {'204', '206', '209', '220'}
+          actual = {row.get('company_code') for row in rows}
+          print('records:', len(rows), 'companies:', Counter(row.get('company_name') for row in rows))
+          if not rows or not (actual & expected):
+              raise SystemExit('TII master is empty')
+          PY
+      - name: Commit TII master and derived catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add catalog/tii_master.json catalog/tii_master_checkpoint.json catalog/catalog.json tii_insurance_data/all_products_metadata.json
+          if git diff --cached --quiet; then
+            echo 'No TII master changes.'
+          else
+            git commit -m 'chore: refresh TII primary four-company master [skip ci]'
+            git push
+          fi

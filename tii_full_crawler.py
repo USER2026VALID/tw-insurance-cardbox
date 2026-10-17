@@ -110,6 +110,7 @@ def parse_result_page(html: str) -> List[Dict[str, Any]]:
             "pdf_url": "",
             "source_url": "https://insprod.tii.org.tw/" + href.lstrip("/"),
             "sales_status": "暫停銷售" if stop_date and stop_date != "未停售" else "現售",
+            "discontinued_date": stop_date if stop_date and stop_date != "未停售" else None,
             "scraped_at": time.strftime("%Y-%m-%d %H:%M:%S"),
         })
     return products
