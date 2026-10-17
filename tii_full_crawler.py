@@ -25,7 +25,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 LIFE_INSURANCE_COMPANIES = [
     {"code": "204", "name": "國泰人壽", "aliases": ["國泰人壽", "Cathay"]},
     {"code": "206", "name": "南山人壽", "aliases": ["南山人壽", "Nan Shan"]},
-    {"code": "210", "name": "富邦人壽", "aliases": ["富邦人壽", "Fubon"]},
+    {"code": "209", "name": "富邦人壽", "aliases": ["富邦人壽", "Fubon"]},
     {"code": "220", "name": "中華郵政壽險", "aliases": ["中華郵政", "郵政壽險", "郵政", "中華郵政壽險", "Chungwa Post"]},
 ]
 
