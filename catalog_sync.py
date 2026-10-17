@@ -228,11 +228,12 @@ def init_db() -> None:
         """)
 
 
-def rebuild_db(records: list[dict], history: list[dict]) -> None:
+def rebuild_db(records: list[dict], history: list[dict], reset_history: bool = True) -> None:
     init_db()
     with sqlite3.connect(CATALOG_DB) as db:
         db.execute("DELETE FROM products")
-        db.execute("DELETE FROM product_history")
+        if reset_history:
+            db.execute("DELETE FROM product_history")
         db.executemany("INSERT INTO products VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", [
             (r["product_id"], r["company_code"], r["company_name"], r["product_name"], r["official_url"], r["source_url"], json.dumps(r.get("categories", []), ensure_ascii=False), r.get("market_date"), r.get("discontinued_date"), r.get("sales_status", "待確認"), r.get("last_checked", now()), r.get("record_source", "official_company_page")) for r in records
         ])

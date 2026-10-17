@@ -1,0 +1,58 @@
+name: Publish Verified Catalog to Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -r requirements.txt
+      - name: Build frontend data from catalog
+        run: |
+          python catalog_sync.py export-metadata
+          python -m unittest discover -v
+          python batch_extract.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          source = Path('tii_insurance_data/structured_products_final.json')
+          data = json.loads(source.read_text(encoding='utf-8'))
+          if not data:
+              raise SystemExit('frontend data is empty; refusing to publish')
+          Path('data/products.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(f'frontend cards: {len(data)}')
+          PY
+      - uses: actions/configure-pages@v5
+      - name: Prepare Pages artifact
+        run: |
+          rm -rf site
+          mkdir -p site/data
+          cp index.html site/index.html
+          cp data/products.json site/data/products.json
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Commit generated frontend data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/products.json
+          if git diff --cached --quiet; then
+            echo 'No frontend changes.'
+          else
+            git commit -m 'chore: publish verified catalog to frontend [skip ci]'
+            git push
+          fi

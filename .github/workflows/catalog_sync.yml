@@ -23,7 +23,7 @@ jobs:
           python-version: '3.10'
 
       - name: Sync official catalogs
-        run: python catalog_sync.py sync
+        run: python catalog_lifecycle.py sync
 
       - name: Validate catalog
         run: |
@@ -38,13 +38,15 @@ jobs:
           print(f'catalog records: {len(data)}; companies: {sorted(actual)}')
           if not actual & expected:
               raise SystemExit('no target-company records discovered')
+          diff = json.loads(Path('catalog/latest_diff.json').read_text(encoding='utf-8'))
+          print(f"new={len(diff['new'])}; returned={len(diff['returned'])}; suspected_missing={len(diff['suspected_missing'])}; TII queue={len(diff['tii_queue'])}")
           PY
 
       - name: Commit catalog changes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add catalog/catalog.json catalog/change_log.json
+          git add -A catalog/
           if git diff --cached --quiet; then
             echo 'No catalog changes.'
           else

@@ -319,10 +319,10 @@ def main():
             }]
 
         short_comp = item.get("company_name", "").replace("人壽", "").replace("保險股份有限公司", "").replace("法商法國巴黎", "法巴")
-        approval_date = item.get("approval_date", "2026/10/01").replace("-", "/")
-        release_month = approval_date[:7] if len(approval_date) >= 7 else "2026/10"
-        mm_dd = approval_date[5:10].replace("/", "-") if len(approval_date) >= 10 else "10-01"
-        is_new = release_month in ("2026/10", "115/10")
+        approval_date = item.get("approval_date", "").replace("-", "/")
+        release_month = approval_date[:7] if len(approval_date) >= 7 else ""
+        mm_dd = approval_date[5:10].replace("/", "-") if len(approval_date) >= 10 else "待補日期"
+        is_new = bool(release_month) and release_month in ("2026/10", "115/10")
 
         card = {
             "id": f"prod-{item['company_code']}-{idx+1:04d}",
