@@ -1,0 +1,58 @@
+name: Daily Insurance Products Sync & Auto Deploy (Zero-API)
+
+on:
+  schedule:
+    # 每天凌晨 02:00 (UTC 18:00) 自動定時執行
+    - cron: '0 18 * * *'
+  # 支援在 GitHub Actions 介面手動點擊「Run workflow」立即觸發
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  crawl-and-classify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 檢出專案代碼 (Checkout)
+        uses: actions/checkout@v4
+
+      - name: 設定 Python 3.10 環境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: 安裝 Playwright 與 PyMuPDF (免 API Key)
+        run: |
+          pip install playwright pymupdf
+          playwright install chromium --with-deps
+
+      - name: 執行保發中心商品爬蟲 (Crawl TII Products)
+        run: |
+          python tii_full_crawler.py
+
+      - name: 執行免 API 規則引擎分類與標籤萃取 (Rule-based Classification)
+        run: |
+          python batch_extract.py
+
+      - name: 更新前端卡片盒資料檔 (Update Frontend Data)
+        run: |
+          mkdir -p data
+          if [ -f "./tii_insurance_data/structured_products_final.json" ]; then
+            cp ./tii_insurance_data/structured_products_final.json ./data/products.json
+          fi
+
+      - name: 自動提交與推送新商品資料 (Git Commit & Push)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/products.json tii_insurance_data/all_products_metadata.json
+          if git diff --staged --quiet; then
+            echo "沒有新上架商品，跳過提交。"
+          else
+            git commit -m "chore(auto-update): 自動收錄與分類最新壽險商品資料 [skip ci]"
+            git push
+          fi
