@@ -10,11 +10,13 @@ import re
 import json
 import urllib.request
 from typing import Dict, Any, List
-import fitz  # PyMuPDF
+import pymupdf as fitz  # PyMuPDF
 
-INPUT_METADATA_FILE = "./tii_insurance_data/all_products_metadata.json"
-PDF_STORAGE_DIR = "./tii_insurance_data/pdf_files"
-OUTPUT_STRUCTURED_FILE = "./tii_insurance_data/structured_products_final.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "tii_insurance_data")
+INPUT_METADATA_FILE = os.path.join(DATA_DIR, "all_products_metadata.json")
+PDF_STORAGE_DIR = os.path.join(DATA_DIR, "pdf_files")
+OUTPUT_STRUCTURED_FILE = os.path.join(DATA_DIR, "structured_products_final.json")
 
 # 品牌代表色對照表
 BRAND_COLORS = {

@@ -27,8 +27,12 @@ jobs:
 
       - name: 安裝 Playwright 與 PyMuPDF (免 API Key)
         run: |
-          pip install playwright pymupdf
+          pip install -r requirements.txt
           playwright install chromium --with-deps
+
+      - name: 執行規則引擎測試 (Unit Tests)
+        run: |
+          python -m unittest discover -v
 
       - name: 執行保發中心商品爬蟲 (Crawl TII Products)
         run: |
@@ -45,11 +49,33 @@ jobs:
             cp ./tii_insurance_data/structured_products_final.json ./data/products.json
           fi
 
+      - name: 準備 GitHub Pages 網站檔案 (Prepare Pages Artifact)
+        run: |
+          mkdir -p site
+          cp index.html site/index.html
+          if [ -f "./data/products.json" ]; then
+            mkdir -p site/data
+            cp ./data/products.json site/data/products.json
+          fi
+
+      - name: 設定 GitHub Pages (Configure Pages)
+        uses: actions/configure-pages@v5
+
+      - name: 上傳 Pages Artifact (Upload Pages Artifact)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: 部署至 GitHub Pages (Deploy Pages)
+        id: deployment
+        uses: actions/deploy-pages@v4
+
       - name: 自動提交與推送新商品資料 (Git Commit & Push)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/products.json tii_insurance_data/all_products_metadata.json
+          [ -f data/products.json ] && git add data/products.json || true
+          [ -f tii_insurance_data/all_products_metadata.json ] && git add tii_insurance_data/all_products_metadata.json || true
           if git diff --staged --quiet; then
             echo "沒有新上架商品，跳過提交。"
           else

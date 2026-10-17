@@ -36,7 +36,8 @@ LIFE_INSURANCE_COMPANIES = [
 ]
 
 TII_QUERY_URL = "https://insprod.tii.org.tw/Query.aspx"
-OUTPUT_DIR = "./tii_insurance_data"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(BASE_DIR, "tii_insurance_data")
 PDF_DIR = os.path.join(OUTPUT_DIR, "pdf_files")
 
 async def scrape_company_products(page, company: Dict[str, str]) -> List[Dict[str, Any]]:
@@ -154,7 +155,10 @@ async def main():
         browser = await p.chromium.launch(headless=True)
         context = await browser.new_context(
             user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-            viewport={"width": 1280, "height": 800}
+            viewport={"width": 1280, "height": 800},
+            # 保發中心目前可能回傳不完整的憑證鏈；連線仍使用 HTTPS，
+            # 但避免因此讓每日資料同步整批失敗。
+            ignore_https_errors=True,
         )
         page = await context.new_page()
 
