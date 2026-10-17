@@ -626,14 +626,16 @@
 
     // Initialize Company & Category Filter Pills
     function initFilterPills() {
-      const companies = ["全部", "南山", "安聯", "國泰", "富邦"];
+      const companies = ["全部", ...new Set(insuranceProducts.map(p => p.company).filter(Boolean))];
       companyPillsContainer.innerHTML = companies.map(comp => `
         <button data-company="${comp}" class="company-pill px-3 py-1 rounded-full text-xs font-medium transition whitespace-nowrap ${comp === '全部' ? 'bg-slate-800 text-white shadow-xs' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'}">
           ${comp}
         </button>
       `).join("");
 
-      const categories = ["全部", "重大傷病", "醫療(實支)", "醫療(定額)", "癌症險", "意外傷害", "終身"];
+      const preferredCategories = ["重大傷病", "癌症險", "醫療(實支)", "醫療(定額)", "意外傷害", "長照失能", "年金險", "投資型", "儲蓄型", "壽險", "終身"];
+      const discoveredCategories = [...new Set(insuranceProducts.flatMap(p => p.categories || []))];
+      const categories = ["全部", ...preferredCategories.filter(c => discoveredCategories.includes(c)), ...discoveredCategories.filter(c => !preferredCategories.includes(c))];
       categoryPillsContainer.innerHTML = categories.map(cat => `
         <button data-category="${cat}" class="category-pill px-3 py-1 rounded-full text-xs font-medium transition whitespace-nowrap ${cat === '全部' ? 'bg-blue-600 text-white shadow-xs' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'}">
           ${cat}

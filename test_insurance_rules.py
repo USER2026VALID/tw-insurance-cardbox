@@ -1,9 +1,17 @@
 import unittest
 
 from batch_extract import classify_by_name_and_text, extract_code_from_name
+from tii_full_crawler import LIFE_INSURANCE_COMPANIES
 
 
 class InsuranceRuleTests(unittest.TestCase):
+    def test_official_company_catalog_has_twenty_entries(self):
+        self.assertEqual(len(LIFE_INSURANCE_COMPANIES), 20)
+        names = {company["name"] for company in LIFE_INSURANCE_COMPANIES}
+        self.assertIn("臺銀人壽", names)
+        self.assertIn("安達國際人壽", names)
+        self.assertIn("法國巴黎人壽", names)
+
     def test_classifies_cancer_rider_and_waiting_period(self):
         result = classify_by_name_and_text(
             "安聯人壽一年定期癌症醫療健康保險附約(CHR2)",
@@ -22,6 +30,15 @@ class InsuranceRuleTests(unittest.TestCase):
         )
         self.assertEqual(result["categories"], ["醫療(實支)"])
         self.assertIn("實支實付", result["feature_chips"])
+
+    def test_classifies_annuity_investment_and_savings(self):
+        result = classify_by_name_and_text(
+            "利率變動型投資型年金保險",
+            "本商品為投資連結之年金保險，並採利率變動型設計。",
+        )
+        self.assertIn("年金險", result["categories"])
+        self.assertIn("投資型", result["categories"])
+        self.assertIn("儲蓄型", result["categories"])
 
     def test_extracts_product_code_from_full_width_parentheses(self):
         self.assertEqual(

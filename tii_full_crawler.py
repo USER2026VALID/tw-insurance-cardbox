@@ -11,28 +11,29 @@ import asyncio
 from typing import List, Dict, Any
 from playwright.async_api import async_playwright
 
-# 20 家台灣主要人壽保險公司在保發中心的名稱與代碼 (可依需求擴充)
+# 台灣壽險公會名錄目前列出的 20 家壽險公司（18 家本國、2 家外商分公司）。
+# aliases 用來容納保發中心下拉選單可能使用的簡稱或歷史名稱；實際查詢值由頁面選單決定。
 LIFE_INSURANCE_COMPANIES = [
-    {"code": "202", "name": "台灣人壽"},
-    {"code": "203", "name": "保誠人壽"},
-    {"code": "204", "name": "國泰人壽"},
-    {"code": "205", "name": "凱基人壽"}, # 原中國人壽
-    {"code": "206", "name": "南山人壽"},
-    {"code": "208", "name": "新光人壽"},
-    {"code": "210", "name": "富邦人壽"},
-    {"code": "211", "name": "三商美邦人壽"},
-    {"code": "213", "name": "遠雄人壽"},
-    {"code": "214", "name": "宏泰人壽"},
-    {"code": "215", "name": "安聯人壽"},
-    {"code": "216", "name": "第一金人壽"},
-    {"code": "217", "name": "元大人壽"},
-    {"code": "219", "name": "全球人壽"},
-    {"code": "220", "name": "康健人壽"},
-    {"code": "221", "name": "友邦人壽"},
-    {"code": "222", "name": "法商法國巴黎人壽"},
-    {"code": "223", "name": "保德信人壽"}, # 現台新人壽
-    {"code": "224", "name": "台銀人壽"},
-    {"code": "225", "name": "合庫人壽"}
+    {"code": "224", "name": "臺銀人壽", "aliases": ["臺銀人壽", "台銀人壽", "Bank Taiwan"]},
+    {"code": "202", "name": "台灣人壽", "aliases": ["台灣人壽", "臺灣人壽", "Taiwan Life"]},
+    {"code": "203", "name": "保誠人壽", "aliases": ["保誠人壽", "PCA", "Prudential"]},
+    {"code": "204", "name": "國泰人壽", "aliases": ["國泰人壽", "Cathay"]},
+    {"code": "205", "name": "凱基人壽", "aliases": ["凱基人壽", "中國人壽", "KGI"]},
+    {"code": "206", "name": "南山人壽", "aliases": ["南山人壽", "Nan Shan"]},
+    {"code": "208", "name": "新光人壽", "aliases": ["新光人壽", "Shin Kong"]},
+    {"code": "210", "name": "富邦人壽", "aliases": ["富邦人壽", "Fubon"]},
+    {"code": "211", "name": "三商美邦人壽", "aliases": ["三商美邦人壽", "三商美邦", "Mercuries"]},
+    {"code": "213", "name": "遠雄人壽", "aliases": ["遠雄人壽", "Farglory"]},
+    {"code": "214", "name": "宏泰人壽", "aliases": ["宏泰人壽", "Hontai"]},
+    {"code": "215", "name": "安聯人壽", "aliases": ["安聯人壽", "Allianz"]},
+    {"code": "216", "name": "第一金人壽", "aliases": ["第一金人壽", "第一人壽", "First Life"]},
+    {"code": "217", "name": "元大人壽", "aliases": ["元大人壽", "Yuanta"]},
+    {"code": "219", "name": "全球人壽", "aliases": ["全球人壽", "Transglob"]},
+    {"code": "220", "name": "中華郵政壽險", "aliases": ["中華郵政", "郵政壽險", "Chungwa Post"]},
+    {"code": "221", "name": "安達國際人壽", "aliases": ["安達國際人壽", "安達人壽", "Chubb"]},
+    {"code": "223", "name": "友邦人壽", "aliases": ["友邦人壽", "AIA"]},
+    {"code": "222", "name": "法國巴黎人壽", "aliases": ["法國巴黎人壽", "法商法國巴黎人壽", "BNP Paribas", "Cardif"]},
+    {"code": "225", "name": "合作金庫人壽", "aliases": ["合作金庫人壽", "合庫人壽", "TCB Life"]},
 ]
 
 TII_QUERY_URL = "https://insprod.tii.org.tw/Query.aspx"
@@ -61,10 +62,12 @@ async def scrape_company_products(page, company: Dict[str, str]) -> List[Dict[st
     # 選取該公司
     options = await page.query_selector_all(f"{select_selector} option")
     target_val = None
+    aliases = company.get("aliases", [comp_name])
     for opt in options:
         text = await opt.inner_text()
         val = await opt.get_attribute("value")
-        if comp_code in text or comp_name in text:
+        normalized_text = text.replace("台", "臺").replace(" ", "")
+        if any(alias.replace("台", "臺").replace(" ", "") in normalized_text for alias in aliases):
             target_val = val
             break
             

@@ -101,15 +101,36 @@ def classify_by_name_and_text(name: str, full_text: str) -> Dict[str, Any]:
         chips.append("傷害")
 
     # 長照與失能
-    if any(k in name for k in ["長期照顧", "長照", "失能"]):
+    if any(k in combined for k in ["長期照顧", "長照", "失能"]):
         categories.append("長照失能")
         if "長照" in name or "長期照顧" in name:
             chips.append("長照")
         if "失能" in combined:
             chips.append("失能")
 
+    # 年金、投資型與儲蓄型保險
+    if any(k in combined for k in ["年金保險", "年金"]):
+        categories.append("年金險")
+        chips.append("年金")
+    if any(k in combined for k in ["投資型", "變額萬能", "變額年金", "投資連結"]):
+        categories.append("投資型")
+        chips.append("投資型")
+    if any(k in combined for k in ["利率變動型", "儲蓄型", "增額終身", "還本型"]):
+        categories.append("儲蓄型")
+        chips.append("儲蓄")
+
+    # 其他常見保障分類
+    if any(k in combined for k in ["失能扶助", "失能照護", "豁免保險費"]):
+        if "長照失能" not in categories:
+            categories.append("長照失能")
+        if "失能" not in chips:
+            chips.append("失能")
+    if any(k in combined for k in ["重大疾病", "重大傷病"]):
+        if "重大傷病" not in categories:
+            categories.append("重大傷病")
+
     # 壽險
-    if "壽險" in name and not categories:
+    if any(k in combined for k in ["壽險", "定期壽險", "終身壽險"]) and not categories:
         categories.append("壽險")
         chips.append("壽險")
 
