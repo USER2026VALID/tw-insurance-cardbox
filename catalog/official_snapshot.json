@@ -1,47 +1,5 @@
 [
   {
-    "product_id": "a4f7425ea8f26296bc81",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "測測我的專屬保險組合",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/customize",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "a0dc7bd79cd7d3bebb89",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "19~34歲年輕人 小錢也能保！高CP值保單推薦 了解更多",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/19-34",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f74de84a9e21d2808dc5",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "詳細內容",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/under-15y-products",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
     "product_id": "c10fe13f823f0cffa4a3",
     "company_code": "204",
     "company_name": "國泰人壽",
@@ -52,255 +10,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2dc692cc533a9060bd89",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保單變更 保單變更 變更保單的基本資料與保險費的繳費方式",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/insurance-changing",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "eaa876d7a30977fa9713",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保險視圖 保險視圖 查詢保障、保險資產，以及保單健檢DIY",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/insurance-coverage/landing",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "aac1b7d3c2c180252a4b",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "客製我的保單",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/customize",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "fbbb3b827c40ba8c9d9a",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "訂製保險組合",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/customize",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "bb2acbd83027e1f3b576",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "0~18歲嬰幼、學生的保險規劃",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/0-18",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "0afebf29eaeec1a6d8ed",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "19~34歲年輕人的保險規劃",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/19-34",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "caca3780713ae96eb51d",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "35~44歲青壯年的保險規劃",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/35-44",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "c19b70bda351a58f79d5",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "45~60歲中年後的保險規劃",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/45-60",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "a4575bc3bb68e0bd44f7",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "61歲以上高齡的保險規劃",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/61up",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f35abeda1bd82e8af444",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保險知識專區",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/insure-wise/all",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "e93130d5f1836f8a69ff",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保險新手村",
-    "official_url": "https://www.youtube.com/playlist?list=PLlzkSQoGCqe2QI2mO7LGnfwMQob8o_PEs&utm_source=official&utm_medium=menu",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "309d6c6f11790a2bec34",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "健保協同商保",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/explore/health-insurance",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "91b7f2ea638240809003",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "退休缺口精算機",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/insurance-asset/retirement/home",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
+    "last_checked": "2026-10-17T22:37:55+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -320,7 +30,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
+    "last_checked": "2026-10-17T22:37:55+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -340,7 +50,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
+    "last_checked": "2026-10-17T22:37:55+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -360,7 +70,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
+    "last_checked": "2026-10-17T22:37:55+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -380,7 +90,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
+    "last_checked": "2026-10-17T22:37:55+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -400,127 +110,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "a6cd4b2b2d59c23d1443",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "企業團體保險",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/corporate",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "625e16ff149d43242e9b",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "學生團體保險",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/student",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "d0c80054a4af5fdefa78",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "公教人員長照服務",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/public-servants",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "784adef8d76dcd0c4cbc",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "微型商品專區",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/simple-insurance",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2505e7cbbffedcc48485",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保單活化專區",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/policy-activation/policy-activation1",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "255e7a0fcf897543730a",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保障型保險商品專區",
-    "official_url": "https://patronc.cathaylife.com.tw/ODAH/poc",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
+    "last_checked": "2026-10-17T22:37:55+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -540,187 +130,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "750e9f0345847f2c1334",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "高齡化保險專區",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/61up",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "b8ea8e12ee825258250b",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "線上保險諮詢",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/campaign/without_any_pressure",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2949b0ff0f91ea551706",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保單變更",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/insurance-changing",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "3aeb736597cfc70f6b87",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保單借款",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/insurance-loan",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "d47073bc366efd60c55b",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保單還款",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/repayment",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f9d9f9062257209465c3",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保險金給付",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/insurance-paying",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "bd8da65866b452408862",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保單強執關懷專區",
-    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/policy-enforcement/enforecement1",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8fd097e2cd01ab757373",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "保險視圖",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/insurance-coverage/landing",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "ecee47462cbd83380909",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "我的保單總覽",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/insurance-coverage/main",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:01+00:00",
+    "last_checked": "2026-10-17T22:37:55+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -736,7 +146,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -752,7 +162,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -768,7 +178,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -784,7 +194,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -800,7 +210,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -816,7 +226,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -832,7 +242,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -848,7 +258,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -864,7 +274,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -880,7 +290,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -896,7 +306,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -912,7 +322,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -928,7 +338,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -944,7 +354,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -960,7 +370,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -976,7 +386,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -992,7 +402,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1008,7 +418,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1024,7 +434,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1040,7 +450,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1056,7 +466,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1072,7 +482,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1088,7 +498,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1104,43 +514,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "e733afcf051771205f5c",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "前往訂製我的保險組合",
-    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/customize",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:04+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2a12eb2b6cee90a67bc9",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "臺灣地區傷害保險個人職業分類表",
-    "official_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/products/accident/OccupationClassTable-1120601.pdf",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "意外傷害險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:37:57+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1156,7 +530,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1172,7 +546,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1188,7 +562,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1204,7 +578,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1220,7 +594,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1236,7 +610,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1252,7 +626,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1268,7 +642,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1284,7 +658,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1300,7 +674,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1316,7 +690,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1332,7 +706,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:07+00:00",
+    "last_checked": "2026-10-17T22:38:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1348,7 +722,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1364,7 +738,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1380,7 +754,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1396,7 +770,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1412,7 +786,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1428,7 +802,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1444,7 +818,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1460,7 +834,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1476,7 +850,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1492,7 +866,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1508,7 +882,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1524,7 +898,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1540,7 +914,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1556,7 +930,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1572,7 +946,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1588,7 +962,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1604,7 +978,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1620,7 +994,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1636,7 +1010,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1652,7 +1026,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1668,7 +1042,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1684,7 +1058,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1700,7 +1074,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1716,7 +1090,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1732,7 +1106,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1748,7 +1122,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1764,7 +1138,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1780,7 +1154,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1796,7 +1170,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1812,7 +1186,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1828,7 +1202,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1844,7 +1218,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1860,7 +1234,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1876,7 +1250,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1892,7 +1266,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1908,7 +1282,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1924,23 +1298,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "dd80772350290a931e71",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "終身 美元 萬年美利利率變動型美元終身保險（定期給付型） 高身故保障．生存金流．分期給付．彈性規劃 承保年齡 2年期：0歲至80歲；6年期：0歲至79歲 繳費年期 2/6年期 給付項目 身故/完全失能 祝壽金 生存金",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/caqcqbcqccqd.html",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "壽險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1956,7 +1314,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1972,7 +1330,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1988,7 +1346,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:10+00:00",
+    "last_checked": "2026-10-17T22:38:02+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2004,7 +1362,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2020,7 +1378,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2036,7 +1394,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2052,7 +1410,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2068,7 +1426,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2084,7 +1442,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2100,7 +1458,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2116,7 +1474,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2132,7 +1490,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2148,7 +1506,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2164,7 +1522,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2180,7 +1538,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2196,7 +1554,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2212,7 +1570,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2228,7 +1586,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2244,7 +1602,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:12+00:00",
+    "last_checked": "2026-10-17T22:38:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2260,7 +1618,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:15+00:00",
+    "last_checked": "2026-10-17T22:38:05+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2276,7 +1634,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:15+00:00",
+    "last_checked": "2026-10-17T22:38:05+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2292,7 +1650,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:15+00:00",
+    "last_checked": "2026-10-17T22:38:05+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2308,7 +1666,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:15+00:00",
+    "last_checked": "2026-10-17T22:38:05+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2324,7 +1682,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:15+00:00",
+    "last_checked": "2026-10-17T22:38:05+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2340,7 +1698,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:15+00:00",
+    "last_checked": "2026-10-17T22:38:05+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2356,7 +1714,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:15+00:00",
+    "last_checked": "2026-10-17T22:38:05+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2372,7 +1730,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:15+00:00",
+    "last_checked": "2026-10-17T22:38:05+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2393,7 +1751,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
+    "last_checked": "2026-10-17T22:38:07+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2414,7 +1772,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
+    "last_checked": "2026-10-17T22:38:07+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2435,7 +1793,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
+    "last_checked": "2026-10-17T22:38:07+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2456,49 +1814,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "aeaae1d434be07d1c603",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "熱門推薦商品",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/popular-product",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "87e96fa7722d8ebb8b15",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "樂齡好靠山 樂齡長照知識庫",
-    "official_url": "https://www.nanshanlife.com.tw/public_promotion/subject/Aging/index.html",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
+    "last_checked": "2026-10-17T22:38:07+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2519,441 +1835,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "b883a04629ed6f70d9e9",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保單附加服務 健康守護圈-保戶專屬服務",
-    "official_url": "https://health.nanshanlife.com.tw/R/ca04dac",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "e206890562b72115e369",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "外溢保單專區",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/features-spillover",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "09eb4c8e6ad621f605db",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "小額終老保險商品專區",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/features-basic",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "e84ed29c577ff5edc30d",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "微型保險商品專區",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/features-simple-insurance",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "a2c2125fef93ea5b875e",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "高齡退休規劃專區",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/features-elderly-product",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "b1c3ddfbb170e9eb2885",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "企業與團體保險專區",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/features-group-insurance",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "fb2c8a751fff7be9afff",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "國際保險業務專區",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/features-oiu",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "63cb6d87a7f51432f304",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保單借款",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/service-insurance-loan",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "e0def3c5529c639e5340",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保單還款",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/service-repayment",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "177e22929f9850e0662e",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保單/資料變更",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/service-insurance-changing",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "0b593c9d3c34ed0009df",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保全聯盟鏈",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/service-insurance-changing-union-claim-change",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "6e7e086396b0ce9b22e5",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保單繳費",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/service-payment-policy",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "314b35964821b8f0ee48",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保單理賠",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/service-claim-1",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8849161307d31f3c6b90",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保險金扣抵醫療費",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/service-claim-insurance-deduction-fees",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "905b5363546f090a4e22",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保險理賠醫起通服務",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/service-claim-online-hospital-alliance-chain",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "fff4c7d5cfa43bf03781",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "外溢保單體檢醫院",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/service-hospital-physical-examination",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "775434bbc821342f10b7",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "團險保戶",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/group-insurance-login",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "ce8a8406db0bc9dd9fff",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "銀行保險",
-    "official_url": "https://www.nanshanlife.com.tw/bp",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "0bbddc957d7a88812aef",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保單安心聯絡人 主動通知更安心，保單守護+1人",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/news/announcements/1667",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8cbc9cb0aa8ef44e8fc8",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保單變更",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/service-insurance-changing",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "5386ae852414cdb6c587",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "登⼊保⼾園地 查看您的保單及各項申辦進度",
-    "official_url": "https://www.nanshanlife.com.tw/CESIDP/sso/AllInOne.action?spId=CP",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "e455be9df26ce6eb4491",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "熱門商品推薦 查找南山人壽精選熱門商品推薦。",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/popular-product",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
+    "last_checked": "2026-10-17T22:38:07+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2967,21 +1849,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "672fe4058a41f3e3b20a",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "團體保險 透過各項團體保險規劃，以全方位團體保險兼顧勞資雙方需求。",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/products-group-insurance",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
+    "last_checked": "2026-10-17T22:38:07+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2995,7 +1863,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
+    "last_checked": "2026-10-17T22:38:07+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3009,77 +1877,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "51fb6893fc5baf7c7172",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "前進長照3.0",
-    "official_url": "https://health.nanshanlife.com.tw/R/24f4493",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "9227624917dbe8ac3778",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保險法第107條說明",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/interests-insurance-107",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8f3941acf7215106d030",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "保險商品退費範例",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/portal-api/File/580",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:18+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "4fab33acd10cf7609483",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "看更多",
-    "official_url": "https://www.fubon.com/life/insurance-picks/topic-planning/tour-protection",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:40+00:00",
+    "last_checked": "2026-10-17T22:38:07+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3093,21 +1891,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:40+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "93783953787224c87ba6",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "保單變更",
-    "official_url": "https://www.fubon.com/life/customer-service/policy/change",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:40+00:00",
+    "last_checked": "2026-10-17T22:38:24+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3121,7 +1905,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:40+00:00",
+    "last_checked": "2026-10-17T22:38:24+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3135,7 +1919,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:40+00:00",
+    "last_checked": "2026-10-17T22:38:24+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3149,28 +1933,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:40+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "73eb0bc1169afa9bea65",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "全部商品",
-    "official_url": "https://www.fubon.com/life/product",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療",
-      "壽險保障",
-      "年金保險",
-      "意外傷害",
-      "投資型保險",
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
+    "last_checked": "2026-10-17T22:38:24+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3191,7 +1954,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
+    "last_checked": "2026-10-17T22:38:27+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3207,28 +1970,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2cf622c9704ed964582a",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "專人服務",
-    "official_url": "https://mservice.fubonlife.com.tw/fubonagent/reserve/redirect/activeToReserve?srcId=FUBONWEBSITE&productId=LIFE_OWS&utm_source=fubonlife&utm_medium=F1",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療",
-      "壽險保障",
-      "年金保險",
-      "意外傷害",
-      "投資型保險",
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
+    "last_checked": "2026-10-17T22:38:27+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3244,7 +1986,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
+    "last_checked": "2026-10-17T22:38:27+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3260,7 +2002,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
+    "last_checked": "2026-10-17T22:38:27+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3276,7 +2018,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
+    "last_checked": "2026-10-17T22:38:27+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3292,7 +2034,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
+    "last_checked": "2026-10-17T22:38:27+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3308,70 +2050,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "c93b8772f752e7e9922a",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "保險商品指引 不知道該選哪種保險？立即開始只要 1 分鐘，讓我們推薦您適合的保險類型！",
-    "official_url": "https://www.fubon.com/life/insurance-picks/quick/guide",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療",
-      "壽險保障",
-      "年金保險",
-      "意外傷害",
-      "投資型保險",
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "7d0f8071e8e88963f8ad",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "預約業務員諮詢 線上回覆諮詢表單，選擇您方便聯絡的時段，我們將媒合優質的保險業務員與您聯繫，進一步提供專屬且專業的保險規劃。",
-    "official_url": "https://mservice.fubonlife.com.tw/fubonagent/reserve/redirect/activeToReserve?srcId=FUBONWEBSITE&productId=NCP&utm_source=fubonlife&utm_medium=F1/?utm_source=web&utm_medium=banner&utm_campaign=contact",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療",
-      "壽險保障",
-      "年金保險",
-      "意外傷害",
-      "投資型保險",
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2dd4d767456401c81cdb",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "常見問題 我們整理常見問題，如：保單變更、給付、理賠等，點擊查找立即解答。",
-    "official_url": "https://www.fubon.com/life/customer-service/others/question?c=all",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療",
-      "壽險保障",
-      "年金保險",
-      "意外傷害",
-      "投資型保險",
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:44+00:00",
+    "last_checked": "2026-10-17T22:38:27+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3387,7 +2066,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:47+00:00",
+    "last_checked": "2026-10-17T22:38:29+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3403,7 +2082,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:47+00:00",
+    "last_checked": "2026-10-17T22:38:29+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3419,23 +2098,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:47+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "a78cbfb94210c761cf8d",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "網路投保",
-    "official_url": "https://direct.fubonlife.com.tw/life/direct/product/ehc/?utm_source=fubonlife&utm_medium=prod_personal&utm_content=text_link&utm_campaign=ehc",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:47+00:00",
+    "last_checked": "2026-10-17T22:38:29+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3451,23 +2114,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:47+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "47a56a5195031c75fa4e",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "網路投保",
-    "official_url": "https://direct.fubonlife.com.tw/life/direct/product/ehb/?utm_source=fubonlife&utm_medium=prod_personal&utm_content=text_link&utm_campaign=ehb",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:47+00:00",
+    "last_checked": "2026-10-17T22:38:29+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3483,7 +2130,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:47+00:00",
+    "last_checked": "2026-10-17T22:38:29+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3499,7 +2146,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:47+00:00",
+    "last_checked": "2026-10-17T22:38:29+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3515,7 +2162,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:50+00:00",
+    "last_checked": "2026-10-17T22:38:32+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3531,7 +2178,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:50+00:00",
+    "last_checked": "2026-10-17T22:38:32+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3547,7 +2194,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:50+00:00",
+    "last_checked": "2026-10-17T22:38:32+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3563,7 +2210,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:50+00:00",
+    "last_checked": "2026-10-17T22:38:32+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3579,7 +2226,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:50+00:00",
+    "last_checked": "2026-10-17T22:38:32+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3595,7 +2242,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:50+00:00",
+    "last_checked": "2026-10-17T22:38:32+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3611,7 +2258,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:53+00:00",
+    "last_checked": "2026-10-17T22:38:34+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3627,7 +2274,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:53+00:00",
+    "last_checked": "2026-10-17T22:38:34+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3643,7 +2290,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:53+00:00",
+    "last_checked": "2026-10-17T22:38:34+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3659,7 +2306,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:53+00:00",
+    "last_checked": "2026-10-17T22:38:34+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3675,7 +2322,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:53+00:00",
+    "last_checked": "2026-10-17T22:38:34+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3691,23 +2338,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:53+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "3dcaa2cc952bb97eccd4",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "網路投保",
-    "official_url": "https://direct.fubonlife.com.tw/life/direct/product/eba/?utm_source=fubonlife&utm_medium=prod_personal&utm_content=text_link&utm_campaign=eba",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "年金保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:56+00:00",
+    "last_checked": "2026-10-17T22:38:34+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3723,23 +2354,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:56+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "93beda7d9bf7799cce57",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "網路投保",
-    "official_url": "https://direct.fubonlife.com.tw/life/direct/product/esd/?utm_source=fubonlife&utm_medium=prod_personal&utm_content=text_link&utm_campaign=esd",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "年金保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:56+00:00",
+    "last_checked": "2026-10-17T22:38:35+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3755,7 +2370,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:56+00:00",
+    "last_checked": "2026-10-17T22:38:35+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3771,7 +2386,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:56+00:00",
+    "last_checked": "2026-10-17T22:38:35+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3787,7 +2402,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:56+00:00",
+    "last_checked": "2026-10-17T22:38:35+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3803,7 +2418,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:56+00:00",
+    "last_checked": "2026-10-17T22:38:35+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3819,7 +2434,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:56+00:00",
+    "last_checked": "2026-10-17T22:38:35+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3835,7 +2450,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:58+00:00",
+    "last_checked": "2026-10-17T22:38:37+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3851,7 +2466,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:58+00:00",
+    "last_checked": "2026-10-17T22:38:37+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3867,7 +2482,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:58+00:00",
+    "last_checked": "2026-10-17T22:38:37+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3883,7 +2498,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:58+00:00",
+    "last_checked": "2026-10-17T22:38:37+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3899,7 +2514,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:58+00:00",
+    "last_checked": "2026-10-17T22:38:37+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3915,634 +2530,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:35:58+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "b5a9502d7e1fd6092dd8",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "跳到主要內容區塊",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/#accesskey-c",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "25d3110308288d2a0062",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "中華郵政全球資訊網",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/default.jsp",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "7252bc6a41f08c257f77",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": ":::",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/#accesskey-u",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "0dcf73aa3c3be72d4729",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "網站導覽",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/sitemap.jsp",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "0f18346d059abbcda489",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "壽險業務",
-    "official_url": "http://www.post.gov.tw/post/internet/Insurance/",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "cb0ecf2507845d8f7ed0",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保險業務",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010104",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "89f55a503e51a488c271",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "房貸業務",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=40201",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "51fa178d5593aaa837e9",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "壽險資訊公開",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=40301",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "47547fc3cf4163bf9bab",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "獲獎紀錄",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1445993373753",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8e22a0221f43f379e405",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "金融友善服務專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1470723960416",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "40c9a170b010482f3064",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "公平待客專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1718248635628",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "ac82cf6c7bc4a6b8b4d8",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "高齡友善專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1689559829088",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "20a2ea2d8221deddf074",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "溫馨小品專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1646287106302",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "a5233166579550f0441f",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": ":::",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/#accesskey-l",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "3b2228563c3167394658",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "預約投保",
-    "official_url": "https://subservices.post.gov.tw/post/internet/Insurance_Appointment/index.jsp?ID=1325581364875",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "44949e1cc65a1802d6b5",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保戶服務及保單借款",
-    "official_url": "http://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=401020701",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2455693a0f0e056a37a6",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "壽險資訊公開",
-    "official_url": "http://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=40301",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "3e8326a8fd9b6cecc8ce",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "郵政壽險年報",
-    "official_url": "http://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010402",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8fbf3c2cb3e61c123492",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "消息一覽",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "03e5448cdca04b8c852d",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "中華郵政公益暖流串聯金...",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=75224&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "31926873ddbfafff7ccc",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "中華郵政樂齡運動",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=75078&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "291b20d5604ba0a152be",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "因應致災性降雨 部分地...",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=74986&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "56a3eadf94dcb7b2791d",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "中華郵政「郵保安心貸」...",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=74970&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "75937dbf40f9a505a248",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "「郵保安心貸...",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=74873&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "90a7fe5eafc82714e46a",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "「郵保抽抽樂...",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=74407&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "eb2520388d9cf450c687",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "提醒「2026城鎮韌性...",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=74916&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "455cae9a7b99a50c1b92",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": ":::",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/#accesskey-c",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "470194fcf1227d3a8a18",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "更多廣告",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/ad_more_banner.jsp?ID=496&ad_area=232",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "0b98fbbfc62d264f7aec",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "「郵保抽抽樂」活動登錄網站",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=74407&news_cat=10&control_type=page",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "c84ff9748de134f4f00e",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "壽險保障",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/#A-1",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "208c0b67c8af7091bcef",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "增額/還本",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/#B-1",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "98b09eeb3aef10cd329d",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "意外傷害",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/#C-1",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8d0c7b4ce4fe0c59acca",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "醫療保障",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/#D-1",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
+    "last_checked": "2026-10-17T22:38:37+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -4561,7 +2549,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
+    "last_checked": "2026-10-17T22:38:38+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -4580,7 +2568,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
+    "last_checked": "2026-10-17T22:38:38+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -4599,7 +2587,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
+    "last_checked": "2026-10-17T22:38:38+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -4618,7 +2606,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
+    "last_checked": "2026-10-17T22:38:38+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -4637,7 +2625,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
+    "last_checked": "2026-10-17T22:38:38+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -4656,7 +2644,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
+    "last_checked": "2026-10-17T22:38:38+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -4675,1603 +2663,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "467980d5a024c9185a3c",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "更多消息",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "3d285593e26586903793",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "115/10/01 中華郵政公益暖流串聯金融友善 榮獲「卓越社會公...",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=75224&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "0dae89102ef5af3e8198",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "115/09/9 中華郵政樂齡運動",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=75078&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "db9d15365284fdde1f70",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "115/08/25 因應致災性降雨 部分地區發生豪雨災情 中華郵...",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=74986&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8dd07d10512bc00844e4",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "115/08/20 中華郵政「郵保安心貸」保單借款抽好禮活動",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=74970&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "3f9680833da393ea530b",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "115/08/20 「郵保安心貸」活動辦法",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=74873&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "97a840d61cc77ee992fe",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "115/07/28 「郵保抽抽樂」活動登錄網站",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=74407&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "84106b77899ba076ff1a",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "115/08/10 提醒「2026城鎮韌性防空演習」行動通訊網路降...",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=497&news_no=74916&control_type=page&news_cat=10",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "c77491633e60151a4e05",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "更多熱門商品",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=494",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "61315ba280430d9ca457",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "1. 保險業務",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010104",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "e457b100daef45a853f2",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "3. 房貸業務",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=40201",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "06cd22251a8163922136",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "4. 壽險資訊公開",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=40301",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "165ea09e30fc779396e0",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "5. 獲獎紀錄",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1445993373753",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "b1e215342bee41326cef",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "6. 金融友善服務專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1470723960416",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "adb401ca21cb3c428e35",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "7. 公平待客專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1718248635628",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "5602a470da85489b9f41",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "8. 高齡友善專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1689559829088",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "6f0469ca3970602ae0b9",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "9. 溫馨小品專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1646287106302",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "c2651a74dd9d2d34b91a",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "1. 保單借款",
-    "official_url": "https://www.post.gov.tw/post/internet/Finances/index.jsp?ID=1416450519521",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "25c1e0fe984bcfd141ed",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "商品總覽",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010104",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "d24f65481b859761f2f3",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "停售商品",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010101",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f67bfc02d3b4bdf08af2",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "商品種類",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010102",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "adfa5a4e6f28337e7342",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保險航海王",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010105",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "1fb7500227c15520841a",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "高齡化保險商品專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1621322175635",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "9bfc190d30e323f05496",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保障型保險專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1442996945742",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "d89521d97c17918725f3",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "微型保險專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1420444594776",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "31f7781bf9e9175f7d86",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保全/理賠聯盟鏈&理賠醫起通",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1656487104434",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "a0cf6966be009ed23ffb",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "度假打工青年專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1419927708396",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "acf847427d46cdf2ca4b",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "小額終老保險商品專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1620893979415",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "227b0a40649b29155655",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "實質課稅原則",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1391650940691",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2adc80c259d320c84c0e",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "最低稅負制",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1391652877526",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "c194b41d31117a21c607",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "預約投保專區",
-    "official_url": "https://subservices.post.gov.tw/post/internet/Insurance_Appointment/index.jsp?ID=1325581364875",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "717e21f8e2f0c1d9c62c",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保戶須知",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1672043326562",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "daa4f92507b8a7b25125",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保單理賠服務",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010202",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "75b0ea8a10b4795418e6",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "新契約處理流程",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010203",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2190a94c08681325e357",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "契約保全服務",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=401020401",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "0d29c25ac90a53582621",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保險契約內容變更",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010205",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "536430b040b045d47487",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "繳費證明申請",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010206",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2c177fcc49ff007ec0cf",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保險單借/還款服務",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=401020701",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "e1ce9065377d3bbe1976",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保險單借款利率暨保單預定利率查詢",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010208",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "7a809edd5d0f77625c06",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "中英文投保證明申請",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010210",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "c072e9d9f6c7ec6cc5b7",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保戶申訴",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010211",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f22c9419081a08593e9e",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保單借款試算",
-    "official_url": "https://ipost.post.gov.tw/pst/home.html?targetTxn=EB040600",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "86c19e3405cc4e150d07",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保險契約扣押或強制執行與介入權行使相關說明",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1765764823668",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8462af09dfb8f5e0b9ba",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "申辦指定聯絡人",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1774246586056",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "19562d586989b980f049",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "投保人須知暨要保書填寫說明",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1672043099485",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "04c8052587b5aad5b1bd",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "郵政醫院保戶優惠",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1425969069613",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "452cf456c0302b791e91",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保戶子女獎學金申請",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1425969290489",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "215b052177f6d4f84161",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "壽險年報",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010402",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "5f07c330650d3604e74a",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "溫馨小品專區",
-    "official_url": "http://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1646287106302",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "085dd51100c57f6341ea",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保單紅利之計算公式及相關說明",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1387770052657",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "12bc1824d43b9899f489",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "分紅保單紅利",
-    "official_url": "http://www.post.gov.tw/post/internet/Insurance/show_page.jsp?ID=1406190036069",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "3266e82b35d267ef5bca",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "郵政壽險蒐集處理及利用個人資料告知書",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=40106",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f88c85826050eeaec73a",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "宣告利率",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1403831281263",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f33e8e3fc6fdffd241c3",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "公務機關查詢及解繳收費一覽表",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1427153990426",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "ff691c1fe6046640474e",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "友善閱讀操作手冊",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/download/FriendlyReadOperationIntroduction.pdf",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "b474e56701665265797d",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保戶關懷提醒",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1694567619295",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "5ca95964ad00ae325679",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保險知識動畫",
-    "official_url": "https://youtube.com/playlist?list=PLkKUQFcNIwyUVFMcaDbSKDzIHKU9Ecagb&si=ChAxv-m2itLe7tXS",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "00194ef5edcf9a0c62b8",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保險防詐動畫",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1707272031470",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "91254f725529f0c9b242",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保單條款暨名詞白話導讀文件",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1703642956925",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "b60ab6791c1503668530",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保單條款暨名詞白話導讀影片",
-    "official_url": "https://youtube.com/playlist?list=PLkKUQFcNIwyVOmNb3TYTyKDUgdAi_hfXE&si=zCooQWip9aQqN8uL",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "51f0daa68c7d82355e4c",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "年輕族群保險關懷服務",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1703814790742",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "4da11dbb27ee9e7f6427",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "配合保險業金融友善準則辦理之相關友善措施",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1698629173073",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "65d5613985c261cc71c2",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "投保單一服務窗口、身心障礙者或65歲以上客戶諮詢/申訴服務專線及電子信箱",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1698629417517",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "1043d8846dac35137305",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "壽險業務金融友善服務執行情形公告",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1585095266009",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "a65aec2c278716b071e4",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "商品服務資訊",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4010104",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "6eff7d012847e8c1ee31",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "外部相關機構服務網頁連結",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1470724100288",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "cf6dca45c45c3c281dc3",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "中華民國人壽保險商業同業公會「保險科技運用共享平台」服務簡介",
-    "official_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/ad/ad_linkpage/file_1693360753829.pdf",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "5c90a618f859d1e1f760",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保險業投保說明手冊易讀版",
-    "official_url": "https://intra2.post.gov.tw/post/FileCenter/post_ww2/ad/ad_linkpage/Insurance_Instructions_Manual.pdf",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "c8ea030041d58b91b1c7",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保險法第116條專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1670205856445",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "ab94d005debcfb1d6545",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "人身保險商品審查應注意事項第197點專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1719457830141",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "921bf6611a453edb37c0",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "郵政簡易人壽保險投保規則第14條專區",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1766473187015",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "a18adbce06ce599a26d0",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "保險費轉帳扣款電子化授權申請",
-    "official_url": "https://ipost.post.gov.tw/pst/home.html?targetTxn=EB040700",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "44baa49bc7dd680dc3e4",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "營運持續管理聲明",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1693365326979",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "76c245d0320652e2be97",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "房貸業務說明",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=40201",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "9f6a7905925e45392590",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "房貸商品、利率及收費標準",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1514529022203",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "03c640fc4ddaadcb87dd",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "房貸經辦郵局",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=40203",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "0dfd6f32b07f633638e1",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "代收房貸申請表件郵局",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=40204",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "4fa1b344d70a460ffba9",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "法拍屋查詢",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4020601",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f22db557972e5576b48c",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "法拍屋流程",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4020602",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "d1dbf999371b6a2a30ea",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "法拍屋搜尋",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=4020603",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "e8f96dd54eab4dc3c081",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "相關網站",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=40207",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "5ea959ec673ad485f518",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "各項措施",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1689559829088",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "65b4838d465a7b7d8f8c",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "常見問答",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1689559887781",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8b7944874f663842475d",
-    "company_code": "220",
-    "company_name": "中華郵政壽險",
-    "product_name": "各地郵局服務集錦",
-    "official_url": "https://www.post.gov.tw/post/internet/Insurance/index.jsp?ID=1689559937790",
-    "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
-    "categories": [
-      "增額/還本",
-      "壽險保障",
-      "意外傷害",
-      "醫療保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:36:00+00:00",
+    "last_checked": "2026-10-17T22:38:38+00:00",
     "record_source": "official_company_page"
   }
 ]

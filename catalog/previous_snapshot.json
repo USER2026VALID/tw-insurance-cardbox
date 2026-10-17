@@ -1,5 +1,2381 @@
 [
   {
+    "product_id": "a4f7425ea8f26296bc81",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "測測我的專屬保險組合",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/customize",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "a0dc7bd79cd7d3bebb89",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "19~34歲年輕人 小錢也能保！高CP值保單推薦 了解更多",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/19-34",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "f74de84a9e21d2808dc5",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "詳細內容",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/under-15y-products",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "c10fe13f823f0cffa4a3",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "旅行平安保險 旅行平安保險 不讓突如其來的意外狀況，影響出遊好心情。",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/products/travel",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "2dc692cc533a9060bd89",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保單變更 保單變更 變更保單的基本資料與保險費的繳費方式",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/insurance-changing",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "eaa876d7a30977fa9713",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保險視圖 保險視圖 查詢保障、保險資產，以及保單健檢DIY",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/insurance-coverage/landing",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "aac1b7d3c2c180252a4b",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "客製我的保單",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/customize",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "fbbb3b827c40ba8c9d9a",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "訂製保險組合",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/customize",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "bb2acbd83027e1f3b576",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "0~18歲嬰幼、學生的保險規劃",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/0-18",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "0afebf29eaeec1a6d8ed",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "19~34歲年輕人的保險規劃",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/19-34",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "caca3780713ae96eb51d",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "35~44歲青壯年的保險規劃",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/35-44",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "c19b70bda351a58f79d5",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "45~60歲中年後的保險規劃",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/45-60",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "a4575bc3bb68e0bd44f7",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "61歲以上高齡的保險規劃",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/61up",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "f35abeda1bd82e8af444",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保險知識專區",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/insure-wise/all",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "e93130d5f1836f8a69ff",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保險新手村",
+    "official_url": "https://www.youtube.com/playlist?list=PLlzkSQoGCqe2QI2mO7LGnfwMQob8o_PEs&utm_source=official&utm_medium=menu",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "309d6c6f11790a2bec34",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "健保協同商保",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/explore/health-insurance",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "91b7f2ea638240809003",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "退休缺口精算機",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/insurance-asset/retirement/home",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "a9e5ba3730b52603b319",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "健康醫療險",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "dfbe8a547bfaa4e0c833",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "意外傷害險",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "bc09b44f55874e52f9e1",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "投資型保險",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "d3923525b260bee54033",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "還本/年金型保險",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-refund",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "eee59475757dabccfdf7",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "旅行平安險",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/travel",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "a6cd4b2b2d59c23d1443",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "企業團體保險",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/corporate",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "625e16ff149d43242e9b",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "學生團體保險",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/student",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "d0c80054a4af5fdefa78",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "公教人員長照服務",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/public-servants",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "784adef8d76dcd0c4cbc",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "微型商品專區",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/simple-insurance",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "2505e7cbbffedcc48485",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保單活化專區",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/policy-activation/policy-activation1",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "255e7a0fcf897543730a",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保障型保險商品專區",
+    "official_url": "https://patronc.cathaylife.com.tw/ODAH/poc",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "d45c1e8885e4e29385ba",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "國際保險業務 (OIU)",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/oiu",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "750e9f0345847f2c1334",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "高齡化保險專區",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/life-stage/61up",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "b8ea8e12ee825258250b",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "線上保險諮詢",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/campaign/without_any_pressure",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "2949b0ff0f91ea551706",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保單變更",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/insurance-changing",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "3aeb736597cfc70f6b87",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保單借款",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/insurance-loan",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "d47073bc366efd60c55b",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保單還款",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/repayment",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "f9d9f9062257209465c3",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保險金給付",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/insurance-paying",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "bd8da65866b452408862",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保單強執關懷專區",
+    "official_url": "https://www.cathaylife.com.tw/cathaylife/services/policy-enforcement/enforecement1",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "8fd097e2cd01ab757373",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "保險視圖",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/insurance-coverage/landing",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "ecee47462cbd83380909",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "我的保單總覽",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/insurance-coverage/main",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:01+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "6333b02d4004a21b465d",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "住院手術",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "87faa84c65f8e2fb8900",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "實支實付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-reimbursement-benefits",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "60f8e76c9e3ba3483b9f",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "重大疾病/傷病",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-illness",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "58b2bce7c71e97abaae5",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "長期照顧",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-long-term-care",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "5f983ec42652df9591b1",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 健康促進回饋 自由配一年定期住院日額醫療健康保險（外溢型） 依『住院天數』做為給付保險金依據，每日給付1倍住院日額。加入FitBack，保費最高折減3% ! 承保年齡 0歲~54歲 繳費期間 1年期 給付項目 住院給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/cfp.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "f891f5431a6513ea62ca",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 健康促進回饋 自由配一年定期手術醫療健康保險（外溢型） 因疾病或意外接受手術治療，住院給付保額10倍，門診則給付保額2倍。加入FitBack，保費最高折減3% ! 承保年齡 0歲~54歲 繳費期間 1年期 給付項目 手術給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/cfq.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "552832cd1a744df5b7db",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 健康促進回饋 自由配一年定期特定處置醫療健康保險附約（外溢型） 保障健保支付標準的治療處置，常見的如青光眼雷射或大腸鏡息肉切除術等，給付3倍保額。加入FitBack，保費最高折減3% ! 承保年齡 0歲~54歲 繳費期間 1年期 給付項目 手術給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/cft.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "d2e12ff6c64afe3cad5f",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 宅心安一年定期住院日額暨在宅急症照護醫療健康保險 醫療照護新趨勢，住院日額、在宅急症照護日額同步納入保障範圍！ 承保年齡 0歲~54歲 繳費期間 1年期 給付項目 住院給付 其他給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/jha.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "64286e0904f100063bd7",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 健康促進回饋 新真大心PLUS住院醫療健康保險附約（外溢型） 含住院手術、門診手術及168項特定處置保險金，加入FitBack，保費最高折減3% ! 承保年齡 0歲~70歲 繳費年期 1年期 給付項目 住院給付 手術給付 其他給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/b94.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "3a4e1a4ef6cb7325b32e",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 健康促進回饋 心安PLUS手術醫療定期健康保險附約（外溢型） 豐富的手術、特定處置保障，且每10年增額5%(上限20%)。加入FitBack，保費最高折減3% ! 承保年齡 0歲~70歲 繳費期間 10/20/30年期 給付項目 手術給付 其他給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/ht6.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "f8dfe462c57732144ec6",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 健康促進回饋 真安安醫療終身保險(外溢型) 豐富的住院、手術、特定處置及自費醫材保障，且每10年增額5%(上限20%)、身故還本，加入FitBack，保費最高折減3%！ 承保年齡 0歲~65歲 繳費期間 10/20/30年期 給付項目 身故/完全失能 住院給付 手術給付 其他給付 健康促進回饋",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/jw4.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "b4bb764751cf0e0a7a31",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 健康促進回饋 樂順心手術醫療定期健康保險(外溢型) 高齡專屬，手術及特定處置基本保障，加入FitBack，保費最高折減10%！ 承保年齡 55歲~75歲 繳費期間 10年期 給付項目 手術給付 健康促進回饋",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/dtg.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "5ef87316b207ef1d3447",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 健康促進回饋 真漾心安住院醫療終身保險(外溢型) 基礎住院醫療且身故保本，加入FitBack，保費最高折減3%！ 承保年齡 0歲~65歲 繳費期間 10/20/30年期 給付項目 身故/完全失能 住院給付 其他給付 健康促進回饋",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/agh.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "235809ae4bf43e8e9909",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 健康促進回饋 樂心安住院醫療定期保險(外溢型) 專屬高齡的豐富住院醫療保障、身故保障，加入FitBack，保費最高折減10%！ 承保年齡 55歲~80歲 繳費期間 10/20年期 給付項目 住院手術 手術給付 骨折 其他給付 身故返還 健康促進回饋",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/dcc.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "7eb0855380424ff17833",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 健康促進回饋 心安PLUS加護燒燙傷病房醫療終身健康保險附約（外溢型） 給付單純，提供客戶自組商品符合自身需求。加入FitBack，保費最高折減3% ! 承保年齡 0歲~70歲 繳費期間 10/20/30年期 給付項目 住院給付 燒燙傷",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/ht5.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "d54c6d5598cf7940b0a8",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 健康促進回饋 輕漾心安住院醫療終身健康保險(外溢型) 基礎住院醫療，且每10年增額5%(上限20%)，加入FitBack，保費最高折減3%！ 承保年齡 0歲~70歲 繳費期間 10/20/30年期 給付項目 住院給付 健康促進回饋",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/htb.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "48a49712fab95b5dfa83",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 健康促進回饋 康泰無憂PLUS住院醫療終身健康保險（外溢型） 亞洲第一個可承保癌症病友之健康險。加入FitBack，保費最高折減3% ! 承保年齡 20歲~65歲 繳費期間 10/20年期 給付項目 住院給付 手術給付 其他給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/ds6.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "3f0f38a9d1873a5e400f",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 健康促進回饋 真心安住院醫療終身保險(外溢型) 住院給付、手術給付、身故還本，加入FitBack，保費最高折減3%！ 承保年齡 0歲~65歲 繳費期間 10/20/30年期 給付項目 身故/完全失能 住院給付 手術給付 其他給付 健康促進回饋",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/fv7.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "ccc2945d0d7122aa48e6",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 健康促進回饋 真康順手術醫療終身保險(外溢型) 手術醫療保障多元，身故還本，加入FitBack，保費最高折減3%！ 承保年齡 0歲~65歲 繳費期間 10/20/30年期 給付項目 身故/完全失能 手術給付 其他給付 健康促進回饋",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/l67.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "bbb6857865f9c0b0e190",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 健康促進回饋 真永健PLUS住院日額健康保險附約（外溢型） 低保費、享出院療養保險金。加入FitBack，保費最高折減3% ! 承保年齡 0歲~70歲 繳費期間 1年期 給付項目 住院給付 其他給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/cq4.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "015fe15887dc12b7b2df",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "電話行銷專屬 國泰人壽享醫靠醫療終身保險（電話行銷專屬） 輕鬆擁有百萬醫療保障， 讓您想依靠一輩子! 承保年齡 0歲~60歲 繳費期間 20年期 給付項目 身故給付 住院給付 手術給付 保費豁免 其他給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/jwh.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "80df25d2308f7fc4b817",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "電話行銷專屬 國泰人壽醫定安心手術醫療終身保險（電話行銷專屬） 全方位超值手術醫療保障，另享醫材補助好安心 承保年齡 0歲~64歲 繳費期間 20年期 給付項目 手術給付 身故給付 其他給付 保費豁免",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/jwi.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "52a3d3247a2c14e684a0",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 台幣 健康促進回饋 睛彩人生PLUS手術醫療健康保險附約（外溢型） 提供四項好發眼疾之手術或特定處置保障。加入FitBack，保費最高折減3% ! 承保年齡 40歲~70歲 繳費期間 1年期 給付項目 手術給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/pp2.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "02ba6aced8728094be79",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "電話行銷專屬 國泰人壽睛彩萬分手術醫療定期健康保險（電話行銷專屬） 強化眼睛醫療保障，為您接住眼睛過勞風險 承保年齡 18歲~50歲 繳費期間 30年期 給付項目 手術給付 住院手術 其他給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery/jwj.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "e733afcf051771205f5c",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "前往訂製我的保險組合",
+    "official_url": "https://www.cathaylife.com.tw/cathaylifeins/customize",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "健康醫療險",
+      "壽險",
+      "意外傷害險",
+      "投資型保險",
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:04+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "2a12eb2b6cee90a67bc9",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "臺灣地區傷害保險個人職業分類表",
+    "official_url": "https://www.cathaylife.com.tw/official/content/dam/cathaylife-official/files/products/accident/OccupationClassTable-1120601.pdf",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "8cd5d90faae9ec4c59db",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 自由配一年定期意外身故與失能傷害保險 失能險（或稱失能扶助險）可於被保人因意外導致身故或達1~11級失能等級程度時，保障其基本經濟所需，最高給付保險金額1倍。 承保年齡 16歲~54歲 繳費年期 1年期 給付項目 失能金 意外身故",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/cfd.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "cfc8724fda70a78f014f",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 自由配一年定期意外住院日額傷害保險附約 因意外導致住院，依『住院天數』做為給付保險金依據 承保年齡 16歲~54歲 繳費年期 1年期 給付項目 住院給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/cfj.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "32ea990ef84f6089428e",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 享保障小額傷害保險附約(網路投保專屬)(好好退休準備平台專屬) 單一費率(不分職業類別、性別、年齡)，輕鬆享有意外保障 承保年齡 20足歲~65歲 繳費年期 1年期 給付項目 意外身故 失能金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/kb1.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "85baeb4360ca6acbd46d",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 超全方位傷害暨兒童傷害失能保險附約 0歲~70歲可承保，特定意外身故，保障加倍給付、1~6級失能提供每月生活補助金 承保年齡 0歲~70歲 繳費年期 1年期 給付項目 失能金 意外身故 交通事故 燒燙傷 生活照護",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/xb7.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "5b05dfc0187607135943",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 樂享平安定期保險 高齡專屬、提供意外事故、失能及骨折保障 承保年齡 55歲~76歲 繳費年期 10年/20年 給付項目 失能金 住院給付 意外身故 交通事故 骨折 豁免計畫 滿期金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/gi2.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "4f50c0dcbf8faf5edb09",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 台幣 意萬平安傷害暨兒童意外骨折定期保險 低門檻意外主約，未滿16歲享有意外骨折及脫臼保障，滿16歲享有意外身故及失能保障。 承保年齡 0歲~65歲 繳費年期 10/20年期 給付項目 意外身故 身故給付 完全失能給付 骨折 滿期金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/n67.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "081d73ecd6807b1c70e0",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 超愛寶貝一年定期傷害醫療保險附約(無身故給付) 0~15歲專屬傷害醫療保障，涵蓋傷害限額實支、燒燙傷及骨折等多項保障 承保年齡 0歲~15歲 繳費年期 1年期 給付項目 意外醫療 燒燙傷 骨折 其他給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/xn5.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "3e99f62c88cbf83a2aa7",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 新金骨力傷害暨兒童意外骨折保險附約 骨折專屬保險，涵蓋意外骨折、意外脫臼手術、水陸及火災意外保障 承保年齡 0歲~70歲 繳費年期 1年期 給付項目 失能金 意外身故 交通事故 骨折",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/xj2.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "7b2fe5ecea40aa25f6a1",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "電話行銷專屬 國泰人壽平安保倍定期保險(電話行銷專屬) 全方位超值意外險， 提供您加倍的平安幸福! 承保年齡 16歲~60歲 繳費年期 15/20年期 給付項目 失能金 住院給付 意外身故 交通事故 燒燙傷 骨折 保費豁免 住院手術 意外醫療 滿期金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/fxd.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "1b2e174f2500cc9167b3",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "電話行銷專屬 國泰人壽樂活平安定期保險(電話行銷專屬) 40~64歲專屬超值專案， 輕鬆享樂活平安的人生! 承保年齡 40歲至64歲 繳費年期 15/20年 給付項目 失能金 住院給付 意外身故 燒燙傷 骨折 住院手術 意外醫療 滿期金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/fxc.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "b226225084e4f8ee9cc6",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "電話行銷專屬 國泰人壽平安加倍定期保險(電話行銷專屬) 升級保障為您的平安加值，為生活提供堅實的守護 承保年齡 0歲至64歲 繳費年期 15/20年 給付項目 失能金 住院給付 意外身故 燒燙傷 骨折 住院手術 意外醫療 滿期金 交通事故 保費豁免",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/fxe.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "25a81982f9ff96acc429",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 新iCarry傷害保險 (網路投保專屬) 為你打造的獨一無二專屬意外保險 承保年齡 20歲~55歲 繳費年期 1年期 給付項目 失能金 意外身故 交通事故 其他給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident/oi1.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "意外傷害險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:07+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "63dc1d8d6639d4e9649d",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 自由配一年定期身故及完全失能壽險 因疾病或意外導致身故或完全失能，給付保險金額 承保年齡 0歲至54歲 繳費年期 1年期 給付項目 身故/完全失能",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/cfa.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "b63f19c672193390d79e",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 新GO心保障100定期壽險 承保年齡廣，高CP值壽險 承保年齡 15歲至65歲 繳費年期 10/20/30年 , 60/65/70歲滿期 給付項目 身故給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/k84.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "8a39d8fc17e0965bfe18",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 保費退還 微馨福小額終身壽險 承保年齡廣，低保費 承保年齡 0歲至83歲 繳費年期 6/10/15/20年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/kc3.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "fcd4c81fc161a10f2edb",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 新GO安心保本定期保險 低門檻壽險主約，壽險保障至85歲，86歲領回總繳保費 承保年齡 0歲至65歲 繳費年期 10/20年期 給付項目 身故/完全失能 滿期金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/n66.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "860192187bddbae43395",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 台幣 吉得利101利率變動型終身壽險（定期給付型） 投保後即享高保障倍數、身故保險金可採分期定期給付，滿足遺族照顧需求 承保年齡 0歲至73歲 繳費年期 7年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/ccb.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "0904cf0029dede6a24b6",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 台幣 繽利101利率變動型終身壽險（定期給付型） 投保後即享高保障倍數、身故保險金可採分期定期給付，滿足遺族照顧需求 承保年齡 6年期：0歲至70歲；10年期：0歲至65歲；20年期：0歲至55歲 繳費年期 6/10/20年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/cca.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "0b5fb51b2e633605397f",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 台幣 祿利威登利率變動型終身壽險（定期給付型） 年年有機會，享受增值回饋分享金 承保年齡 6年期：0歲至74歲；10年期：0歲至70歲 繳費年期 6/10年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wau.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "c1d9e88ec0c959f9ea80",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 豪美利101利率變動型美元終身壽險（定期給付型） 投保後即享高保障倍數、身故保險金可採分期定期給付，滿足遺族照顧需求 承保年齡 6年期：0歲至74歲；10年期：0歲至70歲；20年期：0歲至60歲 繳費年期 6/10/20年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wzc.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "eca353ebbb3f915f1d2f",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 吉美利101利率變動型美元終身壽險（定期給付型） 投保後即享高保障倍數、身故保險金可採分期定期給付，滿足遺族照顧需求 承保年齡 0歲至73歲 繳費年期 7年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wzd.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "04d92b8fc5324e204756",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "一年期 心iLife一年期定期壽險（網路投保專屬） 定期壽險比較第一首選，讓你用無痛價格獲得有感保障 承保年齡 20歲至50歲 繳費年期 1年期 給付項目 身故/完全失能",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/mnc.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "0fddec70af8868030a45",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 保費退還 新享保障小額終身壽險（網路投保專屬） 少少保費，終身保障 承保年齡 20歲至64歲 繳費年期 10/20年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/kab.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "27a9876f92ca1b8ac38b",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 健康促進回饋 IN享愛定期壽險（外溢型） 小資族推薦，低保費高保障，加入FitBack，保費最高折減10%！ 承保年齡 21歲至54歲 繳費年期 10/20年期 給付項目 身故/完全失能 健康促進回饋",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/dx4.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "479177def1656470fc01",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 美添增鑽利率變動型美元終身壽險 年年有機會，享受增值回饋分享金 承保年齡 躉繳：0歲至85歲；2年期：0歲至84歲 繳費年期 躉繳、2年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/abaabb.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "600805078286495545e5",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 美添增鑫利率變動型美元終身壽險 年年有機會，享受增值回饋分享金 承保年齡 躉繳：0歲至85歲；2年期：0歲至84歲；6年期：0歲至80歲；10年期：0歲至76歲 繳費年期 躉繳、2/6/10年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wq6wq7wq8.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "bebef333622517526044",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 美滿雙寶利率變動型美元終身保險（定期給付型） 終身壽險及兩種特定傷病(嚴重阿茲海默氏症、嚴重巴金森氏症)保障，資產傳承及自我保障得以兼顧 承保年齡 16歲至65歲 繳費年期 8年期 給付項目 身故/完全失能 祝壽金 特定傷病",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wd1.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "5889d2976c03cd0c5e2c",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 台幣 健康促進回饋 滿福寶利率變動型終身保險（定期給付型）（外溢型） 終身壽險及十二項特定傷病(嚴重阿茲海默氏症、嚴重巴金森氏症等)保障，資產傳承及自我保障得以兼顧；加入FitBack，保費最高折減1%！ 承保年齡 16歲至65歲 繳費年期 6/8年期 給付項目 身故/完全失能 祝壽金 特定傷病 健康促進回饋",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/we1.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "f9cbdd1752a3daef5014",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 樂齡享退利率變動型美元終身保險（定期給付型） 身故保險金可採分期定期給付，保障退休生活 承保年齡 16歲至繳費期滿不大於生存保險金開始給付年齡 繳費年期 6/10年期 給付項目 身故/完全失能 祝壽金 生存金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/cta.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "476ca3966085c24d6141",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 鑽美鑫利率變動型美元終身壽險（定期給付型） 身故保險金可採分期定期給付 承保年齡 0歲至85歲 繳費年期 躉繳 給付項目 身故給付 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wja.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "dc67820f48c4350551ab",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 億美利利率變動型美元終身壽險（定期給付型） 身故保險金可採分期定期給付 承保年齡 3年期：0歲至75歲；7年期：0歲至73歲 繳費年期 3/7年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wuqwur.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "444f274d2eedf9922a86",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 鑽美滿利率變動型美元終身壽險（定期給付型） 身故保險金可採分期定期給付 承保年齡 0歲至75歲 繳費年期 躉繳 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wus.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "f89fe21b3006e13d6c6f",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 澳幣 祿利澳翔利率變動型澳幣終身壽險 年年有機會，享受增值回饋分享金 承保年齡 0歲至74歲 繳費年期 6年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wkb.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "d2742ccd834d5492f878",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 澳幣 祿守澳利利率變動型澳幣終身壽險（定期給付型） 澳幣收付、年年有機會享受增值回饋分享金、身故保險金可採分期給付 承保年齡 6年期：0歲至74歲；10年期：0歲至70歲 繳費年期 6/10年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wkc.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "4b5b52f272a5b4cdc822",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 澳幣 澳利成雙利率變動型澳幣終身壽險 短期繳費兼具身故保障及資產累積 承保年齡 0歲至78歲 繳費年期 2年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wka.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "1ea0651d07560f5700d5",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 台幣 旭滿鑫利率變動型終身壽險（定期給付型） 身故保險金可採分期定期給付 承保年齡 16歲至70歲 繳費年期 躉繳/2年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wshwsi.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "b1bc5aaa442fab49278a",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 台幣 鑫得利利率變動型終身壽險 短期繳費兼具身故保障及資產累積 承保年齡 躉繳：0歲至85歲；兩年期：0歲至80歲 繳費年期 躉繳/2年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wsjwsk.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "6989d22061d2468a814b",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 台幣 萬得利利率變動型終身壽險（定期給付型） 身故保險金可採分期定期給付 承保年齡 兩年期：0歲至70歲；六年期：0歲至74歲 繳費年期 2年期/6年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wslwsm.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "39102e65f297af207eab",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 祿美富利率變動型美元終身壽險（定期給付型） 年年有機會，享受增值回饋分享金 承保年齡 0歲至繳費期滿年齡不超過80歲 繳費年期 6/10年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/c64.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "b5ed73f69ae17f59e091",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "銀行保代專屬 泰美好利率變動型美元終身壽險（定期給付型）（銀行保代專屬） 反應市場，短年期商品 承保年齡 16歲至75歲 繳費年期 躉繳/2年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wef.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "a013d2685b3ce5a2a2ce",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "銀行保代專屬 瓏來發利率變動型美元終身壽險（定期給付型）（銀行保代專屬） 終身保障，增值回饋，美元資產配置 承保年齡 16歲至73歲 繳費年期 7年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wui.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "ba40a7bde026692e329a",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 鑽美利利率變動型美元終身壽險（定期給付型） 終身保障，增值回饋，美元資產配置 承保年齡 6年期：16歲至74歲；8年期：16歲至72歲 繳費年期 6/8年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wun.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "3eb88b6143db4b0f6fa1",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 鑽美富利率變動型美元終身壽險（定期給付型） 終身保障，增值回饋，美元資產配置 承保年齡 2年期：0歲至75歲；8年期：0歲至72歲 繳費年期 2/8年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wuo.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "5e9f9901c529aa48f191",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "銀行保代專屬 穩盈樂活利率變動型美元終身保險（定期給付型）（銀行保代專屬） 繳費2或6年，樂齡日後，穩定領取生存保險金 承保年齡 0歲至65歲 繳費年期 2年期/6年期 給付項目 身故/完全失能 祝壽金 生存金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/cpefghijkl.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "250d5431317c1867057a",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "銀行保代專屬 瓏盈人生利率變動型美元終身保險（定期給付型）（銀行保代專屬） 繳費6年，樂齡日後，穩定領取生存保險金(可選擇年給付/月給付) 承保年齡 0歲至60歲 繳費年期 6年期 給付項目 身故/完全失能 祝壽金 生存金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/cpmcpncpocppcpqcpr.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "e463acd5a716d4fca2dc",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 萬美富利率變動型美元終身壽險（定期給付型）（銀行保代專屬） 終身保障，增值回饋，美元資產配置 承保年齡 6年期：0歲至74歲；8年期：0歲至72歲 繳費年期 6/8年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wuz.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "90754e9f409455c64aab",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 美智守護利率變動型美元終身保險（定期給付型） 身故保障可選擇一次給付或分期定期給付；罹患腦中風後障礙(重度)、認知功能障礙、癱瘓(重度)特定傷病即享額外給付 承保年齡 2年期：16歲至75歲；6年期：16歲至70歲 繳費年期 2、6年期 給付項目 身故/完全失能 祝壽金 特定傷病",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wcj.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "75c1691394c6a634d39b",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 萬美裕利率變動型美元終身壽險（定期給付型）（銀行保代專屬） 終身保障，增值回饋，美元資產配置 承保年齡 6年期：0歲至79歲 繳費年期 6年期 給付項目 身故/完全失能 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wjb.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "9bf3056ae70a1a555dd9",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 馨美好人生利率變動型美元終身保險（定期給付型）（銀行保代專屬） 女性專屬，特定傷病額外給付，繳費年期多元 承保年齡 2年期：0歲至74歲；6 年期：0歲至79歲；8年期：0歲至77歲 繳費年期 2/6/8年期 給付項目 身故/完全失能 祝壽金 特定傷病",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wclwcm.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "dd80772350290a931e71",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 萬年美利利率變動型美元終身保險（定期給付型） 高身故保障．生存金流．分期給付．彈性規劃 承保年齡 2年期：0歲至80歲；6年期：0歲至79歲 繳費年期 2/6年期 給付項目 身故/完全失能 祝壽金 生存金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/caqcqbcqccqd.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "1e78ac10fb629d4721fc",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 第一雙盈利率變動型美元終身保險（定期給付型）（銀行保代專屬） 身故保障可選擇一次給付或分期定期給付；涵蓋3項特定傷病，保障您關鍵時刻的醫療預備金，解決高額醫療支出之財務燃眉之急。 承保年齡 6年期：0歲至74歲；8年期：0歲至72歲 繳費年期 6、8年期 給付項目 身故/完全失能 祝壽金 特定傷病",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wdd.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "05477fc2b1e61f887d58",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 美添增富利率變動型美元終身壽險 年年有機會，享受增值回饋分享金 承保年齡 0歲至88歲 繳費年期 躉繳 給付項目 身故給付 祝壽金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/abd.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "96cecac21df1c876b369",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "終身 美元 美愛康泰利率變動型美元終身保險（定期給付型） 身故保障可選擇一次給付或分期定期給付；罹患特定傷病即享額外給付，還可豁免續期保費 承保年齡 2年期：0歲至75歲；6年期：0歲至75歲；8年期：0歲至73歲 繳費年期 2/6/8年期 給付項目 身故/完全失能 祝壽金 特定傷病 保費豁免",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/life-caring/wwbwwc.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "壽險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:10+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "150f5597c1be6728e538",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "變額年金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "fc5975c4466fac8084bd",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "變額壽險",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-vl",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "28619e0181980aea5c3f",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "變額萬能壽險",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-vul",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "bf3dbe3bea67fb1c8c13",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "投資連(鏈)結型",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-unit-linked",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "7e71962f17c007373051",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "躉繳 月撥回／配息 鑫超樂享人生變額年金保險 低費用率，實際投資金額高 承保年齡 0歲~74歲 保險期間 終身 給付項目 身故返還 年金給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/gu6.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "6896254ba2ea52dbf165",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "躉繳 月撥回／配息 鑫超樂享人生外幣變額年金保險 美元/澳幣收付、低費用率，實際投資金額高 承保年齡 0歲~74歲 保險期間 終身 給付項目 身故返還 年金給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/ica.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "6745536c90fdab15865f",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "定期 台幣 iFund變額年金保險(網路投保專屬) 定期定額最低新臺幣1,000元，享低費用率，且無解約費用 承保年齡 20足歲~50歲 保險期間 終身 給付項目 身故返還 年金給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/saa.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "e53dbb8ea36251f7b2dc",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "銀行保代專屬 新豐利888外幣變額年金保險(銀行保代專屬) 低保費費用，享有加值給付，投資彈性自由，投資配置省時不費力 承保年齡 0歲至74歲 保險期間 終身 給付項目 身故返還 年金給付 加值給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/mgl.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "bbf49a9411183990c741",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "銀行保代專屬 新豐利888變額年金保險(銀行保代專屬) 低保費費用，享有加值給付，投資彈性自由，投資配置省時不費力 承保年齡 0歲至74歲 保險期間 終身 給付項目 身故返還 年金給付 加值給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/mgk.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "e65a63381b8234846f6b",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "銀行保代專屬 新好基利外幣變額年金保險(銀行保代專屬) 保費費用後收，實際投資金高。委託投資帳戶，由專家為你規畫配置與買賣時機。每月領取投資收益，資金運用更靈活 承保年齡 0歲至74歲 保險期間 終身 給付項目 加值給付 年金給付 身故返還",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/wc2.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "454991ec452d47958df5",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "銀行保代專屬 飛揚一生變額年金保險(銀行保代專屬) 享每月現金流，並提供身故保證給付機制 承保年齡 15足歲~72歲 保險期間 終身 給付項目 年金給付 保證給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/sua_suc.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "cdbbc97455be78a99254",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "銀行保代專屬 飛揚一生外幣變額年金保險(銀行保代專屬) 享每月現金流，並提供身故保證給付機制 承保年齡 15足歲~72歲 保險期間 終身 給付項目 年金給付 保證給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/sub_sud.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "98dd317218ffd5104da6",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "銀行保代專屬 月享贏變額年金保險(銀行保代專屬) 保單行政費用後收；不定期繳費；標的多元 承保年齡 0歲~74歲 保險期間 終身 給付項目 年金給付 身故返還",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/noc.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "ae9e5507ca03e88a7cbb",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "銀行保代專屬 月享贏外幣變額年金保險(銀行保代專屬) 保單行政費用後收；不定期繳費；標的多元 承保年齡 0歲~74歲 繳費期間 終身 給付項目 年金給付 身故返還",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/nod.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "8a9d40153b3359f75d54",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "躉繳 月撥回／配息 超飛揚外幣變額年金保險(銀行保代專屬) 享每月現金流，並提供身故保證給付機制，市場波動免擔心 承保年齡 15足歲~64歲 保險期間 終身 給付項目 年金給付 保證給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/sff.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "ace3c1c77b33c41a80bd",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "躉繳 月撥回／配息 超飛揚變額年金保險(銀行保代專屬) 享每月現金流，並提供身故保證給付機制，市場波動免擔心 承保年齡 15足歲~64歲 保險期間 終身 給付項目 年金給付 保證給付",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va/sfe.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "投資型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:12+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "e56ea293348310b4cc84",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "還本型保險",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-refund",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:15+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "f53dad4d696b225082fb",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "利變年金保險",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-interest-sensitive-annuity",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:15+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "515fb1e785fd60cb9825",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "遞延年金保險",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-deferred-annuity",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:15+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "7ce9c82ca465e82074e9",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "還本型 台幣 悠享年年終身保險 繳費6年，享保障終身 承保年齡 0歲~74歲 繳費年期 6年期 給付項目 身故/完全失能 祝壽金 生存金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-refund/cp1.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:15+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "e09ece356e6ca366db04",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "還本型 美元 雙鑫年年利率變動型美元終身保險 2年期，年年領取生存金，活到老領到老 承保年齡 0歲~78歲 繳費年期 2年期 給付項目 身故/完全失能 祝壽金 生存金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-refund/wtw.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:15+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "3217948d68282a13d5a9",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "還本型 美元 美年佳鑫利率變動型美元終身保險 繳費6年，享保障終身 承保年齡 0歲~74歲 繳費年期 6年期 給付項目 身故/完全失能 祝壽金 生存金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-refund/wty.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:15+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "e2b650d555ef8603b17a",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "還本型 台幣 年年佳鑫利率變動型終身保險 繳費6年，享保障終身 承保年齡 0歲~74歲 繳費年期 6年期 給付項目 身故/完全失能 祝壽金 生存金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-refund/wux.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:15+00:00",
+    "record_source": "official_company_page"
+  },
+  {
+    "product_id": "520abf6d12d3ae5a5905",
+    "company_code": "204",
+    "company_name": "國泰人壽",
+    "product_name": "還本型 台幣 展望年年利率變動型終身保險 繳費2年，享保障終身 承保年齡 0歲~70歲 繳費年期 2年期 給付項目 身故/完全失能 祝壽金 生存金",
+    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-refund/wuy.html",
+    "source_url": "https://www.cathaylife.com.tw/official/",
+    "categories": [
+      "還本/年金型保險"
+    ],
+    "market_date": null,
+    "discontinued_date": null,
+    "sales_status": "待確認",
+    "last_checked": "2026-10-17T22:35:15+00:00",
+    "record_source": "official_company_page"
+  },
+  {
     "product_id": "b759bb14de156dc1a613",
     "company_code": "206",
     "company_name": "南山人壽",
@@ -17,7 +2393,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -38,7 +2414,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -59,7 +2435,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -80,7 +2456,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -101,7 +2477,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -122,7 +2498,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -143,7 +2519,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -164,7 +2540,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -185,7 +2561,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -206,7 +2582,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -227,7 +2603,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -248,7 +2624,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -269,7 +2645,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -290,7 +2666,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -311,7 +2687,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -332,7 +2708,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -353,7 +2729,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -374,7 +2750,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -395,7 +2771,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -416,7 +2792,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -437,7 +2813,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -458,7 +2834,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -479,7 +2855,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -500,7 +2876,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -521,7 +2897,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -535,7 +2911,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -549,7 +2925,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -563,7 +2939,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -577,7 +2953,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -591,7 +2967,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -605,7 +2981,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -619,7 +2995,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -633,7 +3009,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -647,7 +3023,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -668,7 +3044,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -689,7 +3065,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:06+00:00",
+    "last_checked": "2026-10-17T22:35:18+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -703,7 +3079,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:29+00:00",
+    "last_checked": "2026-10-17T22:35:40+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -717,7 +3093,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:29+00:00",
+    "last_checked": "2026-10-17T22:35:40+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -731,7 +3107,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:29+00:00",
+    "last_checked": "2026-10-17T22:35:40+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -745,7 +3121,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:29+00:00",
+    "last_checked": "2026-10-17T22:35:40+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -759,7 +3135,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:29+00:00",
+    "last_checked": "2026-10-17T22:35:40+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -773,7 +3149,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:29+00:00",
+    "last_checked": "2026-10-17T22:35:40+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -794,7 +3170,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -815,7 +3191,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -831,7 +3207,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -852,7 +3228,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -868,7 +3244,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -884,7 +3260,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -900,7 +3276,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -916,7 +3292,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -932,7 +3308,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -953,7 +3329,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -974,7 +3350,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -995,7 +3371,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:33+00:00",
+    "last_checked": "2026-10-17T22:35:44+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1011,7 +3387,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:35+00:00",
+    "last_checked": "2026-10-17T22:35:47+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1027,7 +3403,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:35+00:00",
+    "last_checked": "2026-10-17T22:35:47+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1043,7 +3419,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:35+00:00",
+    "last_checked": "2026-10-17T22:35:47+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1059,7 +3435,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:35+00:00",
+    "last_checked": "2026-10-17T22:35:47+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1075,7 +3451,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:35+00:00",
+    "last_checked": "2026-10-17T22:35:47+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1091,7 +3467,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:35+00:00",
+    "last_checked": "2026-10-17T22:35:47+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1107,7 +3483,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:35+00:00",
+    "last_checked": "2026-10-17T22:35:47+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1123,7 +3499,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:35+00:00",
+    "last_checked": "2026-10-17T22:35:47+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1139,7 +3515,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:38+00:00",
+    "last_checked": "2026-10-17T22:35:50+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1155,7 +3531,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:38+00:00",
+    "last_checked": "2026-10-17T22:35:50+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1171,7 +3547,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:38+00:00",
+    "last_checked": "2026-10-17T22:35:50+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1187,7 +3563,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:38+00:00",
+    "last_checked": "2026-10-17T22:35:50+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1203,7 +3579,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:38+00:00",
+    "last_checked": "2026-10-17T22:35:50+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1219,7 +3595,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:38+00:00",
+    "last_checked": "2026-10-17T22:35:50+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1235,7 +3611,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:40+00:00",
+    "last_checked": "2026-10-17T22:35:53+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1251,7 +3627,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:40+00:00",
+    "last_checked": "2026-10-17T22:35:53+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1267,7 +3643,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:40+00:00",
+    "last_checked": "2026-10-17T22:35:53+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1283,7 +3659,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:40+00:00",
+    "last_checked": "2026-10-17T22:35:53+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1299,7 +3675,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:40+00:00",
+    "last_checked": "2026-10-17T22:35:53+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1315,7 +3691,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:40+00:00",
+    "last_checked": "2026-10-17T22:35:53+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1331,7 +3707,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:42+00:00",
+    "last_checked": "2026-10-17T22:35:56+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1347,7 +3723,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:42+00:00",
+    "last_checked": "2026-10-17T22:35:56+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1363,7 +3739,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:42+00:00",
+    "last_checked": "2026-10-17T22:35:56+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1379,7 +3755,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:42+00:00",
+    "last_checked": "2026-10-17T22:35:56+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1395,7 +3771,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:42+00:00",
+    "last_checked": "2026-10-17T22:35:56+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1411,7 +3787,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:42+00:00",
+    "last_checked": "2026-10-17T22:35:56+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1427,7 +3803,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:42+00:00",
+    "last_checked": "2026-10-17T22:35:56+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1443,7 +3819,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:42+00:00",
+    "last_checked": "2026-10-17T22:35:56+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1459,7 +3835,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:44+00:00",
+    "last_checked": "2026-10-17T22:35:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1475,7 +3851,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:44+00:00",
+    "last_checked": "2026-10-17T22:35:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1491,7 +3867,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:44+00:00",
+    "last_checked": "2026-10-17T22:35:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1507,7 +3883,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:44+00:00",
+    "last_checked": "2026-10-17T22:35:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1523,7 +3899,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:44+00:00",
+    "last_checked": "2026-10-17T22:35:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1539,7 +3915,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:44+00:00",
+    "last_checked": "2026-10-17T22:35:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1558,7 +3934,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1577,7 +3953,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1596,7 +3972,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1615,7 +3991,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1634,7 +4010,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1653,7 +4029,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1672,7 +4048,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1691,7 +4067,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1710,7 +4086,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1729,7 +4105,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1748,7 +4124,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1767,7 +4143,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1786,7 +4162,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1805,7 +4181,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1824,7 +4200,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1843,7 +4219,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1862,7 +4238,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1881,7 +4257,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1900,7 +4276,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1919,7 +4295,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1938,7 +4314,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1957,7 +4333,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1976,7 +4352,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1995,7 +4371,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2014,7 +4390,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2033,7 +4409,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2052,7 +4428,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2071,7 +4447,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2090,7 +4466,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2109,7 +4485,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2128,7 +4504,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2147,7 +4523,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2166,7 +4542,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2185,7 +4561,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2204,7 +4580,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2223,7 +4599,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2242,7 +4618,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2261,7 +4637,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2280,7 +4656,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2299,7 +4675,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2318,7 +4694,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2337,7 +4713,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2356,7 +4732,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2375,7 +4751,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2394,7 +4770,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2413,7 +4789,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2432,7 +4808,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2451,7 +4827,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2470,7 +4846,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2489,7 +4865,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2508,7 +4884,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2527,7 +4903,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2546,7 +4922,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2565,7 +4941,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2584,7 +4960,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2603,7 +4979,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2622,7 +4998,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2641,7 +5017,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2660,7 +5036,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2679,7 +5055,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2698,7 +5074,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2717,7 +5093,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2736,7 +5112,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2755,7 +5131,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2774,7 +5150,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2793,7 +5169,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2812,7 +5188,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2831,7 +5207,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2850,7 +5226,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2869,7 +5245,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2888,7 +5264,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2907,7 +5283,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2926,7 +5302,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2945,7 +5321,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2964,7 +5340,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2983,7 +5359,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3002,7 +5378,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3021,7 +5397,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3040,7 +5416,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3059,7 +5435,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3078,7 +5454,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3097,7 +5473,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3116,7 +5492,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3135,7 +5511,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3154,7 +5530,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3173,7 +5549,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3192,7 +5568,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3211,7 +5587,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3230,7 +5606,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3249,7 +5625,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3268,7 +5644,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3287,7 +5663,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3306,7 +5682,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3325,7 +5701,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3344,7 +5720,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3363,7 +5739,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3382,7 +5758,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3401,7 +5777,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3420,7 +5796,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3439,7 +5815,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3458,7 +5834,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3477,7 +5853,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3496,7 +5872,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3515,7 +5891,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3534,7 +5910,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3553,7 +5929,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3572,7 +5948,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3591,7 +5967,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3610,7 +5986,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3629,7 +6005,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3648,7 +6024,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3667,7 +6043,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3686,7 +6062,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3705,7 +6081,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3724,7 +6100,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3743,7 +6119,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3762,7 +6138,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3781,7 +6157,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3800,7 +6176,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3819,7 +6195,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3838,7 +6214,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3857,7 +6233,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3876,7 +6252,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -3895,7 +6271,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T15:53:46+00:00",
+    "last_checked": "2026-10-17T22:36:00+00:00",
     "record_source": "official_company_page"
   }
 ]
