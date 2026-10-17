@@ -1,1 +1,7 @@
-# tw-insurance-cardbox
+# 壽險商品智慧查詢與自動更新系統 (免 API 卡片盒檢索版)
+
+透過 **GitHub Actions + Playwright + PyMuPDF 規則引擎 + GitHub Pages** 打造的 **100% 零成本、免 API Key** 台灣 20 家壽險商品條款追蹤與卡片盒檢索系統。
+
+## 特點
+- **完全免 API Key**：透過台灣壽險商品命名規範與 `PyMuPDF` 條款內文正則引擎，自動判斷險種分類（實支實付、重大傷病、癌症、意外、定額醫療、長照失能）、主附約、保證續保、2-2-7 手術限制、等待期與給付條次。
+- **每日自動排程更新**：GitHub Actions 每日定時抓取保發中心最新保單，自動分類並更新至 GitHub Pages。

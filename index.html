@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>壽險商品智慧查詢系統 - 卡片盒檢索</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', 'Noto Sans TC', sans-serif; }
+    .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #f1f5f9; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800 antialiased min-h-screen flex flex-col">
+
+  <!-- Top Navigation Header -->
+  <header class="bg-[#1e293b] text-white shadow-md sticky top-0 z-30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <!-- Logo and System Info -->
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center font-bold text-lg text-white shadow">
+            保
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <h1 class="font-bold text-lg leading-tight tracking-wide">壽險商品查詢</h1>
+              <span class="text-xs bg-blue-500/30 text-blue-300 border border-blue-400/30 px-2 py-0.5 rounded-full font-mono">v1.8.0</span>
+            </div>
+            <p class="text-xs text-slate-400 font-mono">1,126 個商品 · 20 家公司 · 更新 2026/10/11</p>
+          </div>
+        </div>
+
+        <!-- Right Quick Controls -->
+        <div class="flex items-center gap-2 sm:gap-3">
+          <button id="btn-toggle-favorite-filter" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-slate-700 bg-slate-800/80 hover:bg-slate-700 text-slate-200 transition">
+            <svg id="header-fav-icon" class="w-3.5 h-3.5 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+            <span>我的收藏 (<span id="fav-count">0</span>)</span>
+          </button>
+          <button id="btn-new-arrivals" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-rose-600 hover:bg-rose-500 text-white shadow transition">
+            <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span>
+            <span>10月新上架</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filter & Search Panel -->
+  <section class="bg-white border-b border-slate-200 shadow-sm sticky top-16 z-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5">
+      <div class="flex flex-col gap-3">
+        <!-- Search and Quick Stats Bar -->
+        <div class="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center justify-between">
+          <div class="relative flex-1 max-w-xl">
+            <input type="text" id="search-input" placeholder="搜尋商品名稱、代碼 (如 NCIC, HMRA)、或保障關鍵字..." class="w-full pl-9 pr-9 py-2 text-sm bg-slate-50 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition">
+            <svg class="w-4 h-4 text-slate-400 absolute left-3 top-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <button id="clear-search-btn" class="hidden absolute right-3 top-2.5 text-slate-400 hover:text-slate-600">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+          </div>
+
+          <div class="flex items-center gap-2 text-xs text-slate-600 flex-wrap">
+            <span class="font-medium text-slate-500">符合條件：</span>
+            <span id="filtered-count" class="font-bold text-blue-600 text-sm">0</span>
+            <span class="text-slate-400">/ 1,126 檔商品</span>
+            <span class="text-slate-300">|</span>
+            <button id="reset-all-filters-btn" class="text-blue-600 hover:text-blue-800 underline text-xs font-medium">重設所有篩選</button>
+          </div>
+        </div>
+
+        <!-- Filter Dimension 1: Company Filter Pills -->
+        <div class="flex items-center gap-2 overflow-x-auto custom-scrollbar pb-1 text-xs">
+          <span class="text-slate-400 font-medium whitespace-nowrap pl-0.5">公司：</span>
+          <div id="company-pills" class="flex items-center gap-1.5 flex-nowrap">
+            <!-- Dynamic Company Pills will be injected here -->
+          </div>
+        </div>
+
+        <!-- Filter Dimension 2: Categories, Contract Type & Age Slider -->
+        <div class="flex items-center gap-2 overflow-x-auto custom-scrollbar pb-1 text-xs">
+          <span class="text-slate-400 font-medium whitespace-nowrap pl-0.5">險種：</span>
+          <div id="category-pills" class="flex items-center gap-1.5 flex-nowrap">
+            <!-- Dynamic Category Pills will be injected here -->
+          </div>
+        </div>
+
+        <!-- Filter Dimension 3: Advanced toggles (Contract type, Age limit, 2-2-7) -->
+        <div class="flex items-center justify-between flex-wrap gap-2 pt-1 border-t border-slate-100 text-xs">
+          <div class="flex items-center gap-3 flex-wrap">
+            <div class="flex items-center gap-1 bg-slate-100 px-2 py-1 rounded-md">
+              <span class="text-slate-500">主附約:</span>
+              <button data-type="all" class="type-filter-btn px-2 py-0.5 rounded text-xs font-medium bg-white text-blue-600 shadow-xs">全部</button>
+              <button data-type="主約" class="type-filter-btn px-2 py-0.5 rounded text-xs font-medium text-slate-600 hover:text-slate-900">主約</button>
+              <button data-type="附約" class="type-filter-btn px-2 py-0.5 rounded text-xs font-medium text-slate-600 hover:text-slate-900">附約</button>
+            </div>
+
+            <label class="flex items-center gap-1.5 cursor-pointer text-slate-700 hover:text-slate-900">
+              <input type="checkbox" id="filter-guaranteed-renewal" class="w-3.5 h-3.5 rounded text-blue-600 focus:ring-blue-500 border-slate-300">
+              <span>保證續保</span>
+            </label>
+
+            <label class="flex items-center gap-1.5 cursor-pointer text-slate-700 hover:text-slate-900">
+              <input type="checkbox" id="filter-no-227" class="w-3.5 h-3.5 rounded text-blue-600 focus:ring-blue-500 border-slate-300">
+              <span>無 2-2-7 手術限制</span>
+            </label>
+          </div>
+
+          <!-- Age Filter Range -->
+          <div class="flex items-center gap-2">
+            <span class="text-slate-500">投保年齡試算：</span>
+            <input type="number" id="filter-age-input" placeholder="例如 35" min="0" max="85" class="w-16 px-2 py-1 text-xs border border-slate-300 rounded bg-slate-50 focus:bg-white focus:outline-none focus:ring-1 focus:ring-blue-500">
+            <span class="text-slate-500">歲</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Card Gallery View (Zettelkasten Cards Grid) -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full">
+    <!-- Active filters bar -->
+    <div id="active-tag-indicator" class="hidden mb-4 p-2 bg-blue-50 border border-blue-200 rounded-lg text-xs flex items-center justify-between text-blue-800">
+      <div class="flex items-center gap-1.5">
+        <span class="font-semibold">目前篩選標籤：</span>
+        <span id="active-tag-name" class="px-2 py-0.5 bg-blue-600 text-white rounded font-medium"></span>
+      </div>
+      <button id="clear-active-tag-btn" class="text-blue-600 hover:text-blue-900 underline font-medium">清除標籤</button>
+    </div>
+
+    <!-- Cards Container -->
+    <div id="cards-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <!-- Cards will be populated here via JavaScript -->
+    </div>
+
+    <!-- Empty State -->
+    <div id="empty-state" class="hidden py-16 text-center">
+      <div class="w-16 h-16 mx-auto rounded-full bg-slate-100 flex items-center justify-center text-slate-400 mb-3">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      </div>
+      <h3 class="text-base font-medium text-slate-700">找不到符合條件的保險商品</h3>
+      <p class="text-xs text-slate-500 mt-1">請嘗試放寬篩選條件或清除關鍵字搜尋</p>
+      <button id="btn-empty-reset" class="mt-4 px-4 py-2 text-xs bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition">重設所有條件</button>
+    </div>
+  </main>
+
+  <!-- Slide-over Detail Drawer / Modal -->
+  <div id="detail-drawer" class="fixed inset-0 z-50 overflow-hidden hidden" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
+    <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-xs transition-opacity" id="drawer-backdrop"></div>
+    <div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+      <div class="pointer-events-auto w-screen max-w-2xl bg-white shadow-2xl flex flex-col">
+        <!-- Drawer Header -->
+        <div class="p-6 bg-slate-900 text-white flex items-start justify-between border-b border-slate-800">
+          <div>
+            <div class="flex items-center gap-2 mb-1.5 flex-wrap">
+              <span id="drawer-company-badge" class="px-2.5 py-0.5 rounded text-xs font-semibold"></span>
+              <span id="drawer-product-code" class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono text-xs border border-slate-700"></span>
+              <span id="drawer-status-badge" class="px-2 py-0.5 rounded text-xs font-medium"></span>
+            </div>
+            <h2 id="drawer-product-title" class="text-lg font-bold text-white leading-snug"></h2>
+            <p id="drawer-approval-no" class="text-xs text-slate-400 mt-1 font-mono"></p>
+          </div>
+          <button id="close-drawer-btn" class="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-800 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+
+        <!-- Drawer Body (Scrollable) -->
+        <div class="p-6 overflow-y-auto custom-scrollbar flex-1 space-y-6 text-sm">
+          <!-- Quick Specs Grid -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg">
+              <span class="block text-xs text-slate-500">契約型態</span>
+              <span id="drawer-contract-type" class="font-semibold text-slate-800 mt-0.5 block"></span>
+            </div>
+            <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg">
+              <span class="block text-xs text-slate-500">投保年齡區間</span>
+              <span id="drawer-age-range" class="font-semibold text-slate-800 mt-0.5 block"></span>
+            </div>
+            <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg">
+              <span class="block text-xs text-slate-500">保證續保</span>
+              <span id="drawer-guaranteed" class="font-semibold text-slate-800 mt-0.5 block"></span>
+            </div>
+            <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg">
+              <span class="block text-xs text-slate-500">手術條款限制</span>
+              <span id="drawer-restriction" class="font-semibold text-slate-800 mt-0.5 block"></span>
+            </div>
+          </div>
+
+          <!-- Age Breakdown Detail Table -->
+          <div class="bg-slate-50 border border-slate-200 rounded-lg p-4">
+            <h4 class="text-xs font-bold text-slate-700 uppercase tracking-wider mb-2 flex items-center justify-between">
+              <span>投保年齡與繳費年期對照 (AI 解析)</span>
+              <span class="text-[11px] text-blue-600 font-normal">來源: 商品簡介 DM</span>
+            </h4>
+            <div id="drawer-age-table" class="space-y-1.5 text-xs text-slate-600">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- Sum Assured Limits -->
+          <div class="bg-slate-50 border border-slate-200 rounded-lg p-4">
+            <h4 class="text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">投保金額與計畫別限制</h4>
+            <div id="drawer-sum-limits" class="text-xs text-slate-700 space-y-1">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- Coverage Highlights -->
+          <div>
+            <h4 class="text-xs font-bold text-slate-700 uppercase tracking-wider mb-3">主要保障項目與給付重點摘要</h4>
+            <div id="drawer-coverage-list" class="space-y-2.5">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- Evidence & Citation Box -->
+          <div class="p-4 bg-amber-50 border border-amber-200 rounded-lg text-xs text-amber-900 space-y-2">
+            <div class="font-bold flex items-center gap-1.5 text-amber-800">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>AI 原文依據與頁碼溯源 (Grounding Citation)</span>
+            </div>
+            <blockquote id="drawer-evidence-quote" class="italic pl-3 border-l-2 border-amber-400 text-amber-800"></blockquote>
+            <p id="drawer-evidence-page" class="text-[11px] text-amber-700 font-mono"></p>
+          </div>
+        </div>
+
+        <!-- Drawer Footer Actions -->
+        <div class="p-4 bg-slate-50 border-t border-slate-200 flex items-center justify-between">
+          <span class="text-xs text-slate-400">核保以保險公司最新公告為準</span>
+          <div class="flex items-center gap-2">
+            <button id="btn-copy-summary" class="px-3 py-1.5 text-xs font-medium bg-white border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-100 transition">複製條款摘要</button>
+            <button id="btn-view-pdf-demo" class="px-3 py-1.5 text-xs font-medium bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">查看條款 PDF 快照</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 bg-slate-900 text-white text-xs px-4 py-2.5 rounded-lg shadow-xl transform translate-y-20 opacity-0 transition duration-300 flex items-center gap-2">
+    <span id="toast-message">操作成功</span>
+  </div>
+
+  <!-- Application Logic -->
+  <script>
+    // 1. Data Store: Structured Life Insurance Products (Matching the screenshot & Taiwan market)
+    const insuranceProducts = [
+      {
+        id: "prod-001",
+        company: "南山",
+        company_color: "bg-sky-500",
+        release_month: "2026/10",
+        is_new: true,
+        new_tag: "新 10-09",
+        product_full_name: "南山人壽安心溢百重大傷病終身保險",
+        product_code: "NCIC",
+        contract_type: "主約",
+        sales_status: "現售",
+        approval_number: "115.10.01 南壽字第1150001088號函備查",
+        age_range_display: "0~60 歲",
+        min_issue_age: 0,
+        max_issue_age: 60,
+        max_renewal_age: null,
+        is_guaranteed_renewal: true,
+        has_227_restriction: false,
+        categories: ["重大傷病", "終身"],
+        feature_chips: ["重大疾病", "重大傷病", "特定傷病", "失能", "終身"],
+        age_rules: [
+          { term: "10 年期", max_age: 60 },
+          { term: "20 年期", max_age: 55 },
+          { term: "30 年期", max_age: 45 }
+        ],
+        sum_assured_limits: {
+          unit: "萬元",
+          min: "10 萬元",
+          max: "500 萬元",
+          notes: "0~15歲累計同業重大傷病限額 200 萬元整。"
+        },
+        coverage_highlights: [
+          { name: "重大傷病保險金", summary: "經診斷初次符合全民健保重大傷病資格並取得證明，按保險金額一次給付。", waiting_period: 30, clause: "第十一條", page: 4 },
+          { name: "特定傷病增額給付", summary: "初次罹患條款約定之特定傷病（如阿茲海默氏症），額外增額給付 20% 保額。", waiting_period: 30, clause: "第十三條", page: 5 },
+          { name: "身故或祝壽保險金", summary: "達保險年齡 100 歲時給付祝壽金，契約終止。", waiting_period: 0, clause: "第十五條", page: 6 }
+        ],
+        evidence_quote: "被保險人於本契約有效期間且在第三十日以後，經醫院醫師診斷初次符合重大傷病項目並取得全民健康保險重大傷病證明者，本公司按保險金額給付重大傷病保險金。",
+        source_page: 4
+      },
+      {
+        id: "prod-002",
+        company: "南山",
+        company_color: "bg-sky-500",
+        release_month: "2026/10",
+        is_new: true,
+        new_tag: "新 10-09",
+        product_full_name: "南山人壽長享平安終身傷害保險",
+        product_code: "SUPA",
+        contract_type: "主約",
+        sales_status: "現售",
+        approval_number: "115.10.01 南壽字第1150001092號函備查",
+        age_range_display: "50~80 歲",
+        min_issue_age: 50,
+        max_issue_age: 80,
+        max_renewal_age: null,
+        is_guaranteed_renewal: true,
+        has_227_restriction: false,
+        categories: ["意外傷害", "終身"],
+        feature_chips: ["傷害", "身故", "骨折", "終身"],
+        age_rules: [
+          { term: "10 年期", max_age: 80 },
+          { term: "15 年期", max_age: 75 }
+        ],
+        sum_assured_limits: {
+          unit: "萬元",
+          min: "30 萬元",
+          max: "300 萬元",
+          notes: "職業等級 1~4 類可投保，5~6 類不承保。"
+        },
+        coverage_highlights: [
+          { name: "意外身故保險金", summary: "遭受意外傷害事故致身故，給付保險金額 100%。", waiting_period: 0, clause: "第七條", page: 3 },
+          { name: "意外失能保險金", summary: "依失能等級比例（5%~100%）給付失能保險金。", waiting_period: 0, clause: "第八條", page: 3 },
+          { name: "骨折未住院津貼", summary: "按骨折部位及程度標準表比例折算，最高給付保額 50%。", waiting_period: 0, clause: "第十條", page: 4 }
+        ],
+        evidence_quote: "本契約所稱傷害，係指被保險人於本契約有效期間內，遭受非由疾病引起之外來突發事故。",
+        source_page: 3
+      },
+      {
+        id: "prod-003",
+        company: "安聯",
+        company_color: "bg-[#0b2f64]",
+        release_month: "2026/10",
+        is_new: true,
+        new_tag: "新 10-01",
+        product_full_name: "安聯人壽一年定期住院醫療費用保險附約(113)(HMRA) (暫停銷售)",
+        product_code: "HMRA",
+        contract_type: "附約",
+        sales_status: "暫停銷售",
+        approval_number: "113.06.25 安聯字第1130000450號函備查",
+        age_range_display: "0~65 歲",
+        min_issue_age: 0,
+        max_issue_age: 65,
+        max_renewal_age: 75,
+        is_guaranteed_renewal: true,
+        has_227_restriction: false,
+        categories: ["醫療(實支)"],
+        feature_chips: ["實支實付", "住院", "附約", "一年期"],
+        age_rules: [
+          { term: "一年期", max_age: 65 }
+        ],
+        sum_assured_limits: {
+          unit: "計畫別",
+          min: "計畫一",
+          max: "計畫五",
+          notes: "實支實付採正本理賠收據（金管會新制標準）。"
+        },
+        coverage_highlights: [
+          { name: "住院醫療費用超額保險金(雜費)", summary: "依實際醫療費用支出在限額內實支實付（計畫五最高 30 萬元）。", waiting_period: 30, clause: "第十四條", page: 5 },
+          { name: "手術費用保險金", summary: "依手術名稱倍數乘以計畫手術限額實支實付，不限健保2-2-7。", waiting_period: 30, clause: "第十五條", page: 6 }
+        ],
+        evidence_quote: "被保險人因疾病或傷害住院診療時，本公司按被保險人實際發生之住院醫療費用，給付住院醫療費用保險金。",
+        source_page: 5
+      },
+      {
+        id: "prod-004",
+        company: "安聯",
+        company_color: "bg-[#0b2f64]",
+        release_month: "2026/10",
+        is_new: true,
+        new_tag: "新 10-01",
+        product_full_name: "安聯人壽一年定期癌症醫療健康保險附約(109)(CHR2)",
+        product_code: "CHR2",
+        contract_type: "附約",
+        sales_status: "現售",
+        approval_number: "109.11.18 安聯字第1090000780號函備查",
+        age_range_display: "0~65 歲",
+        min_issue_age: 0,
+        max_issue_age: 65,
+        max_renewal_age: 75,
+        is_guaranteed_renewal: true,
+        has_227_restriction: false,
+        categories: ["癌症險"],
+        feature_chips: ["癌症", "住院", "手術", "附約", "一年期"],
+        age_rules: [
+          { term: "一年期", max_age: 65 }
+        ],
+        sum_assured_limits: {
+          unit: "單位",
+          min: "1 單位",
+          max: "5 單位",
+          notes: "初次罹癌整筆給付併同多次療程型給付設計。"
+        },
+        coverage_highlights: [
+          { name: "初次罹患癌症保險金", summary: "初次確診重度癌症給付 10 萬元/單位；初期或輕度給付 1.5 萬元/單位。", waiting_period: 90, clause: "第十條", page: 4 },
+          { name: "癌症住院與門診手術津貼", summary: "住院每日 2,000 元/單位，門診放療化療每日 1,000 元/單位。", waiting_period: 90, clause: "第十一條", page: 4 }
+        ],
+        evidence_quote: "被保險人於本附約生效日起持續有效第九十日以後，經醫師診斷確定初次罹患癌症者，依約定給付癌症保險金。",
+        source_page: 4
+      },
+      {
+        id: "prod-005",
+        company: "安聯",
+        company_color: "bg-[#0b2f64]",
+        release_month: "2026/10",
+        is_new: false,
+        new_tag: "10-01",
+        product_full_name: "安聯人壽安勝人生癌症定期健康保險",
+        product_code: "TCN",
+        contract_type: "主約",
+        sales_status: "現售",
+        approval_number: "114.05.20 安聯字第1140000210號函備查",
+        age_range_display: "0~55 歲",
+        min_issue_age: 0,
+        max_issue_age: 55,
+        max_renewal_age: null,
+        is_guaranteed_renewal: false,
+        has_227_restriction: false,
+        categories: ["癌症險"],
+        feature_chips: ["癌症", "定期", "主約"],
+        age_rules: [
+          { term: "20 年期", max_age: 55 },
+          { term: "30 年期", max_age: 45 }
+        ],
+        sum_assured_limits: {
+          unit: "萬元",
+          min: "50 萬元",
+          max: "600 萬元",
+          notes: "定期防癌一次金主力商品。"
+        },
+        coverage_highlights: [
+          { name: "重度癌症保險金", summary: "罹患重度癌症給付保額 100%，一次金給付保障生活。", waiting_period: 90, clause: "第八條", page: 3 }
+        ],
+        evidence_quote: "初次罹患重度癌症者，按診斷當時之保險金額一次給付。",
+        source_page: 3
+      },
+      {
+        id: "prod-006",
+        company: "安聯",
+        company_color: "bg-[#0b2f64]",
+        release_month: "2026/10",
+        is_new: false,
+        new_tag: "10-01",
+        product_full_name: "安聯人壽安康終身健康保險",
+        product_code: "WLHA",
+        contract_type: "主約",
+        sales_status: "現售",
+        approval_number: "112.08.15 安聯字第1120000388號函備查",
+        age_range_display: "0~60 歲",
+        min_issue_age: 0,
+        max_issue_age: 60,
+        max_renewal_age: null,
+        is_guaranteed_renewal: true,
+        has_227_restriction: false,
+        categories: ["醫療(定額)", "終身"],
+        feature_chips: ["住院", "日額", "手術", "終身", "主約"],
+        age_rules: [
+          { term: "10 年期", max_age: 60 },
+          { term: "20 年期", max_age: 55 }
+        ],
+        sum_assured_limits: {
+          unit: "元/日額",
+          min: "500 元",
+          max: "3,000 元",
+          notes: "累計給付上限為住院日額之 3,000 倍。"
+        },
+        coverage_highlights: [
+          { name: "住院日額醫療金", summary: "一般住院按約定日額給付，加護病房增額給付 2 倍。", waiting_period: 30, clause: "第九條", page: 3 },
+          { name: "終身手術保險金", summary: "依手術倍數表（1.5倍~60倍）給付手術保險金。", waiting_period: 30, clause: "第十條", page: 4 }
+        ],
+        evidence_quote: "被保險人因疾病或傷害經醫師診斷必須住院診療並已住院者，給付住院日額保險金。",
+        source_page: 3
+      },
+      {
+        id: "prod-007",
+        company: "國泰",
+        company_color: "bg-emerald-600",
+        release_month: "2026/09",
+        is_new: false,
+        new_tag: "09-15",
+        product_full_name: "國泰人壽真順心手術醫療終身健康保險",
+        product_code: "L63",
+        contract_type: "主約",
+        sales_status: "現售",
+        approval_number: "114.09.15 國壽字第1140003110號函備查",
+        age_range_display: "0~65 歲",
+        min_issue_age: 0,
+        max_issue_age: 65,
+        max_renewal_age: null,
+        is_guaranteed_renewal: true,
+        has_227_restriction: true,
+        categories: ["醫療(定額)", "終身"],
+        feature_chips: ["手術", "門診", "終身", "主約"],
+        age_rules: [
+          { term: "20 年期", max_age: 60 }
+        ],
+        sum_assured_limits: {
+          unit: "元",
+          min: "1,000 元",
+          max: "3,000 元",
+          notes: "手術定義限全民健保 2-2-7 手術章節。"
+        },
+        coverage_highlights: [
+          { name: "住院及門診手術醫療金", summary: "符合健保 2-2-7 手術項目，按等級比例給付保險金。", waiting_period: 30, clause: "第七條", page: 3 }
+        ],
+        evidence_quote: "本契約所稱『手術』，係指符合中央衛生主管機關最新公布之『全民健康保險醫療費用支付標準』第二部第二章第七節所列舉之手術者。",
+        source_page: 3
+      },
+      {
+        id: "prod-008",
+        company: "富邦",
+        company_color: "bg-blue-600",
+        release_month: "2026/08",
+        is_new: false,
+        new_tag: "08-01",
+        product_full_name: "富邦人壽真安心住院醫療健康保險附約(113)",
+        product_code: "HSC6",
+        contract_type: "附約",
+        sales_status: "現售",
+        approval_number: "113.07.01 富壽字第1130001550號函備查",
+        age_range_display: "0~65 歲",
+        min_issue_age: 0,
+        max_issue_age: 65,
+        max_renewal_age: 75,
+        is_guaranteed_renewal: true,
+        has_227_restriction: false,
+        categories: ["醫療(實支)"],
+        feature_chips: ["實支實付", "住院", "附約", "一年期"],
+        age_rules: [
+          { term: "一年期", max_age: 65 }
+        ],
+        sum_assured_limits: {
+          unit: "計畫別",
+          min: "計畫 A",
+          max: "計畫 D",
+          notes: "門診手術雜費合併計算，每年給付次數限制 6 次。"
+        },
+        coverage_highlights: [
+          { name: "門診手術費用保險金", summary: "接受門診手術時，在限額內實支實付雜費與手術費。", waiting_period: 30, clause: "第十二條", page: 4 }
+        ],
+        evidence_quote: "被保險人未住院而於醫院或診所接受門診手術治療者，本公司按其門診手術期間內實際發生之醫療費用給付。",
+        source_page: 4
+      }
+    ];
+
+    // 2. Application State
+    const state = {
+      favorites: new Set(),
+      searchQuery: "",
+      selectedCompany: "全部",
+      selectedCategory: "全部",
+      selectedContractType: "all",
+      guaranteedRenewalOnly: false,
+      no227Only: false,
+      onlyNewArrivals: false,
+      onlyFavorites: false,
+      ageFilter: null,
+      selectedTag: null
+    };
+
+    // Load favorites safely
+    try {
+      const saved = localStorage.getItem("ins_favs");
+      if (saved) {
+        JSON.parse(saved).forEach(id => state.favorites.add(id));
+      }
+    } catch (e) {
+      console.warn("localStorage not available, using in-memory state");
+    }
+
+    // DOM Elements
+    const cardsGrid = document.getElementById("cards-grid");
+    const emptyState = document.getElementById("empty-state");
+    const filteredCountEl = document.getElementById("filtered-count");
+    const favCountEl = document.getElementById("fav-count");
+    const searchInput = document.getElementById("search-input");
+    const clearSearchBtn = document.getElementById("clear-search-btn");
+    const resetAllFiltersBtn = document.getElementById("reset-all-filters-btn");
+    const btnEmptyReset = document.getElementById("btn-empty-reset");
+    const companyPillsContainer = document.getElementById("company-pills");
+    const categoryPillsContainer = document.getElementById("category-pills");
+    const btnToggleFavoriteFilter = document.getElementById("btn-toggle-favorite-filter");
+    const btnNewArrivals = document.getElementById("btn-new-arrivals");
+    const filterGuaranteedRenewal = document.getElementById("filter-guaranteed-renewal");
+    const filterNo227 = document.getElementById("filter-no-227");
+    const filterAgeInput = document.getElementById("filter-age-input");
+    const activeTagIndicator = document.getElementById("active-tag-indicator");
+    const activeTagName = document.getElementById("active-tag-name");
+    const clearActiveTagBtn = document.getElementById("clear-active-tag-btn");
+
+    // Drawer Elements
+    const detailDrawer = document.getElementById("detail-drawer");
+    const drawerBackdrop = document.getElementById("drawer-backdrop");
+    const closeDrawerBtn = document.getElementById("close-drawer-btn");
+    const drawerCompanyBadge = document.getElementById("drawer-company-badge");
+    const drawerProductCode = document.getElementById("drawer-product-code");
+    const drawerStatusBadge = document.getElementById("drawer-status-badge");
+    const drawerProductTitle = document.getElementById("drawer-product-title");
+    const drawerApprovalNo = document.getElementById("drawer-approval-no");
+    const drawerContractType = document.getElementById("drawer-contract-type");
+    const drawerAgeRange = document.getElementById("drawer-age-range");
+    const drawerGuaranteed = document.getElementById("drawer-guaranteed");
+    const drawerRestriction = document.getElementById("drawer-restriction");
+    const drawerAgeTable = document.getElementById("drawer-age-table");
+    const drawerSumLimits = document.getElementById("drawer-sum-limits");
+    const drawerCoverageList = document.getElementById("drawer-coverage-list");
+    const drawerEvidenceQuote = document.getElementById("drawer-evidence-quote");
+    const drawerEvidencePage = document.getElementById("drawer-evidence-page");
+    const btnCopySummary = document.getElementById("btn-copy-summary");
+    const btnViewPdfDemo = document.getElementById("btn-view-pdf-demo");
+
+    let currentOpenProduct = null;
+
+    // Toast helper
+    function showToast(msg) {
+      const toast = document.getElementById("toast");
+      const msgEl = document.getElementById("toast-message");
+      msgEl.textContent = msg;
+      toast.classList.remove("translate-y-20", "opacity-0");
+      setTimeout(() => {
+        toast.classList.add("translate-y-20", "opacity-0");
+      }, 2500);
+    }
+
+    // Initialize Company & Category Filter Pills
+    function initFilterPills() {
+      const companies = ["全部", "南山", "安聯", "國泰", "富邦"];
+      companyPillsContainer.innerHTML = companies.map(comp => `
+        <button data-company="${comp}" class="company-pill px-3 py-1 rounded-full text-xs font-medium transition whitespace-nowrap ${comp === '全部' ? 'bg-slate-800 text-white shadow-xs' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'}">
+          ${comp}
+        </button>
+      `).join("");
+
+      const categories = ["全部", "重大傷病", "醫療(實支)", "醫療(定額)", "癌症險", "意外傷害", "終身"];
+      categoryPillsContainer.innerHTML = categories.map(cat => `
+        <button data-category="${cat}" class="category-pill px-3 py-1 rounded-full text-xs font-medium transition whitespace-nowrap ${cat === '全部' ? 'bg-blue-600 text-white shadow-xs' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'}">
+          ${cat}
+        </button>
+      `).join("");
+
+      // Bind Pill Listeners
+      companyPillsContainer.querySelectorAll(".company-pill").forEach(btn => {
+        btn.addEventListener("click", () => {
+          state.selectedCompany = btn.dataset.company;
+          companyPillsContainer.querySelectorAll(".company-pill").forEach(b => {
+            if (b.dataset.company === state.selectedCompany) {
+              b.className = "company-pill px-3 py-1 rounded-full text-xs font-medium transition whitespace-nowrap bg-slate-800 text-white shadow-xs";
+            } else {
+              b.className = "company-pill px-3 py-1 rounded-full text-xs font-medium transition whitespace-nowrap bg-slate-100 text-slate-600 hover:bg-slate-200";
+            }
+          });
+          renderCards();
+        });
+      });
+
+      categoryPillsContainer.querySelectorAll(".category-pill").forEach(btn => {
+        btn.addEventListener("click", () => {
+          state.selectedCategory = btn.dataset.category;
+          categoryPillsContainer.querySelectorAll(".category-pill").forEach(b => {
+            if (b.dataset.category === state.selectedCategory) {
+              b.className = "category-pill px-3 py-1 rounded-full text-xs font-medium transition whitespace-nowrap bg-blue-600 text-white shadow-xs";
+            } else {
+              b.className = "category-pill px-3 py-1 rounded-full text-xs font-medium transition whitespace-nowrap bg-slate-100 text-slate-600 hover:bg-slate-200";
+            }
+          });
+          renderCards();
+        });
+      });
+    }
+
+    // Filter Logic
+    function getFilteredProducts() {
+      return insuranceProducts.filter(p => {
+        // 1. Search Query
+        if (state.searchQuery) {
+          const q = state.searchQuery.toLowerCase();
+          const matchName = p.product_full_name.toLowerCase().includes(q);
+          const matchCode = (p.product_code || "").toLowerCase().includes(q);
+          const matchChips = p.feature_chips.some(c => c.toLowerCase().includes(q));
+          if (!matchName && !matchCode && !matchChips) return false;
+        }
+
+        // 2. Company
+        if (state.selectedCompany !== "全部" && p.company !== state.selectedCompany) {
+          return false;
+        }
+
+        // 3. Category
+        if (state.selectedCategory !== "全部") {
+          if (!p.categories.includes(state.selectedCategory) && !p.feature_chips.includes(state.selectedCategory)) {
+            return false;
+          }
+        }
+
+        // 4. Contract Type
+        if (state.selectedContractType !== "all" && p.contract_type !== state.selectedContractType) {
+          return false;
+        }
+
+        // 5. Guaranteed Renewal
+        if (state.guaranteedRenewalOnly && !p.is_guaranteed_renewal) {
+          return false;
+        }
+
+        // 6. No 2-2-7 Restriction
+        if (state.no227Only && p.has_227_restriction) {
+          return false;
+        }
+
+        // 7. Only New Arrivals
+        if (state.onlyNewArrivals && !p.is_new) {
+          return false;
+        }
+
+        // 8. Only Favorites
+        if (state.onlyFavorites && !state.favorites.has(p.id)) {
+          return false;
+        }
+
+        // 9. Age Eligibility Filter
+        if (state.ageFilter !== null && !isNaN(state.ageFilter)) {
+          if (state.ageFilter < p.min_issue_age || state.ageFilter > p.max_issue_age) {
+            return false;
+          }
+        }
+
+        // 10. Selected Tag from Chip click
+        if (state.selectedTag && !p.feature_chips.includes(state.selectedTag)) {
+          return false;
+        }
+
+        return true;
+      });
+    }
+
+    // Render Cards in Gallery Grid (Zettelkasten style matching screenshot)
+    function renderCards() {
+      const list = getFilteredProducts();
+      filteredCountEl.textContent = list.length;
+      favCountEl.textContent = state.favorites.size;
+
+      if (state.selectedTag) {
+        activeTagIndicator.classList.remove("hidden");
+        activeTagName.textContent = state.selectedTag;
+      } else {
+        activeTagIndicator.classList.add("hidden");
+      }
+
+      if (list.length === 0) {
+        cardsGrid.innerHTML = "";
+        emptyState.classList.remove("hidden");
+        return;
+      }
+
+      emptyState.classList.add("hidden");
+      cardsGrid.innerHTML = list.map(item => {
+        const isFav = state.favorites.has(item.id);
+        const heartSvg = isFav
+          ? `<svg class="w-4 h-4 text-rose-500 fill-current" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>`
+          : `<svg class="w-4 h-4 text-slate-400 hover:text-rose-500 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>`;
+
+        // Card Chips
+        const chipsHtml = item.feature_chips.map(chip => `
+          <button data-chip="${chip}" class="card-chip-btn text-[11px] px-1.5 py-0.5 rounded bg-slate-100 text-slate-600 hover:bg-blue-100 hover:text-blue-700 transition">
+            ${chip}
+          </button>
+        `).join("");
+
+        // Status tag (e.g. 新 10-09)
+        const newTagBadge = item.new_tag
+          ? `<span class="text-[11px] font-medium px-1.5 py-0.2 rounded ${item.is_new ? 'bg-rose-50 text-rose-600 border border-rose-200' : 'bg-slate-100 text-slate-600 border border-slate-200'}">${item.new_tag}</span>`
+          : "";
+
+        const typeBadge = `<span class="text-[11px] font-medium px-1.5 py-0.2 rounded bg-slate-100 text-slate-600 border border-slate-200">${item.contract_type}</span>`;
+
+        return `
+          <div data-id="${item.id}" class="product-card group bg-white rounded-lg border border-slate-200 shadow-xs hover:shadow-md transition-all duration-200 flex flex-col justify-between p-3.5 cursor-pointer relative hover:border-blue-400">
+            <!-- Header bar of card -->
+            <div>
+              <div class="flex items-center justify-between gap-1.5 mb-2.5">
+                <div class="flex items-center gap-1.5">
+                  <span class="text-xs font-semibold px-2 py-0.5 rounded text-white ${item.company_color}">
+                    ${item.company}
+                  </span>
+                  <span class="text-xs text-slate-500 font-mono">
+                    ${item.release_month}
+                  </span>
+                </div>
+                <button data-fav-id="${item.id}" class="fav-btn p-1 rounded-md hover:bg-slate-50 transition" title="收藏保單">
+                  ${heartSvg}
+                </button>
+              </div>
+
+              <!-- Product Name -->
+              <h3 class="text-sm font-bold text-slate-800 leading-snug group-hover:text-blue-600 transition mb-2 line-clamp-2">
+                ${item.product_full_name}
+              </h3>
+
+              <!-- Status & Type Badges -->
+              <div class="flex items-center gap-1.5 mb-2 flex-wrap">
+                ${newTagBadge}
+                ${typeBadge}
+              </div>
+
+              <!-- Feature Chips (Zettelkasten tags) -->
+              <div class="flex items-center gap-1 flex-wrap mb-3">
+                ${chipsHtml}
+              </div>
+            </div>
+
+            <!-- Footer: Code on left, Age range on right -->
+            <div class="pt-2.5 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-medium">
+              <span class="font-mono text-slate-700">${item.product_code || '---'}</span>
+              <span class="text-slate-600">${item.age_range_display}</span>
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      // Attach Card Click Handlers
+      cardsGrid.querySelectorAll(".product-card").forEach(card => {
+        card.addEventListener("click", (e) => {
+          // If clicked on favorite button or chip button, don't open drawer
+          if (e.target.closest(".fav-btn") || e.target.closest(".card-chip-btn")) return;
+          const pid = card.dataset.id;
+          const product = insuranceProducts.find(p => p.id === pid);
+          if (product) openProductDrawer(product);
+        });
+      });
+
+      // Attach Favorite Button Listeners
+      cardsGrid.querySelectorAll(".fav-btn").forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const pid = btn.dataset.favId;
+          if (state.favorites.has(pid)) {
+            state.favorites.delete(pid);
+            showToast("已從收藏移除");
+          } else {
+            state.favorites.add(pid);
+            showToast("已加入我的收藏");
+          }
+          try {
+            localStorage.setItem("ins_favs", JSON.stringify(Array.from(state.favorites)));
+          } catch (err) {}
+          renderCards();
+        });
+      });
+
+      // Attach Card Chip Filter Listeners
+      cardsGrid.querySelectorAll(".card-chip-btn").forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const chip = btn.dataset.chip;
+          state.selectedTag = chip;
+          renderCards();
+          showToast(`已套用標籤：${chip}`);
+        });
+      });
+    }
+
+    // Open Detail Drawer
+    function openProductDrawer(p) {
+      currentOpenProduct = p;
+      drawerCompanyBadge.className = `px-2.5 py-0.5 rounded text-xs font-semibold text-white ${p.company_color}`;
+      drawerCompanyBadge.textContent = p.company + "人壽";
+      drawerProductCode.textContent = p.product_code || "無代碼";
+      drawerStatusBadge.className = p.sales_status === "現售"
+        ? "px-2 py-0.5 rounded text-xs font-medium bg-emerald-500/20 text-emerald-300 border border-emerald-400/30"
+        : "px-2 py-0.5 rounded text-xs font-medium bg-amber-500/20 text-amber-300 border border-amber-400/30";
+      drawerStatusBadge.textContent = p.sales_status;
+      drawerProductTitle.textContent = p.product_full_name;
+      drawerApprovalNo.textContent = "核准文號：" + p.approval_number;
+
+      drawerContractType.textContent = p.contract_type;
+      drawerAgeRange.textContent = p.age_range_display;
+      drawerGuaranteed.textContent = p.is_guaranteed_renewal ? "是 (保證續保)" : "否";
+      drawerRestriction.textContent = p.has_227_restriction ? "限制 2-2-7 手術" : "無限制 (廣義手術)";
+
+      // Age table
+      drawerAgeTable.innerHTML = p.age_rules.map(r => `
+        <div class="flex items-center justify-between py-1 border-b border-slate-100 last:border-none">
+          <span class="font-medium text-slate-700">${r.term}</span>
+          <span class="font-mono text-slate-600">最高投保年齡：${r.max_age} 歲</span>
+        </div>
+      `).join("");
+
+      // Sum limits
+      drawerSumLimits.innerHTML = `
+        <p><strong>單位：</strong>${p.sum_assured_limits.unit}</p>
+        <p><strong>投保區間：</strong>${p.sum_assured_limits.min} ～ ${p.sum_assured_limits.max}</p>
+        <p class="text-slate-500 mt-1"><strong>核保限制說明：</strong>${p.sum_assured_limits.notes}</p>
+      `;
+
+      // Coverage list
+      drawerCoverageList.innerHTML = p.coverage_highlights.map(c => `
+        <div class="p-3 bg-white border border-slate-200 rounded-lg shadow-xs">
+          <div class="flex items-center justify-between mb-1">
+            <span class="font-bold text-slate-800 text-xs">${c.name}</span>
+            <div class="flex items-center gap-1.5 text-[11px]">
+              <span class="px-1.5 py-0.2 bg-blue-50 text-blue-700 rounded border border-blue-200 font-mono">${c.clause}</span>
+              <span class="text-slate-400">等待期 ${c.waiting_period} 天</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">${c.summary}</p>
+        </div>
+      `).join("");
+
+      // Evidence & Citation
+      drawerEvidenceQuote.textContent = `"${p.evidence_quote}"`;
+      drawerEvidencePage.textContent = `來源：條款 PDF 第 ${p.source_page} 頁（由 AI 多模態模型結構化擷取）`;
+
+      // Show drawer
+      detailDrawer.classList.remove("hidden");
+    }
+
+    // Close Detail Drawer
+    function closeDrawer() {
+      detailDrawer.classList.add("hidden");
+      currentOpenProduct = null;
+    }
+
+    // Event Listeners
+    closeDrawerBtn.addEventListener("click", closeDrawer);
+    drawerBackdrop.addEventListener("click", closeDrawer);
+
+    // Search Input
+    searchInput.addEventListener("input", (e) => {
+      state.searchQuery = e.target.value.trim();
+      if (state.searchQuery) {
+        clearSearchBtn.classList.remove("hidden");
+      } else {
+        clearSearchBtn.classList.add("hidden");
+      }
+      renderCards();
+    });
+
+    clearSearchBtn.addEventListener("click", () => {
+      searchInput.value = "";
+      state.searchQuery = "";
+      clearSearchBtn.classList.add("hidden");
+      renderCards();
+    });
+
+    // Reset Filters
+    function resetAllFilters() {
+      state.searchQuery = "";
+      state.selectedCompany = "全部";
+      state.selectedCategory = "全部";
+      state.selectedContractType = "all";
+      state.guaranteedRenewalOnly = false;
+      state.no227Only = false;
+      state.onlyNewArrivals = false;
+      state.onlyFavorites = false;
+      state.ageFilter = null;
+      state.selectedTag = null;
+
+      searchInput.value = "";
+      clearSearchBtn.classList.add("hidden");
+      filterGuaranteedRenewal.checked = false;
+      filterNo227.checked = false;
+      filterAgeInput.value = "";
+
+      document.querySelectorAll(".type-filter-btn").forEach(b => {
+        if (b.dataset.type === "all") {
+          b.className = "type-filter-btn px-2 py-0.5 rounded text-xs font-medium bg-white text-blue-600 shadow-xs";
+        } else {
+          b.className = "type-filter-btn px-2 py-0.5 rounded text-xs font-medium text-slate-600 hover:text-slate-900";
+        }
+      });
+
+      btnNewArrivals.className = "flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-rose-600 hover:bg-rose-500 text-white shadow transition";
+      btnToggleFavoriteFilter.className = "flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-slate-700 bg-slate-800/80 hover:bg-slate-700 text-slate-200 transition";
+
+      initFilterPills();
+      renderCards();
+      showToast("已重設所有篩選條件");
+    }
+
+    resetAllFiltersBtn.addEventListener("click", resetAllFilters);
+    btnEmptyReset.addEventListener("click", resetAllFilters);
+    clearActiveTagBtn.addEventListener("click", () => {
+      state.selectedTag = null;
+      renderCards();
+    });
+
+    // Contract Type buttons
+    document.querySelectorAll(".type-filter-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        state.selectedContractType = btn.dataset.type;
+        document.querySelectorAll(".type-filter-btn").forEach(b => {
+          if (b.dataset.type === state.selectedContractType) {
+            b.className = "type-filter-btn px-2 py-0.5 rounded text-xs font-medium bg-white text-blue-600 shadow-xs";
+          } else {
+            b.className = "type-filter-btn px-2 py-0.5 rounded text-xs font-medium text-slate-600 hover:text-slate-900";
+          }
+        });
+        renderCards();
+      });
+    });
+
+    // Checkbox Filters
+    filterGuaranteedRenewal.addEventListener("change", (e) => {
+      state.guaranteedRenewalOnly = e.target.checked;
+      renderCards();
+    });
+
+    filterNo227.addEventListener("change", (e) => {
+      state.no227Only = e.target.checked;
+      renderCards();
+    });
+
+    // Age Input
+    filterAgeInput.addEventListener("input", (e) => {
+      const val = parseInt(e.target.value, 10);
+      state.ageFilter = isNaN(val) ? null : val;
+      renderCards();
+    });
+
+    // Favorite Quick Filter
+    btnToggleFavoriteFilter.addEventListener("click", () => {
+      state.onlyFavorites = !state.onlyFavorites;
+      if (state.onlyFavorites) {
+        btnToggleFavoriteFilter.className = "flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-rose-500 bg-rose-950/60 text-rose-300 transition";
+        showToast("已篩選：僅看我的收藏");
+      } else {
+        btnToggleFavoriteFilter.className = "flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-slate-700 bg-slate-800/80 hover:bg-slate-700 text-slate-200 transition";
+      }
+      renderCards();
+    });
+
+    // New Arrivals Quick Filter
+    btnNewArrivals.addEventListener("click", () => {
+      state.onlyNewArrivals = !state.onlyNewArrivals;
+      if (state.onlyNewArrivals) {
+        btnNewArrivals.className = "flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-rose-700 text-white ring-2 ring-rose-400 shadow transition";
+        showToast("已篩選：僅看10月新上架商品");
+      } else {
+        btnNewArrivals.className = "flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-rose-600 hover:bg-rose-500 text-white shadow transition";
+      }
+      renderCards();
+    });
+
+    // Drawer Buttons
+    btnCopySummary.addEventListener("click", () => {
+      if (!currentOpenProduct) return;
+      const text = `${currentOpenProduct.product_full_name} (${currentOpenProduct.product_code || ''})\n` +
+        `投保年齡：${currentOpenProduct.age_range_display}\n` +
+        `保障摘要：\n` +
+        currentOpenProduct.coverage_highlights.map(c => `• ${c.name}：${c.summary}`).join("\n");
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => showToast("已複製商品摘要至剪貼簿"));
+      } else {
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        document.body.removeChild(ta);
+        showToast("已複製商品摘要至剪貼簿");
+      }
+    });
+
+    btnViewPdfDemo.addEventListener("click", () => {
+      if (!currentOpenProduct) return;
+      showToast(`正在模擬開啟 Cloudflare R2 條款 PDF 第 ${currentOpenProduct.source_page} 頁...`);
+    });
+
+    // Initial Execution with GitHub Pages / JSON Auto-Sync
+    async function loadDataAndInit() {
+      try {
+        const dataUrl = ['data', 'products.json'].join('/');
+        if (window.location.protocol.startsWith('http')) {
+          const resp = await fetch(dataUrl);
+          if (resp.ok) {
+            const remoteData = await resp.json();
+            if (Array.isArray(remoteData) && remoteData.length > 0) {
+              insuranceProducts.length = 0;
+              remoteData.forEach(item => insuranceProducts.push(item));
+              console.log('Successfully loaded ' + remoteData.length + ' products');
+            }
+          }
+        }
+      } catch (err) {
+        console.log('Using embedded default insurance products.');
+      }
+      initFilterPills();
+      renderCards();
+    }
+    loadDataAndInit();
+  </script>
+</body>
+</html>
