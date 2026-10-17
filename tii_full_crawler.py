@@ -16,6 +16,8 @@ from typing import Any, Dict, List, Optional, Tuple
 import requests
 import urllib3
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -33,9 +35,10 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "tii_insurance_data")
 PDF_DIR = os.path.join(OUTPUT_DIR, "pdf_files")
 SCAN_START_PAGE = 2000
 PAGE_SIZE = 50
-MAX_WORKERS = 8
-REQUEST_TIMEOUT = 30
+MAX_WORKERS = 4
+REQUEST_TIMEOUT = 45
 PAGES_PER_WORKER = 100
+RETRY_TOTAL = 4
 
 
 def normalize(value: str) -> str:
@@ -55,6 +58,17 @@ def make_session() -> requests.Session:
     session = requests.Session()
     session.verify = False
     session.headers.update({"User-Agent": "Mozilla/5.0 (compatible; InsuranceCatalogBot/1.0)"})
+    retry = Retry(
+        total=RETRY_TOTAL,
+        connect=RETRY_TOTAL,
+        read=RETRY_TOTAL,
+        status=RETRY_TOTAL,
+        backoff_factor=2,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset({"GET", "POST"}),
+        respect_retry_after_header=True,
+    )
+    session.mount("https://", HTTPAdapter(max_retries=retry, pool_connections=4, pool_maxsize=4))
     # 結果頁的公開表單允許每頁 50 筆；不繞過驗證碼或存取控制。
     session.get(TII_RESULT_URL + "?page=1", timeout=REQUEST_TIMEOUT)
     session.post(TII_RESULT_URL + "?page=1", data={"PageCrt": str(PAGE_SIZE)}, timeout=REQUEST_TIMEOUT)
