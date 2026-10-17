@@ -84,6 +84,22 @@ def stable_id(company_code: str, name: str, url: str) -> str:
     return hashlib.sha256(raw).hexdigest()[:20]
 
 
+def is_product_candidate(source: Source, label: str, url: str) -> bool:
+    text = f"{label} {url}".lower()
+    blocked = ("了解更多", "詳細內容", "服務", "新聞", "活動", "會員", "保單變更", "保險視圖", "客製", "訂製", "人生階段", "規劃")
+    if any(word.lower() in text for word in blocked):
+        return False
+    if source.company_code == "204":
+        return "/cathaylife/products/" in url and url.rstrip("/") not in {u.rstrip("/") for _, u in source.categories}
+    if source.company_code == "220":
+        return "IP_ID=" in url or "page_type=3" in url
+    if source.company_code == "209":
+        return "/life/product/" in url
+    if source.company_code == "206":
+        return "/products-" in url or "/product/" in url
+    return True
+
+
 def fetch(url: str) -> str:
     req = Request(url, headers={"User-Agent": USER_AGENT})
     with urlopen(req, timeout=45) as response:
@@ -121,6 +137,8 @@ def extract_links(source: Source, html: str, base_url: str, category: str | None
         if not label or len(label) < 3 or len(label) > 160:
             continue
         if url.startswith("mailto:") or url.startswith("javascript:"):
+            continue
+        if not is_product_candidate(source, label, url):
             continue
         if url in category_urls or url.rstrip("/") == source.official_url.rstrip("/"):
             continue

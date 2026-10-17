@@ -6,7 +6,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from catalog_sync import CATALOG_DIR, load_catalog, now, save_catalog, seed_records, rebuild_db
+from catalog_sync import CATALOG_DIR, SOURCES, is_product_candidate, load_catalog, now, save_catalog, seed_records, rebuild_db
 
 SNAPSHOT_DIR = CATALOG_DIR / "snapshots"
 CURRENT_SNAPSHOT = CATALOG_DIR / "official_snapshot.json"
@@ -31,6 +31,18 @@ def read_json(path: Path, default):
 def write_json(path: Path, value) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def clean_invalid_records(records: list[dict]) -> tuple[list[dict], list[dict]]:
+    source_by_code = {source.company_code: source for source in SOURCES}
+    valid, removed = [], []
+    for record in records:
+        source = source_by_code.get(record.get("company_code"))
+        if source and not is_product_candidate(source, record.get("product_name", ""), record.get("official_url", "")):
+            removed.append(record)
+        else:
+            valid.append(record)
+    return valid, removed
 
 
 def merge_incoming(existing: list[dict], incoming: list[dict], observed_at: str) -> tuple[list[dict], dict]:
@@ -103,8 +115,9 @@ def sync_lifecycle() -> dict:
     if not incoming:
         raise RuntimeError("官方來源沒有取得商品，拒絕更新快照與目錄")
     observed_at = now()
-    existing = load_catalog()
+    existing, removed_invalid = clean_invalid_records(load_catalog())
     merged, diff = merge_incoming(existing, incoming, observed_at)
+    diff["removed_invalid"] = removed_invalid
     if CURRENT_SNAPSHOT.exists():
         CURRENT_SNAPSHOT.replace(PREVIOUS_SNAPSHOT)
     write_json(CURRENT_SNAPSHOT, incoming)

@@ -39,7 +39,7 @@ jobs:
           if not actual & expected:
               raise SystemExit('no target-company records discovered')
           diff = json.loads(Path('catalog/latest_diff.json').read_text(encoding='utf-8'))
-          print(f"new={len(diff['new'])}; returned={len(diff['returned'])}; suspected_missing={len(diff['suspected_missing'])}; TII queue={len(diff['tii_queue'])}")
+          print(f"new={len(diff['new'])}; returned={len(diff['returned'])}; suspected_missing={len(diff['suspected_missing'])}; removed_invalid={len(diff.get('removed_invalid', []))}; TII queue={len(diff['tii_queue'])}")
           PY
 
       - name: Commit catalog changes
