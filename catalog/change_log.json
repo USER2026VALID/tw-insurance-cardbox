@@ -1,0 +1,998 @@
+[
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "73eb0bc1169afa9bea65",
+    "event": "discovered",
+    "new": {
+      "product_id": "73eb0bc1169afa9bea65",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "全部商品",
+      "official_url": "https://www.fubon.com/life/product",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療",
+        "壽險保障",
+        "年金保險",
+        "意外傷害",
+        "投資型保險",
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "35625b2eec9040c889db",
+    "event": "discovered",
+    "new": {
+      "product_id": "35625b2eec9040c889db",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "個人保險",
+      "official_url": "https://www.fubon.com/life/product/personal",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療",
+        "壽險保障",
+        "年金保險",
+        "意外傷害",
+        "投資型保險",
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "ed00602bf789f303ea1f",
+    "event": "discovered",
+    "new": {
+      "product_id": "ed00602bf789f303ea1f",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/life-refund/FPC",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "壽險保障"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "2cf622c9704ed964582a",
+    "event": "discovered",
+    "new": {
+      "product_id": "2cf622c9704ed964582a",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "專人服務",
+      "official_url": "https://mservice.fubonlife.com.tw/fubonagent/reserve/redirect/activeToReserve?srcId=FUBONWEBSITE&productId=LIFE_OWS&utm_source=fubonlife&utm_medium=F1",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療",
+        "壽險保障",
+        "年金保險",
+        "意外傷害",
+        "投資型保險",
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "fae45b9c6a50050696c4",
+    "event": "discovered",
+    "new": {
+      "product_id": "fae45b9c6a50050696c4",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/life-refund/PFU",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "壽險保障"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "1f5bc4e4e5412e7ee750",
+    "event": "discovered",
+    "new": {
+      "product_id": "1f5bc4e4e5412e7ee750",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/life-refund/PFK",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "壽險保障"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "8802e55824f46ea443e6",
+    "event": "discovered",
+    "new": {
+      "product_id": "8802e55824f46ea443e6",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/life-refund/XDY",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "壽險保障"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "49d32374f9a937a04f73",
+    "event": "discovered",
+    "new": {
+      "product_id": "49d32374f9a937a04f73",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/life-refund/FPB",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "壽險保障"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "3419427994ff68613a03",
+    "event": "discovered",
+    "new": {
+      "product_id": "3419427994ff68613a03",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/life-refund/PFT",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "壽險保障"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "c93b8772f752e7e9922a",
+    "event": "discovered",
+    "new": {
+      "product_id": "c93b8772f752e7e9922a",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "保險商品指引 不知道該選哪種保險？立即開始只要 1 分鐘，讓我們推薦您適合的保險類型！",
+      "official_url": "https://www.fubon.com/life/insurance-picks/quick/guide",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療",
+        "壽險保障",
+        "年金保險",
+        "意外傷害",
+        "投資型保險",
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "7d0f8071e8e88963f8ad",
+    "event": "discovered",
+    "new": {
+      "product_id": "7d0f8071e8e88963f8ad",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "預約業務員諮詢 線上回覆諮詢表單，選擇您方便聯絡的時段，我們將媒合優質的保險業務員與您聯繫，進一步提供專屬且專業的保險規劃。",
+      "official_url": "https://mservice.fubonlife.com.tw/fubonagent/reserve/redirect/activeToReserve?srcId=FUBONWEBSITE&productId=NCP&utm_source=fubonlife&utm_medium=F1/?utm_source=web&utm_medium=banner&utm_campaign=contact",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療",
+        "壽險保障",
+        "年金保險",
+        "意外傷害",
+        "投資型保險",
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "2dd4d767456401c81cdb",
+    "event": "discovered",
+    "new": {
+      "product_id": "2dd4d767456401c81cdb",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "常見問題 我們整理常見問題，如：保單變更、給付、理賠等，點擊查找立即解答。",
+      "official_url": "https://www.fubon.com/life/customer-service/others/question?c=all",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療",
+        "壽險保障",
+        "年金保險",
+        "意外傷害",
+        "投資型保險",
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:33+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "dc82aa93996467527d47",
+    "event": "discovered",
+    "new": {
+      "product_id": "dc82aa93996467527d47",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/health/HJA4",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:38+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "cb5d220bb1128c372bd8",
+    "event": "discovered",
+    "new": {
+      "product_id": "cb5d220bb1128c372bd8",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/health/HJL",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:38+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "b625a04f50243e651610",
+    "event": "discovered",
+    "new": {
+      "product_id": "b625a04f50243e651610",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/health/CLX",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:38+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "a78cbfb94210c761cf8d",
+    "event": "discovered",
+    "new": {
+      "product_id": "a78cbfb94210c761cf8d",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "網路投保",
+      "official_url": "https://direct.fubonlife.com.tw/life/direct/product/ehc/?utm_source=fubonlife&utm_medium=prod_personal&utm_content=text_link&utm_campaign=ehc",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:38+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "2de1cab6e4772278496b",
+    "event": "discovered",
+    "new": {
+      "product_id": "2de1cab6e4772278496b",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/health/EHC",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:38+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "47a56a5195031c75fa4e",
+    "event": "discovered",
+    "new": {
+      "product_id": "47a56a5195031c75fa4e",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "網路投保",
+      "official_url": "https://direct.fubonlife.com.tw/life/direct/product/ehb/?utm_source=fubonlife&utm_medium=prod_personal&utm_content=text_link&utm_campaign=ehb",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:38+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "1a57287cff59683d72ef",
+    "event": "discovered",
+    "new": {
+      "product_id": "1a57287cff59683d72ef",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/health/EHB",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:38+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "f87c8337ec3bad1f0224",
+    "event": "discovered",
+    "new": {
+      "product_id": "f87c8337ec3bad1f0224",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/health/HAC1-HAC2-HAC3-HAD1-HAD2-HAD3",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "健康醫療"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:38+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "1e0d712c87322257ca91",
+    "event": "discovered",
+    "new": {
+      "product_id": "1e0d712c87322257ca91",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/FEG",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:43+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "933ab0aa6a7609321287",
+    "event": "discovered",
+    "new": {
+      "product_id": "933ab0aa6a7609321287",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/FEF",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:43+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "4b0f142e4b4411559f17",
+    "event": "discovered",
+    "new": {
+      "product_id": "4b0f142e4b4411559f17",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/PF55-PF60-PF65",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:43+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "880597ea105a7b852d12",
+    "event": "discovered",
+    "new": {
+      "product_id": "880597ea105a7b852d12",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/ICK",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:43+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "d22d94cf071aac2a3202",
+    "event": "discovered",
+    "new": {
+      "product_id": "d22d94cf071aac2a3202",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/PFZA-PFZB",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:43+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "722a2a393846aae16979",
+    "event": "discovered",
+    "new": {
+      "product_id": "722a2a393846aae16979",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/FCG",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "還本/養老"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:43+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "249a8ea083321ff6df8b",
+    "event": "discovered",
+    "new": {
+      "product_id": "249a8ea083321ff6df8b",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/accident/AJK",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "意外傷害"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:47+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "bdce9de986a9125d93a4",
+    "event": "discovered",
+    "new": {
+      "product_id": "bdce9de986a9125d93a4",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/accident/ADM",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "意外傷害"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:47+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "d81695b00e0fbb4a2f86",
+    "event": "discovered",
+    "new": {
+      "product_id": "d81695b00e0fbb4a2f86",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/accident/ADH",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "意外傷害"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:47+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "f1dbb4d097230e96accc",
+    "event": "discovered",
+    "new": {
+      "product_id": "f1dbb4d097230e96accc",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/accident/ADG-TMR",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "意外傷害"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:47+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "ca5bbcef9a767671193f",
+    "event": "discovered",
+    "new": {
+      "product_id": "ca5bbcef9a767671193f",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/accident/ADN",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "意外傷害"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:47+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "2f5455ba409c6e7c38a9",
+    "event": "discovered",
+    "new": {
+      "product_id": "2f5455ba409c6e7c38a9",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/accident/AJJ",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "意外傷害"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:47+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "3dcaa2cc952bb97eccd4",
+    "event": "discovered",
+    "new": {
+      "product_id": "3dcaa2cc952bb97eccd4",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "網路投保",
+      "official_url": "https://direct.fubonlife.com.tw/life/direct/product/eba/?utm_source=fubonlife&utm_medium=prod_personal&utm_content=text_link&utm_campaign=eba",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "年金保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:52+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "35693308b15589568eb8",
+    "event": "discovered",
+    "new": {
+      "product_id": "35693308b15589568eb8",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/EBA",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "年金保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:52+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "93beda7d9bf7799cce57",
+    "event": "discovered",
+    "new": {
+      "product_id": "93beda7d9bf7799cce57",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "網路投保",
+      "official_url": "https://direct.fubonlife.com.tw/life/direct/product/esd/?utm_source=fubonlife&utm_medium=prod_personal&utm_content=text_link&utm_campaign=esd",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "年金保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:52+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "8453a90cd870b4625ca5",
+    "event": "discovered",
+    "new": {
+      "product_id": "8453a90cd870b4625ca5",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/ESD",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "年金保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:52+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "7d112fe72ae3a3464a8d",
+    "event": "discovered",
+    "new": {
+      "product_id": "7d112fe72ae3a3464a8d",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/SBA",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "年金保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:52+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "9ff3e1460af76ec1fd18",
+    "event": "discovered",
+    "new": {
+      "product_id": "9ff3e1460af76ec1fd18",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/ESA1",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "年金保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:52+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "bcbb00cc3422a3ddd7b0",
+    "event": "discovered",
+    "new": {
+      "product_id": "bcbb00cc3422a3ddd7b0",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/ESB1",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "年金保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:52+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "d01f7a700a5d2afe63f6",
+    "event": "discovered",
+    "new": {
+      "product_id": "d01f7a700a5d2afe63f6",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/ESC1",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "年金保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:52+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "fc91813055078c430103",
+    "event": "discovered",
+    "new": {
+      "product_id": "fc91813055078c430103",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/investing/VCAT",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "投資型保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:56+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "edb281f4af41b29cc745",
+    "event": "discovered",
+    "new": {
+      "product_id": "edb281f4af41b29cc745",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/investing/VCCT",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "投資型保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:56+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "a74cf2f315af3431a601",
+    "event": "discovered",
+    "new": {
+      "product_id": "a74cf2f315af3431a601",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/investing/VCET",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "投資型保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:56+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "f341a7c5f38d7b7eb28f",
+    "event": "discovered",
+    "new": {
+      "product_id": "f341a7c5f38d7b7eb28f",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/investing/UOP",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "投資型保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:56+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "2318efc39a060bce8f52",
+    "event": "discovered",
+    "new": {
+      "product_id": "2318efc39a060bce8f52",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/investing/VCBF",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "投資型保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:56+00:00",
+      "record_source": "official_company_page"
+    }
+  },
+  {
+    "at": "2026-10-17T15:33:19+00:00",
+    "product_id": "5c86f005c1c4a8b54839",
+    "event": "discovered",
+    "new": {
+      "product_id": "5c86f005c1c4a8b54839",
+      "company_code": "209",
+      "company_name": "富邦人壽",
+      "product_name": "查看商品內容",
+      "official_url": "https://www.fubon.com/life/product/personal/investing/VCBT",
+      "source_url": "https://www.fubon.com/life/",
+      "categories": [
+        "投資型保險"
+      ],
+      "market_date": null,
+      "discontinued_date": null,
+      "sales_status": "待確認",
+      "last_checked": "2026-10-17T15:32:56+00:00",
+      "record_source": "official_company_page"
+    }
+  }
+]

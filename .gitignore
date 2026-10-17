@@ -2,3 +2,4 @@ __pycache__/
 *.py[cod]
 .venv/
 tii_insurance_data/pdf_files/
+catalog/catalog.sqlite3
