@@ -4,12 +4,12 @@
 
 ## 功能
 
-- 從保發中心查詢各保險公司的商品資料與條款 PDF 連結。
+- 從保發中心公開的商品結果頁查詢各壽險公司的商品名稱、銷售日、停售狀態與明細頁連結。
 - 依壽險公會目前名錄支援 20 家公司，包含臺銀、台灣、保誠、國泰、凱基、南山、新光、富邦、三商美邦、遠雄、宏泰、安聯、中華郵政、全球、元大、第一金、合作金庫、安達，以及友邦與法國巴黎兩家外商分公司。
 - 以純 Python 規則引擎分類險種、主附約、保證續保、2-2-7 限制、等待期及投保年齡。
 - 分類規則涵蓋壽險、重大傷病、癌症、實支／定額醫療、意外、長照失能、年金、投資型及儲蓄型商品。
 - `index.html` 可直接以 GitHub Pages 或靜態 HTTP 伺服器執行。
-- GitHub Actions 可每日排程或手動執行爬蟲、分類、測試與 Pages 部署。
+- GitHub Actions 可每日排程或手動執行爬蟲、分類、測試與 Pages 部署；若抓取或分類結果為空，流程會停止並保留上一版網站資料。
 - Python 腳本的輸入輸出路徑以腳本所在目錄為基準，不受目前 shell 工作目錄影響。
 
 ## 本地安裝
@@ -30,7 +30,7 @@ python -m py_compile batch_extract.py tii_full_crawler.py
 
 ## 執行資料同步
 
-完整同步會連線至保發中心，抓取 20 家公司的商品資料，可能需要較長時間：
+完整同步會連線至保發中心公開結果頁，掃描 20 家公司的商品資料，可能需要較長時間：
 
 ```bash
 python tii_full_crawler.py
@@ -45,7 +45,7 @@ cp tii_insurance_data/structured_products_final.json data/products.json
 - `tii_insurance_data/structured_products_final.json`：規則引擎輸出的卡片資料
 - `data/products.json`：前端優先載入的資料檔
 
-若沒有 `data/products.json`，前端仍會使用 `index.html` 內的示範資料執行。
+若以 `file://` 開啟前端，會使用內嵌示範資料；在 GitHub Pages 或 HTTP 伺服器上，前端會優先載入 `data/products.json`，並以空資料顯示「目前沒有可用的同步商品資料」，不會把過期統計誤當成最新資料。
 
 ## 啟動前端
 

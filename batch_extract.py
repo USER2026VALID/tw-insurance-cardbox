@@ -333,7 +333,7 @@ def main():
             "product_full_name": pname,
             "product_code": extract_code_from_name(pname, item.get("product_code", "")),
             "contract_type": rules["contract_type"],
-            "sales_status": rules["sales_status"],
+            "sales_status": item.get("sales_status", rules["sales_status"]),
             "approval_number": item.get("approval_number", "依保發中心備查文號"),
             "age_range_display": rules["age_range_display"],
             "min_issue_age": rules["min_issue_age"],
@@ -354,7 +354,8 @@ def main():
             },
             "coverage_highlights": highlights,
             "evidence_quote": pdf_info["evidence_quote"],
-            "source_page": pdf_info["source_page"]
+            "source_page": pdf_info["source_page"],
+            "source_url": item.get("source_url", "")
         }
         final_cards.append(card)
 

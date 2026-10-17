@@ -32,7 +32,7 @@
               <h1 class="font-bold text-lg leading-tight tracking-wide">壽險商品查詢</h1>
               <span class="text-xs bg-blue-500/30 text-blue-300 border border-blue-400/30 px-2 py-0.5 rounded-full font-mono">v1.8.0</span>
             </div>
-            <p class="text-xs text-slate-400 font-mono">1,126 個商品 · 20 家公司 · 更新 2026/10/11</p>
+            <p id="dataset-summary" class="text-xs text-slate-400 font-mono">正在載入最新資料…</p>
           </div>
         </div>
 
@@ -68,7 +68,7 @@
           <div class="flex items-center gap-2 text-xs text-slate-600 flex-wrap">
             <span class="font-medium text-slate-500">符合條件：</span>
             <span id="filtered-count" class="font-bold text-blue-600 text-sm">0</span>
-            <span class="text-slate-400">/ 1,126 檔商品</span>
+            <span class="text-slate-400">/ <span id="total-count">0</span> 檔商品</span>
             <span class="text-slate-300">|</span>
             <button id="reset-all-filters-btn" class="text-blue-600 hover:text-blue-800 underline text-xs font-medium">重設所有篩選</button>
           </div>
@@ -235,7 +235,7 @@
           <span class="text-xs text-slate-400">核保以保險公司最新公告為準</span>
           <div class="flex items-center gap-2">
             <button id="btn-copy-summary" class="px-3 py-1.5 text-xs font-medium bg-white border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-100 transition">複製條款摘要</button>
-            <button id="btn-view-pdf-demo" class="px-3 py-1.5 text-xs font-medium bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">查看條款 PDF 快照</button>
+            <button id="btn-view-pdf-demo" class="px-3 py-1.5 text-xs font-medium bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">查看保發中心明細</button>
           </div>
         </div>
       </div>
@@ -583,6 +583,8 @@
     const categoryPillsContainer = document.getElementById("category-pills");
     const btnToggleFavoriteFilter = document.getElementById("btn-toggle-favorite-filter");
     const btnNewArrivals = document.getElementById("btn-new-arrivals");
+    const datasetSummary = document.getElementById("dataset-summary");
+    const totalCountEl = document.getElementById("total-count");
     const filterGuaranteedRenewal = document.getElementById("filter-guaranteed-renewal");
     const filterNo227 = document.getElementById("filter-no-227");
     const filterAgeInput = document.getElementById("filter-age-input");
@@ -612,6 +614,20 @@
     const btnViewPdfDemo = document.getElementById("btn-view-pdf-demo");
 
     let currentOpenProduct = null;
+
+    function updateDatasetSummary(source = "同步資料") {
+      const total = insuranceProducts.length;
+      const companies = new Set(insuranceProducts.map(p => p.company).filter(Boolean)).size;
+      const latest = insuranceProducts
+        .map(p => p.scraped_at)
+        .filter(Boolean)
+        .sort()
+        .pop();
+      totalCountEl.textContent = total.toLocaleString("zh-TW");
+      datasetSummary.textContent = total > 0
+        ? `${total.toLocaleString("zh-TW")} 個商品 · ${companies} 家公司 · ${source}${latest ? ` · ${latest}` : ""}`
+        : "目前沒有可用的同步商品資料";
+    }
 
     // Toast helper
     function showToast(msg) {
@@ -1068,28 +1084,35 @@
 
     btnViewPdfDemo.addEventListener("click", () => {
       if (!currentOpenProduct) return;
-      showToast(`正在模擬開啟 Cloudflare R2 條款 PDF 第 ${currentOpenProduct.source_page} 頁...`);
+      if (currentOpenProduct.source_url) {
+        window.open(currentOpenProduct.source_url, "_blank", "noopener,noreferrer");
+      } else {
+        showToast("此商品目前沒有可用的保發中心明細連結");
+      }
     });
 
     // Initial Execution with GitHub Pages / JSON Auto-Sync
     async function loadDataAndInit() {
+      let source = "內嵌示範資料";
       try {
         const dataUrl = ['data', 'products.json'].join('/');
         if (window.location.protocol.startsWith('http')) {
           const resp = await fetch(dataUrl);
           if (resp.ok) {
             const remoteData = await resp.json();
-            if (Array.isArray(remoteData) && remoteData.length > 0) {
+            if (Array.isArray(remoteData)) {
               insuranceProducts.length = 0;
               remoteData.forEach(item => insuranceProducts.push(item));
-              console.log('Successfully loaded ' + remoteData.length + ' products');
+              source = "GitHub Actions 同步資料";
+              console.log('Loaded ' + remoteData.length + ' products from data/products.json');
             }
           }
         }
       } catch (err) {
-        console.log('Using embedded default insurance products.');
+        console.warn('Unable to load synchronized products; using embedded fallback.', err);
       }
       initFilterPills();
+      updateDatasetSummary(source);
       renderCards();
     }
     loadDataAndInit();

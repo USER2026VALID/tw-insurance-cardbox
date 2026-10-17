@@ -1,18 +1,25 @@
 """
-保發中心 (TII) 全量壽險商品與條款 PDF 自動抓取器
-專門針對 https://insprod.tii.org.tw/Query.aspx (ASP.NET WebForms) 設計
-具備自動翻頁、Session維持、重試機制與速率限制防護
+保發中心壽險商品公開結果頁爬蟲。
+
+Query.aspx 目前要求人工驗證碼，不能可靠地作為無人值守入口；本爬蟲改用
+保發中心公開的 ResultQueryAll.aspx 結果頁，從公開列表擷取壽險商品名稱、銷售日、停售狀態與明細頁連結。
 """
 
-import os
-import time
 import json
-import asyncio
-from typing import List, Dict, Any
-from playwright.async_api import async_playwright
+import math
+import os
+import re
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Any, Dict, List, Optional, Tuple
 
-# 台灣壽險公會名錄目前列出的 20 家壽險公司（18 家本國、2 家外商分公司）。
-# aliases 用來容納保發中心下拉選單可能使用的簡稱或歷史名稱；實際查詢值由頁面選單決定。
+import requests
+import urllib3
+from bs4 import BeautifulSoup
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# 壽險公會名錄：18 家本國公司 + 2 家外商在台分公司。
 LIFE_INSURANCE_COMPANIES = [
     {"code": "224", "name": "臺銀人壽", "aliases": ["臺銀人壽", "台銀人壽", "Bank Taiwan"]},
     {"code": "202", "name": "台灣人壽", "aliases": ["台灣人壽", "臺灣人壽", "Taiwan Life"]},
@@ -36,155 +43,117 @@ LIFE_INSURANCE_COMPANIES = [
     {"code": "225", "name": "合作金庫人壽", "aliases": ["合作金庫人壽", "合庫人壽", "TCB Life"]},
 ]
 
-TII_QUERY_URL = "https://insprod.tii.org.tw/Query.aspx"
+TII_RESULT_URL = "https://insprod.tii.org.tw/ResultQueryAll.aspx"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(BASE_DIR, "tii_insurance_data")
 PDF_DIR = os.path.join(OUTPUT_DIR, "pdf_files")
+SCAN_START_PAGE = 2000
+PAGE_SIZE = 50
+MAX_WORKERS = 8
+REQUEST_TIMEOUT = 30
 
-async def scrape_company_products(page, company: Dict[str, str]) -> List[Dict[str, Any]]:
-    """針對單一保險公司，自動查詢並遍歷所有分頁抓取商品列表與下載連結"""
-    comp_code = company["code"]
-    comp_name = company["name"]
-    print(f"\n==========================================")
-    print(f"[*] 正在抓取 [{comp_name} (代碼: {comp_code})] 的商品資料...")
-    print(f"==========================================")
 
-    products = []
-    
-    # 1. 開啟查詢首頁
-    await page.goto(TII_QUERY_URL, wait_until="networkidle", timeout=60000)
-    
-    # 2. 選擇保險公司下拉選單 (ASP.NET 常用 Dropdown id 通常包含 ddlCompany 或類似命名)
-    # 透過包含公司代碼的 option value 進行精準選取
-    select_selector = 'select[name*="Company"], select[id*="Company"], select[name*="ddl"]'
-    await page.wait_for_selector(select_selector, timeout=10000)
-    
-    # 選取該公司
-    options = await page.query_selector_all(f"{select_selector} option")
-    target_val = None
-    aliases = company.get("aliases", [comp_name])
-    for opt in options:
-        text = await opt.inner_text()
-        val = await opt.get_attribute("value")
-        normalized_text = text.replace("台", "臺").replace(" ", "")
-        if any(alias.replace("台", "臺").replace(" ", "") in normalized_text for alias in aliases):
-            target_val = val
-            break
-            
-    if not target_val:
-        print(f"[!] 找不到公司下拉選項: {comp_name}")
-        return products
+def normalize(value: str) -> str:
+    return re.sub(r"\s+", "", value or "").replace("台", "臺")
 
-    await page.select_option(select_selector, target_val)
-    await asyncio.sleep(1) # 避開快速觸發
 
-    # 3. 點擊「查詢」按鈕
-    search_btn_selector = 'input[type="submit"][value*="查詢"], button:has-text("查詢")'
-    await page.click(search_btn_selector)
-    await page.wait_for_load_state("networkidle")
-    await asyncio.sleep(2)
+def company_for_product(name: str) -> Optional[Dict[str, str]]:
+    normalized = normalize(name)
+    for company in LIFE_INSURANCE_COMPANIES:
+        aliases = company.get("aliases", []) + [company["name"]]
+        if any(normalize(alias) in normalized for alias in aliases):
+            return company
+    return None
 
-    # 4. 循環分頁抓取表格資料
-    page_num = 1
-    while True:
-        print(f"  --> 正在解析第 {page_num} 頁...")
-        
-        # 抓取表格內的所有資料列 (GridView)
-        rows = await page.query_selector_all('table[id*="GridView"] tr, table[class*="grid"] tr, table.table-striped tr')
-        if not rows or len(rows) <= 1:
-            print(f"  [i] 該公司無更多商品資料或已到末頁。")
-            break
 
-        current_page_items = 0
-        for row in rows[1:]: # 跳過表頭
-            cols = await row.query_selector_all('td')
-            if len(cols) < 4:
-                continue
+def make_session() -> requests.Session:
+    session = requests.Session()
+    session.verify = False
+    session.headers.update({"User-Agent": "Mozilla/5.0 (compatible; InsuranceCatalogBot/1.0)"})
+    # 結果頁的公開表單允許每頁 50 筆；不繞過驗證碼或存取控制。
+    session.get(TII_RESULT_URL + "?page=1", timeout=REQUEST_TIMEOUT)
+    session.post(TII_RESULT_URL + "?page=1", data={"PageCrt": str(PAGE_SIZE)}, timeout=REQUEST_TIMEOUT)
+    return session
 
-            # 依序提取標準欄位
-            col_texts = [ (await c.inner_text()).strip() for c in cols ]
-            
-            # 尋找儲存格內的 PDF 條款下載連結或按鈕
-            pdf_link_el = await row.query_selector('a[href*=".pdf"], a[href*="Download"], a:has-text("下載"), a:has-text("條款")')
-            pdf_url = ""
-            if pdf_link_el:
-                href = await pdf_link_el.get_attribute("href")
-                if href:
-                    pdf_url = href if href.startswith("http") else f"https://insprod.tii.org.tw/{href.lstrip('/')}"
 
-            item = {
-                "company_code": comp_code,
-                "company_name": comp_name,
-                "product_full_name": col_texts[1] if len(col_texts) > 1 else "",
-                "product_code": col_texts[2] if len(col_texts) > 2 else "",
-                "approval_date": col_texts[3] if len(col_texts) > 3 else "",
-                "approval_number": col_texts[4] if len(col_texts) > 4 else "",
-                "pdf_url": pdf_url,
-                "scraped_at": time.strftime("%Y-%m-%d %H:%M:%S")
-            }
-            
-            if item["product_full_name"]:
-                products.append(item)
-                current_page_items += 1
+def parse_total(html: str) -> int:
+    text = BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
+    match = re.search(r"總共找到\s*([\d,]+)", text)
+    return int(match.group(1).replace(",", "")) if match else 0
 
-        print(f"      本頁成功擷取 {current_page_items} 筆商品。")
 
-        # 5. 檢查是否有「下一頁」或「分頁按鈕」
-        # ASP.NET 分頁常用 __doPostBack('GridView1','Page$2')
-        next_page_btn = await page.query_selector(f'a:has-text("下一頁"), a:has-text("{page_num + 1}")')
-        if next_page_btn:
-            try:
-                await next_page_btn.click()
-                await page.wait_for_load_state("networkidle")
-                await asyncio.sleep(2) # 溫和延遲，避免 WAF 限流
-                page_num += 1
-            except Exception as e:
-                print(f"  [*] 翻頁完成或無法點擊下一頁: {e}")
-                break
-        else:
-            break
+def fetch_result_page(page_num: int) -> Tuple[int, List[Dict[str, Any]]]:
+    session = make_session()
+    response = session.get(TII_RESULT_URL + f"?page={page_num}", timeout=REQUEST_TIMEOUT)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
+    products: List[Dict[str, Any]] = []
+    for link in soup.select('a[href*="DetailList.aspx?productId="]'):
+        name = link.get_text(" ", strip=True)
+        company = company_for_product(name)
+        if not company:
+            continue
+        row = link.find_parent("tr")
+        cells = [cell.get_text(" ", strip=True) for cell in row.find_all("td")] if row else []
+        product_id = re.search(r"productId=([^&]+)", link.get("href", ""))
+        sale_date = cells[2] if len(cells) >= 3 else ""
+        stop_date = cells[3] if len(cells) >= 4 else ""
+        href = link.get("href", "")
+        products.append({
+            "company_code": company["code"],
+            "company_name": company["name"],
+            "product_full_name": name,
+            "product_code": product_id.group(1)[:32] if product_id else "",
+            "approval_date": sale_date,
+            "approval_number": "保發中心商品資料",
+            "pdf_url": "",
+            "source_url": "https://insprod.tii.org.tw/" + href.lstrip("/"),
+            "sales_status": "暫停銷售" if stop_date and stop_date != "未停售" else "現售",
+            "scraped_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+        })
+    return parse_total(response.text), products
 
-    print(f"[✓] [{comp_name}] 抓取完畢，累計取得 {len(products)} 檔商品。")
-    return products
 
-async def main():
+def main() -> None:
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(PDF_DIR, exist_ok=True)
-    
-    all_results = []
-    
-    async with async_playwright() as p:
-        # 啟動無頭瀏覽器，偽裝常規 User-Agent
-        browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-            viewport={"width": 1280, "height": 800},
-            # 保發中心目前可能回傳不完整的憑證鏈；連線仍使用 HTTPS，
-            # 但避免因此讓每日資料同步整批失敗。
-            ignore_https_errors=True,
-        )
-        page = await context.new_page()
 
-        for comp in LIFE_INSURANCE_COMPANIES:
+    first_session = make_session()
+    first_response = first_session.get(TII_RESULT_URL + "?page=1", timeout=REQUEST_TIMEOUT)
+    first_response.raise_for_status()
+    total = parse_total(first_response.text)
+    max_page = math.ceil(total / PAGE_SIZE)
+    if not total or max_page < SCAN_START_PAGE:
+        raise RuntimeError(f"保發中心回傳的總筆數異常：{total}")
+
+    page_numbers = list(range(SCAN_START_PAGE, max_page + 1))
+    all_results: List[Dict[str, Any]] = []
+    print(f"[*] 公開結果頁共 {total} 筆，使用每頁 {PAGE_SIZE} 筆掃描第 {SCAN_START_PAGE}~{max_page} 頁。")
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = {executor.submit(fetch_result_page, page_num): page_num for page_num in page_numbers}
+        for index, future in enumerate(as_completed(futures), 1):
+            page_num = futures[future]
             try:
-                comp_products = await scrape_company_products(page, comp)
-                all_results.extend(comp_products)
-                
-                # 每抓完一家公司，即時寫入存檔 (防止中斷遺失)
-                with open(os.path.join(OUTPUT_DIR, "all_products_metadata.json"), "w", encoding="utf-8") as f:
-                    json.dump(all_results, f, ensure_ascii=False, indent=2)
-                    
-                await asyncio.sleep(3) # 公司間的冷卻時間
-            except Exception as e:
-                print(f"[!] 抓取公司 {comp['name']} 時發生錯誤: {e}")
-                continue
+                _, page_products = future.result()
+                all_results.extend(page_products)
+                if index % 25 == 0 or page_products:
+                    print(f"  --> 已完成 {index}/{len(page_numbers)} 頁，第 {page_num} 頁取得 {len(page_products)} 筆壽險商品。")
+            except Exception as exc:
+                print(f"[!] 第 {page_num} 頁略過：{exc}")
 
-        await browser.close()
+    unique = {item["source_url"]: item for item in all_results if item.get("source_url")}
+    all_results = list(unique.values())
+    all_results.sort(key=lambda item: (item["company_name"], item["product_full_name"]))
+    if not all_results:
+        raise RuntimeError("未抓到任何壽險商品；拒絕用空資料覆蓋網站。")
 
-    print(f"\n==========================================")
-    print(f"[🎉] 全量抓取完成！共計獲取 {len(all_results)} 檔壽險商品。")
-    print(f"Metadata 已儲存至: {os.path.join(OUTPUT_DIR, 'all_products_metadata.json')}")
-    print(f"==========================================")
+    output_path = os.path.join(OUTPUT_DIR, "all_products_metadata.json")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(all_results, f, ensure_ascii=False, indent=2)
+
+    print(f"[OK] 共抓取 {len(all_results)} 檔壽險商品。")
+    print(f"Metadata 已儲存至: {output_path}")
+
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

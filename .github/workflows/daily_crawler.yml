@@ -31,10 +31,8 @@ jobs:
           python-version: '3.10'
           cache: 'pip'
 
-      - name: 安裝 Playwright 與 PyMuPDF (免 API Key)
-        run: |
-          pip install -r requirements.txt
-          playwright install chromium --with-deps
+      - name: 安裝規則引擎與公開頁爬蟲套件
+        run: pip install -r requirements.txt
 
       - name: 執行規則引擎測試 (Unit Tests)
         run: |
@@ -43,6 +41,15 @@ jobs:
       - name: 執行保發中心商品爬蟲 (Crawl TII Products)
         run: |
           python tii_full_crawler.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path("tii_insurance_data/all_products_metadata.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+          if not data:
+              raise SystemExit("爬蟲沒有取得商品，停止流程並保留既有網站資料")
+          print(f"驗證通過：{len(data)} 筆原始商品")
+          PY
 
       - name: 執行免 API 規則引擎分類與標籤萃取 (Rule-based Classification)
         run: |
@@ -50,19 +57,25 @@ jobs:
 
       - name: 更新前端卡片盒資料檔 (Update Frontend Data)
         run: |
-          mkdir -p data
-          if [ -f "./tii_insurance_data/structured_products_final.json" ]; then
-            cp ./tii_insurance_data/structured_products_final.json ./data/products.json
-          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          source = Path("tii_insurance_data/structured_products_final.json")
+          target = Path("data/products.json")
+          data = json.loads(source.read_text(encoding="utf-8"))
+          if not data:
+              raise SystemExit("分類結果為空，停止流程並保留既有網站資料")
+          target.parent.mkdir(exist_ok=True)
+          target.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+          print(f"驗證通過：{len(data)} 張前端卡片")
+          PY
 
       - name: 準備 GitHub Pages 網站檔案 (Prepare Pages Artifact)
         run: |
           mkdir -p site
           cp index.html site/index.html
-          if [ -f "./data/products.json" ]; then
-            mkdir -p site/data
-            cp ./data/products.json site/data/products.json
-          fi
+          mkdir -p site/data
+          cp ./data/products.json site/data/products.json
 
       - name: 設定 GitHub Pages (Configure Pages)
         uses: actions/configure-pages@v5
