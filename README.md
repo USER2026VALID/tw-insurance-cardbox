@@ -7,6 +7,7 @@
 - 目前先聚焦保經通常無法代銷的四家單一通路／大型壽險公司：國泰人壽、南山人壽、富邦人壽、中華郵政壽險。
 - 正式目錄先以 `catalog/catalog.json` 保存；`catalog/catalog.sqlite3` 是可重建的查詢索引，Notion 不作必要依賴。
 - `catalog_sync.py` 每週從四家公司的官方商品入口做低頻增量發現，保留上市日、停售日與狀態欄位，不再每日掃描保發中心全站。
+- 日期缺漏時使用 `tii_date_enricher.py` 分段補查保發中心公開結果頁；官方公司頁仍是商品名稱與分類的優先來源。
 - 從保發中心公開的商品結果頁查詢上述公司的商品名稱、銷售日、停售狀態與明細頁連結。
 - 依壽險公會目前名錄支援 20 家公司，包含臺銀、台灣、保誠、國泰、凱基、南山、新光、富邦、三商美邦、遠雄、宏泰、安聯、中華郵政、全球、元大、第一金、合作金庫、安達，以及友邦與法國巴黎兩家外商分公司。
 - 以純 Python 規則引擎分類險種、主附約、保證續保、2-2-7 限制、等待期及投保年齡。
@@ -39,6 +40,8 @@ python -m py_compile batch_extract.py tii_full_crawler.py
 python3 catalog_sync.py sync
 python3 catalog_sync.py init-db
 python3 catalog_sync.py export-metadata
+# 只補查缺少日期的商品；請用小區段執行，可中斷續跑
+python3 tii_date_enricher.py --start-page 1 --end-page 100
 ```
 
 產物位置：
@@ -48,6 +51,7 @@ python3 catalog_sync.py export-metadata
 - `data/products.json`：前端優先載入的資料檔
 - `catalog/catalog.json`：官方商品目錄正式來源
 - `catalog/change_log.json`：新增商品事件歷史
+- `catalog/tii_date_checkpoint.json`：TII 日期補查的可恢復進度
 
 若以 `file://` 開啟前端，會使用內嵌示範資料；在 GitHub Pages 或 HTTP 伺服器上，前端會優先載入 `data/products.json`，並以空資料顯示「目前沒有可用的同步商品資料」，不會把過期統計誤當成最新資料。
 
@@ -72,6 +76,8 @@ python3 -m http.server 8000 --bind 0.0.0.0
 - 有資料變更時自動提交更新的 JSON metadata
 
 新的 `.github/workflows/catalog_sync.yml` 每週低頻更新四家公司官方目錄。目錄與 Pages 部署分離，避免官方來源短暫故障時直接覆蓋前端資料。
+
+`.github/workflows/tii_date_enrichment.yml` 是手動分段補查流程。它只更新缺少的上市日／停售日與 TII 明細連結，不覆蓋官方商品名稱、分類或人工日期；每次執行都會保存 checkpoint。
 
 首次使用 GitHub Pages 時，請在 repository 的 **Settings → Pages** 將來源設為 **GitHub Actions**。
 

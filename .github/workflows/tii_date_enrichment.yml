@@ -1,0 +1,41 @@
+name: TII Missing Dates Enrichment
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_page:
+        description: '公開結果頁起始頁（每頁50筆）'
+        required: true
+        default: '1'
+      end_page:
+        description: '公開結果頁結束頁；請分段執行以控制來源站負載'
+        required: true
+        default: '100'
+
+permissions:
+  contents: write
+
+jobs:
+  enrich-dates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -r requirements.txt
+      - name: Run resumable TII enrichment
+        run: python tii_date_enricher.py --start-page "${{ inputs.start_page }}" --end-page "${{ inputs.end_page }}"
+      - name: Test and commit dates
+        run: |
+          python -m unittest discover -v
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add catalog/catalog.json catalog/tii_date_checkpoint.json
+          if git diff --cached --quiet; then
+            echo 'No date changes.'
+          else
+            git commit -m 'chore: enrich missing product dates from TII [skip ci]'
+            git push
+          fi

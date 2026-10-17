@@ -81,6 +81,12 @@ def parse_total(html: str) -> int:
     return int(match.group(1).replace(",", "")) if match else 0
 
 
+def extract_dates(cells: list[str]) -> tuple[str, str]:
+    pattern = re.compile(r"^\d{2,3}/\d{1,2}/\d{1,2}$")
+    dates = [cell for cell in cells if pattern.match(cell)]
+    return (dates[0] if dates else "", "未停售" if "未停售" in cells else (dates[1] if len(dates) > 1 else ""))
+
+
 def parse_result_page(html: str) -> List[Dict[str, Any]]:
     soup = BeautifulSoup(html, "html.parser")
     products: List[Dict[str, Any]] = []
@@ -91,9 +97,8 @@ def parse_result_page(html: str) -> List[Dict[str, Any]]:
             continue
         row = link.find_parent("tr")
         cells = [cell.get_text(" ", strip=True) for cell in row.find_all("td")] if row else []
+        sale_date, stop_date = extract_dates(cells)
         product_id = re.search(r"productId=([^&]+)", link.get("href", ""))
-        sale_date = cells[2] if len(cells) >= 3 else ""
-        stop_date = cells[3] if len(cells) >= 4 else ""
         href = link.get("href", "")
         products.append({
             "company_code": company["code"],
