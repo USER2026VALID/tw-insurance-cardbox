@@ -51,6 +51,7 @@ SCAN_START_PAGE = 2000
 PAGE_SIZE = 50
 MAX_WORKERS = 8
 REQUEST_TIMEOUT = 30
+PAGES_PER_WORKER = 100
 
 
 def normalize(value: str) -> str:
@@ -82,11 +83,8 @@ def parse_total(html: str) -> int:
     return int(match.group(1).replace(",", "")) if match else 0
 
 
-def fetch_result_page(page_num: int) -> Tuple[int, List[Dict[str, Any]]]:
-    session = make_session()
-    response = session.get(TII_RESULT_URL + f"?page={page_num}", timeout=REQUEST_TIMEOUT)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
+def parse_result_page(html: str) -> List[Dict[str, Any]]:
+    soup = BeautifulSoup(html, "html.parser")
     products: List[Dict[str, Any]] = []
     for link in soup.select('a[href*="DetailList.aspx?productId="]'):
         name = link.get_text(" ", strip=True)
@@ -111,7 +109,26 @@ def fetch_result_page(page_num: int) -> Tuple[int, List[Dict[str, Any]]]:
             "sales_status": "暫停銷售" if stop_date and stop_date != "未停售" else "現售",
             "scraped_at": time.strftime("%Y-%m-%d %H:%M:%S"),
         })
-    return parse_total(response.text), products
+    return products
+
+
+def fetch_result_pages(page_numbers: List[int]) -> List[Dict[str, Any]]:
+    """每個工作執行緒只建立一次 session，避免每頁重複初始化造成逾時。"""
+    session = make_session()
+    products: List[Dict[str, Any]] = []
+    for page_num in page_numbers:
+        response = session.get(TII_RESULT_URL + f"?page={page_num}", timeout=REQUEST_TIMEOUT)
+        response.raise_for_status()
+        products.extend(parse_result_page(response.text))
+    return products
+
+
+def fetch_result_page(page_num: int) -> Tuple[int, List[Dict[str, Any]]]:
+    """保留單頁介面供測試使用。"""
+    session = make_session()
+    response = session.get(TII_RESULT_URL + f"?page={page_num}", timeout=REQUEST_TIMEOUT)
+    response.raise_for_status()
+    return parse_total(response.text), parse_result_page(response.text)
 
 
 def main() -> None:
@@ -127,19 +144,19 @@ def main() -> None:
         raise RuntimeError(f"保發中心回傳的總筆數異常：{total}")
 
     page_numbers = list(range(SCAN_START_PAGE, max_page + 1))
+    page_ranges = [page_numbers[i:i + PAGES_PER_WORKER] for i in range(0, len(page_numbers), PAGES_PER_WORKER)]
     all_results: List[Dict[str, Any]] = []
     print(f"[*] 公開結果頁共 {total} 筆，使用每頁 {PAGE_SIZE} 筆掃描第 {SCAN_START_PAGE}~{max_page} 頁。")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {executor.submit(fetch_result_page, page_num): page_num for page_num in page_numbers}
+        futures = {executor.submit(fetch_result_pages, page_range): page_range for page_range in page_ranges}
         for index, future in enumerate(as_completed(futures), 1):
-            page_num = futures[future]
+            page_range = futures[future]
             try:
-                _, page_products = future.result()
+                page_products = future.result()
                 all_results.extend(page_products)
-                if index % 25 == 0 or page_products:
-                    print(f"  --> 已完成 {index}/{len(page_numbers)} 頁，第 {page_num} 頁取得 {len(page_products)} 筆壽險商品。")
+                print(f"  --> 已完成區段 {index}/{len(page_ranges)}（第 {page_range[0]}~{page_range[-1]} 頁），取得 {len(page_products)} 筆壽險商品。")
             except Exception as exc:
-                print(f"[!] 第 {page_num} 頁略過：{exc}")
+                print(f"[!] 第 {page_range[0]}~{page_range[-1]} 頁略過：{exc}")
 
     unique = {item["source_url"]: item for item in all_results if item.get("source_url")}
     all_results = list(unique.values())

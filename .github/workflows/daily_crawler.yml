@@ -20,7 +20,7 @@ permissions:
 jobs:
   crawl-and-classify:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - name: 檢出專案代碼 (Checkout)
         uses: actions/checkout@v4
