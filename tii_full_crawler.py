@@ -19,28 +19,12 @@ from bs4 import BeautifulSoup
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# 壽險公會名錄：18 家本國公司 + 2 家外商在台分公司。
+# 目前先聚焦保經通常無法代銷的四家單一通路／大型壽險公司，降低同步資料量。
 LIFE_INSURANCE_COMPANIES = [
-    {"code": "224", "name": "臺銀人壽", "aliases": ["臺銀人壽", "台銀人壽", "Bank Taiwan"]},
-    {"code": "202", "name": "台灣人壽", "aliases": ["台灣人壽", "臺灣人壽", "Taiwan Life"]},
-    {"code": "203", "name": "保誠人壽", "aliases": ["保誠人壽", "PCA", "Prudential"]},
     {"code": "204", "name": "國泰人壽", "aliases": ["國泰人壽", "Cathay"]},
-    {"code": "205", "name": "凱基人壽", "aliases": ["凱基人壽", "中國人壽", "KGI"]},
     {"code": "206", "name": "南山人壽", "aliases": ["南山人壽", "Nan Shan"]},
-    {"code": "208", "name": "新光人壽", "aliases": ["新光人壽", "Shin Kong"]},
     {"code": "210", "name": "富邦人壽", "aliases": ["富邦人壽", "Fubon"]},
-    {"code": "211", "name": "三商美邦人壽", "aliases": ["三商美邦人壽", "三商美邦", "Mercuries"]},
-    {"code": "213", "name": "遠雄人壽", "aliases": ["遠雄人壽", "Farglory"]},
-    {"code": "214", "name": "宏泰人壽", "aliases": ["宏泰人壽", "Hontai"]},
-    {"code": "215", "name": "安聯人壽", "aliases": ["安聯人壽", "Allianz"]},
-    {"code": "216", "name": "第一金人壽", "aliases": ["第一金人壽", "第一人壽", "First Life"]},
-    {"code": "217", "name": "元大人壽", "aliases": ["元大人壽", "Yuanta"]},
-    {"code": "219", "name": "全球人壽", "aliases": ["全球人壽", "Transglob"]},
-    {"code": "220", "name": "中華郵政壽險", "aliases": ["中華郵政", "郵政壽險", "Chungwa Post"]},
-    {"code": "221", "name": "安達國際人壽", "aliases": ["安達國際人壽", "安達人壽", "Chubb"]},
-    {"code": "223", "name": "友邦人壽", "aliases": ["友邦人壽", "AIA"]},
-    {"code": "222", "name": "法國巴黎人壽", "aliases": ["法國巴黎人壽", "法商法國巴黎人壽", "BNP Paribas", "Cardif"]},
-    {"code": "225", "name": "合作金庫人壽", "aliases": ["合作金庫人壽", "合庫人壽", "TCB Life"]},
+    {"code": "220", "name": "中華郵政壽險", "aliases": ["中華郵政", "郵政壽險", "郵政", "中華郵政壽險", "Chungwa Post"]},
 ]
 
 TII_RESULT_URL = "https://insprod.tii.org.tw/ResultQueryAll.aspx"
@@ -146,7 +130,8 @@ def main() -> None:
     page_numbers = list(range(SCAN_START_PAGE, max_page + 1))
     page_ranges = [page_numbers[i:i + PAGES_PER_WORKER] for i in range(0, len(page_numbers), PAGES_PER_WORKER)]
     all_results: List[Dict[str, Any]] = []
-    print(f"[*] 公開結果頁共 {total} 筆，使用每頁 {PAGE_SIZE} 筆掃描第 {SCAN_START_PAGE}~{max_page} 頁。")
+    print(f"[*] 目標公司：{', '.join(c['name'] for c in LIFE_INSURANCE_COMPANIES)}")
+    print(f"[*] 公開結果頁共 {total} 筆，使用每頁 {PAGE_SIZE} 筆掃描第 {SCAN_START_PAGE}~{max_page} 頁；只保留四家目標公司。")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = {executor.submit(fetch_result_pages, page_range): page_range for page_range in page_ranges}
         for index, future in enumerate(as_completed(futures), 1):

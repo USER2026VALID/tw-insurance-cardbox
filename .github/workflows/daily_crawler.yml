@@ -48,7 +48,12 @@ jobs:
           data = json.loads(path.read_text(encoding="utf-8"))
           if not data:
               raise SystemExit("爬蟲沒有取得商品，停止流程並保留既有網站資料")
-          print(f"驗證通過：{len(data)} 筆原始商品")
+          expected = {"國泰人壽", "南山人壽", "富邦人壽", "中華郵政壽險"}
+          actual = {item.get("company_name") for item in data}
+          missing = expected - actual
+          if missing:
+              raise SystemExit(f"目標公司資料不完整，缺少：{', '.join(sorted(missing))}")
+          print(f"驗證通過：{len(data)} 筆原始商品，四家目標公司全部出現")
           PY
 
       - name: 執行免 API 規則引擎分類與標籤萃取 (Rule-based Classification)

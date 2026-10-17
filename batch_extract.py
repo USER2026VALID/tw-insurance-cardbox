@@ -24,6 +24,7 @@ BRAND_COLORS = {
     "安聯": "bg-[#0b2f64]",
     "國泰": "bg-emerald-600",
     "富邦": "bg-blue-600",
+    "中華郵政": "bg-red-600",
     "台灣": "bg-amber-600",
     "新光": "bg-red-600",
     "凱基": "bg-teal-600",

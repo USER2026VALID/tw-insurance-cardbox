@@ -5,12 +5,10 @@ from tii_full_crawler import LIFE_INSURANCE_COMPANIES
 
 
 class InsuranceRuleTests(unittest.TestCase):
-    def test_official_company_catalog_has_twenty_entries(self):
-        self.assertEqual(len(LIFE_INSURANCE_COMPANIES), 20)
+    def test_target_company_catalog_has_four_entries(self):
+        self.assertEqual(len(LIFE_INSURANCE_COMPANIES), 4)
         names = {company["name"] for company in LIFE_INSURANCE_COMPANIES}
-        self.assertIn("臺銀人壽", names)
-        self.assertIn("安達國際人壽", names)
-        self.assertIn("法國巴黎人壽", names)
+        self.assertEqual(names, {"國泰人壽", "南山人壽", "富邦人壽", "中華郵政壽險"})
 
     def test_classifies_cancer_rider_and_waiting_period(self):
         result = classify_by_name_and_text(
