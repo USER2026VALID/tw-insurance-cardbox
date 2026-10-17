@@ -86,11 +86,11 @@ def stable_id(company_code: str, name: str, url: str) -> str:
 
 def is_product_candidate(source: Source, label: str, url: str) -> bool:
     text = f"{label} {url}".lower()
-    blocked = ("了解更多", "詳細內容", "服務", "新聞", "活動", "會員", "保單變更", "保險視圖", "客製", "訂製", "人生階段", "規劃")
+    blocked = ("了解更多", "詳細內容", "服務", "新聞", "活動", "會員", "保單變更", "保險視圖", "客製", "訂製", "人生階段", "規劃", "團體有保", "夢想的家", "查看商品內容", "宣告利率", "說走就走", "個人保險", "銀行保險商品", "網路投保商品", "企業及學生團體", "旅行險")
     if any(word.lower() in text for word in blocked):
         return False
     if source.company_code == "204":
-        return "/cathaylife/products/" in url and url.rstrip("/") not in {u.rstrip("/") for _, u in source.categories}
+        return len(label) >= 8 and "/cathaylife/products/" in url and url.rstrip("/") not in {u.rstrip("/") for _, u in source.categories}
     if source.company_code == "220":
         return "IP_ID=" in url or "page_type=3" in url
     if source.company_code == "209":
