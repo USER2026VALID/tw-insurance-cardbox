@@ -10,67 +10,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:55+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "a9e5ba3730b52603b319",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "健康醫療險",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:55+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "dfbe8a547bfaa4e0c833",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "意外傷害險",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/accident",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:55+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "bc09b44f55874e52f9e1",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "投資型保險",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:55+00:00",
+    "last_checked": "2026-10-17T22:39:54+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -90,27 +30,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:55+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "eee59475757dabccfdf7",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "旅行平安險",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/travel",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險",
-      "壽險",
-      "意外傷害險",
-      "投資型保險",
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:55+00:00",
+    "last_checked": "2026-10-17T22:39:54+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -130,71 +50,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:55+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "6333b02d4004a21b465d",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "住院手術",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-surgery",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "87faa84c65f8e2fb8900",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "實支實付",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-reimbursement-benefits",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "60f8e76c9e3ba3483b9f",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "重大疾病/傷病",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-illness",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "58b2bce7c71e97abaae5",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "長期照顧",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/health-long-term-care",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "健康醫療險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:54+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -210,7 +66,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -226,7 +82,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -242,7 +98,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -258,7 +114,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -274,7 +130,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -290,7 +146,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -306,7 +162,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -322,7 +178,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -338,7 +194,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -354,7 +210,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -370,7 +226,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -386,7 +242,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -402,7 +258,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -418,7 +274,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -434,7 +290,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -450,7 +306,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -466,7 +322,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -482,7 +338,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -498,7 +354,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -514,7 +370,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:37:57+00:00",
+    "last_checked": "2026-10-17T22:39:58+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -530,7 +386,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -546,7 +402,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -562,7 +418,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -578,7 +434,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -594,7 +450,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -610,7 +466,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -626,7 +482,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -642,7 +498,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -658,7 +514,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -674,7 +530,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -690,7 +546,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -706,7 +562,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:00+00:00",
+    "last_checked": "2026-10-17T22:40:00+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -722,7 +578,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -738,7 +594,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -754,7 +610,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -770,7 +626,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -786,7 +642,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -802,7 +658,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -818,7 +674,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -834,7 +690,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -850,7 +706,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -866,7 +722,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -882,7 +738,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -898,7 +754,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -914,7 +770,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -930,7 +786,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -946,7 +802,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -962,7 +818,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -978,7 +834,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -994,7 +850,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1010,7 +866,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1026,7 +882,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1042,7 +898,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1058,7 +914,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1074,7 +930,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1090,7 +946,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1106,7 +962,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1122,7 +978,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1138,7 +994,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1154,7 +1010,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1170,7 +1026,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1186,7 +1042,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1202,7 +1058,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1218,7 +1074,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1234,7 +1090,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1250,7 +1106,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1266,7 +1122,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1282,7 +1138,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1298,7 +1154,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1314,7 +1170,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1330,7 +1186,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1346,55 +1202,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:02+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "150f5597c1be6728e538",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "變額年金",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-va",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "投資型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "fc5975c4466fac8084bd",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "變額壽險",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-vl",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "投資型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "28619e0181980aea5c3f",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "變額萬能壽險",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/investment-vul",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "投資型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:04+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1410,7 +1218,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1426,7 +1234,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1442,7 +1250,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1458,7 +1266,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1474,7 +1282,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1490,7 +1298,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1506,7 +1314,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1522,7 +1330,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1538,7 +1346,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1554,7 +1362,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1570,7 +1378,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1586,7 +1394,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1602,55 +1410,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:04+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "e56ea293348310b4cc84",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "還本型保險",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-refund",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:05+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f53dad4d696b225082fb",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "利變年金保險",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-interest-sensitive-annuity",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:05+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "515fb1e785fd60cb9825",
-    "company_code": "204",
-    "company_name": "國泰人壽",
-    "product_name": "遞延年金保險",
-    "official_url": "https://www.cathaylife.com.tw/official/content/cathaylife-official/zh-tw/cathaylife/products/savings-deferred-annuity",
-    "source_url": "https://www.cathaylife.com.tw/official/",
-    "categories": [
-      "還本/年金型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:05+00:00",
+    "last_checked": "2026-10-17T22:40:06+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1666,7 +1426,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:05+00:00",
+    "last_checked": "2026-10-17T22:40:09+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1682,7 +1442,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:05+00:00",
+    "last_checked": "2026-10-17T22:40:09+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1698,7 +1458,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:05+00:00",
+    "last_checked": "2026-10-17T22:40:09+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1714,7 +1474,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:05+00:00",
+    "last_checked": "2026-10-17T22:40:09+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1730,91 +1490,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:05+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "b759bb14de156dc1a613",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "旅行險 國內外旅遊保障",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/products-travel",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:07+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "24129d2a2eba26b860d1",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "團體保險 企業及學生團體保障",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/products-group-insurance",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:07+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "58d8040b4a16fdb0ecc0",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "銀行保險商品 終身險、年金險、健康險、定期險、投資型",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/products-selling-bank",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:07+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "6d9251b7aac1780f2005",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "網路投保商品 旅行險、壽險、傷害險、健康險、年金險",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/products-selling-online",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [
-      "健康醫療",
-      "壽險",
-      "意外傷害",
-      "投資型保險",
-      "還本/增額/年金",
-      "長期照顧"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:07+00:00",
+    "last_checked": "2026-10-17T22:40:09+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -1835,702 +1511,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:07+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "18c071e637ac79bbc0bf",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "旅行險 南山人壽旅行險提供您多元的人身保險，助您應對旅途中的意外保障需求。",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/products-travel",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:07+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "67a30c54dd4235a14e13",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "銀行保險商品",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/products-selling-bank",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:07+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "336407fe46a710d35580",
-    "company_code": "206",
-    "company_name": "南山人壽",
-    "product_name": "網路投保商品 免簽名，免傳真，輕鬆投保。",
-    "official_url": "https://www.nanshanlife.com.tw/nanshanlife/products-selling-online",
-    "source_url": "https://www.nanshanlife.com.tw/nanshanlife/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:07+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "3bd3de62e7f48fe81898",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "宣告利率",
-    "official_url": "https://www.fubon.com/life/product/quick/interest-rate?c=1",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:24+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "c468c755efe9d48198d3",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "說走就走，安心隨行 登機前快速投保，保費23元起享百萬保障，給自己一份安心陪伴",
-    "official_url": "https://www.fubon.com/life/product/personal/life-trip",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:24+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "186c7d7f7105602046a9",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "團體有保，每人安心 提供企業、學生團體、身心障礙以及災害防救者安全保障",
-    "official_url": "https://www.fubon.com/life/product/group",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:24+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "b1e22ca8328597d5de04",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "夢想的家，此刻擁有 提供低利率房貸專案、理財專案、房仲通路成交專案",
-    "official_url": "https://www.fubon.com/life/product/mortgage/Project?c=1",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:24+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "35625b2eec9040c889db",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "個人保險",
-    "official_url": "https://www.fubon.com/life/product/personal",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療",
-      "壽險保障",
-      "年金保險",
-      "意外傷害",
-      "投資型保險",
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:27+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "ed00602bf789f303ea1f",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/life-refund/FPC",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "壽險保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:27+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "fae45b9c6a50050696c4",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/life-refund/PFU",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "壽險保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:27+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "1f5bc4e4e5412e7ee750",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/life-refund/PFK",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "壽險保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:27+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8802e55824f46ea443e6",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/life-refund/XDY",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "壽險保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:27+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "49d32374f9a937a04f73",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/life-refund/FPB",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "壽險保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:27+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "3419427994ff68613a03",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/life-refund/PFT",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "壽險保障"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:27+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "dc82aa93996467527d47",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/health/HJA4",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:29+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "cb5d220bb1128c372bd8",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/health/HJL",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:29+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "b625a04f50243e651610",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/health/CLX",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:29+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2de1cab6e4772278496b",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/health/EHC",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:29+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "1a57287cff59683d72ef",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/health/EHB",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:29+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f87c8337ec3bad1f0224",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/health/HAC1-HAC2-HAC3-HAD1-HAD2-HAD3",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "健康醫療"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:29+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "1e0d712c87322257ca91",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/FEG",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:32+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "933ab0aa6a7609321287",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/FEF",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:32+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "4b0f142e4b4411559f17",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/PF55-PF60-PF65",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:32+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "880597ea105a7b852d12",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/ICK",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:32+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "d22d94cf071aac2a3202",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/PFZA-PFZB",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:32+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "722a2a393846aae16979",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/long-term-saving/FCG",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "還本/養老"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:32+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "249a8ea083321ff6df8b",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/accident/AJK",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "意外傷害"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:34+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "bdce9de986a9125d93a4",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/accident/ADM",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "意外傷害"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:34+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "d81695b00e0fbb4a2f86",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/accident/ADH",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "意外傷害"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:34+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f1dbb4d097230e96accc",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/accident/ADG-TMR",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "意外傷害"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:34+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "ca5bbcef9a767671193f",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/accident/ADN",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "意外傷害"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:34+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2f5455ba409c6e7c38a9",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/accident/AJJ",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "意外傷害"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:34+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "35693308b15589568eb8",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/EBA",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "年金保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:35+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "8453a90cd870b4625ca5",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/ESD",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "年金保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:35+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "7d112fe72ae3a3464a8d",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/SBA",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "年金保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:35+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "9ff3e1460af76ec1fd18",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/ESA1",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "年金保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:35+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "bcbb00cc3422a3ddd7b0",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/ESB1",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "年金保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:35+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "d01f7a700a5d2afe63f6",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/annuity-assurance/ESC1",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "年金保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:35+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "fc91813055078c430103",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/investing/VCAT",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "投資型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:37+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "edb281f4af41b29cc745",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/investing/VCCT",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "投資型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:37+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "a74cf2f315af3431a601",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/investing/VCET",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "投資型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:37+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "f341a7c5f38d7b7eb28f",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/investing/UOP",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "投資型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:37+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "2318efc39a060bce8f52",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/investing/VCBF",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "投資型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:37+00:00",
-    "record_source": "official_company_page"
-  },
-  {
-    "product_id": "5c86f005c1c4a8b54839",
-    "company_code": "209",
-    "company_name": "富邦人壽",
-    "product_name": "查看商品內容",
-    "official_url": "https://www.fubon.com/life/product/personal/investing/VCBT",
-    "source_url": "https://www.fubon.com/life/",
-    "categories": [
-      "投資型保險"
-    ],
-    "market_date": null,
-    "discontinued_date": null,
-    "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:37+00:00",
+    "last_checked": "2026-10-17T22:40:11+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2549,7 +1530,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:38+00:00",
+    "last_checked": "2026-10-17T22:40:52+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2568,7 +1549,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:38+00:00",
+    "last_checked": "2026-10-17T22:40:52+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2587,7 +1568,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:38+00:00",
+    "last_checked": "2026-10-17T22:40:52+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2606,7 +1587,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:38+00:00",
+    "last_checked": "2026-10-17T22:40:52+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2625,7 +1606,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:38+00:00",
+    "last_checked": "2026-10-17T22:40:52+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2644,7 +1625,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:38+00:00",
+    "last_checked": "2026-10-17T22:40:52+00:00",
     "record_source": "official_company_page"
   },
   {
@@ -2663,7 +1644,7 @@
     "market_date": null,
     "discontinued_date": null,
     "sales_status": "待確認",
-    "last_checked": "2026-10-17T22:38:38+00:00",
+    "last_checked": "2026-10-17T22:40:52+00:00",
     "record_source": "official_company_page"
   }
 ]
