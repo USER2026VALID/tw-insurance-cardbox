@@ -8,6 +8,7 @@
 - 正式目錄先以 `catalog/catalog.json` 保存；`catalog/catalog.sqlite3` 是可重建的查詢索引，Notion 不作必要依賴。
 - `tii_primary_catalog.py` 以保發中心（TII）公開結果頁建立四家公司主資料庫；官方網站改為補充商品分類與官方連結。
 - `catalog_sync.py` 保留作官方頁補充同步；日期與停售狀態以 TII 母資料為準。
+- 前端正式目錄採「現售優先」策略：只有 `sales_status=現售` 且停售日期為空或「未停售」的資料會輸出；停售、暫停、待確認與疑似停售資料保留於母資料／歷史檔，但不顯示在主查詢頁。
 - 官方商品從頁面消失時不立即刪除；第一次標記「疑似停售」，連續兩次未出現才進入 `待TII確認` 與停售日期佇列。
 - 從保發中心公開的商品結果頁查詢上述公司的商品名稱、銷售日、停售狀態與明細頁連結。
 - 依壽險公會目前名錄支援 20 家公司，包含臺銀、台灣、保誠、國泰、凱基、南山、新光、富邦、三商美邦、遠雄、宏泰、安聯、中華郵政、全球、元大、第一金、合作金庫、安達，以及友邦與法國巴黎兩家外商分公司。
@@ -58,6 +59,7 @@ python3 tii_date_enricher.py --start-page 1 --end-page 100
 - `catalog/latest_diff.json`：新商品、回歸商品與疑似停售差異
 - `catalog/change_queue.json`：需要補查上市日或停售日的商品
 - `catalog/tii_master.json`：TII 四家公司主資料庫
+- `catalog/post_undiscontinued_candidates.json`：使用者提供的中華郵政未停售補充資料；尚待補 TII 商品編號
 - `catalog/tii_master_checkpoint.json`：TII 分段掃描進度，可中斷續跑
 
 若以 `file://` 開啟前端，會使用內嵌示範資料；在 GitHub Pages 或 HTTP 伺服器上，前端會優先載入 `data/products.json`，並以空資料顯示「目前沒有可用的同步商品資料」，不會把過期統計誤當成最新資料。

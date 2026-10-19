@@ -6,7 +6,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from catalog_sync import CATALOG_DIR, SOURCES, is_product_candidate, load_catalog, now, save_catalog, seed_records, rebuild_db
+from catalog_sync import CATALOG_DIR, SOURCES, is_active_record, is_product_candidate, load_catalog, now, save_catalog, seed_records, rebuild_db
 
 SNAPSHOT_DIR = CATALOG_DIR / "snapshots"
 CURRENT_SNAPSHOT = CATALOG_DIR / "official_snapshot.json"
@@ -123,8 +123,10 @@ def sync_lifecycle() -> dict:
     write_json(CURRENT_SNAPSHOT, incoming)
     stamp = observed_at.replace(":", "").replace("+00:00", "Z")
     write_json(SNAPSHOT_DIR / f"official-{stamp}.json", incoming)
-    save_catalog(merged)
-    rebuild_db(merged, [], reset_history=False)
+    # 生命週期仍保留完整狀態於 diff／snapshot；主目錄只呈現明確現售商品。
+    active_records = [record for record in merged if is_active_record(record)]
+    save_catalog(active_records)
+    rebuild_db(active_records, [], reset_history=False)
     write_json(DIFF_FILE, diff)
     write_json(QUEUE_FILE, diff["tii_queue"])
     print(f"[OK] lifecycle sync: new={len(diff['new'])}, returned={len(diff['returned'])}, suspected_missing={len(diff['suspected_missing'])}, tii_queue={len(diff['tii_queue'])}")

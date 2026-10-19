@@ -43,17 +43,25 @@ jobs:
           from collections import Counter
           from pathlib import Path
           rows = json.loads(Path('catalog/tii_master.json').read_text(encoding='utf-8'))
+          active = json.loads(Path('catalog/catalog.json').read_text(encoding='utf-8'))
           expected = {'204', '206', '209', '220'}
           actual = {row.get('company_code') for row in rows}
-          print('records:', len(rows), 'companies:', Counter(row.get('company_name') for row in rows))
+          print('master records:', len(rows), 'companies:', Counter(row.get('company_name') for row in rows))
+          print('active records:', len(active), 'companies:', Counter(row.get('company_name') for row in active))
           if not rows or not (actual & expected):
               raise SystemExit('TII master is empty')
+          if not active:
+              raise SystemExit('active catalog is empty')
+          if any(row.get('sales_status') != '現售' or (row.get('discontinued_date') or '') not in ('', '未停售') for row in active):
+              raise SystemExit('active catalog contains discontinued or unknown records')
+          if not ({'204', '206', '209'} <= {row.get('company_code') for row in active}):
+              raise SystemExit('active catalog is missing one of the three TII companies')
           PY
       - name: Commit TII master and derived catalog
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add catalog/tii_master.json catalog/tii_master_checkpoint.json catalog/catalog.json tii_insurance_data/all_products_metadata.json
+          git add catalog/tii_master.json catalog/tii_master_checkpoint.json catalog/catalog.json catalog/post_undiscontinued_candidates.json tii_insurance_data/all_products_metadata.json
           if git diff --cached --quiet; then
             echo 'No TII master changes.'
           else

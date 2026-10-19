@@ -9,6 +9,14 @@ from pathlib import Path
 from catalog_sync import CATALOG_DIR, load_catalog, now, rebuild_db, save_catalog
 
 MASTER = CATALOG_DIR / "tii_master.json"
+POSTAL_CANDIDATES = CATALOG_DIR / "post_undiscontinued_candidates.json"
+
+
+def is_active(row: dict) -> bool:
+    """主目錄只收錄明確未停售商品；未知狀態不冒充現售。"""
+    status = (row.get("sales_status") or "").strip()
+    stop_date = (row.get("discontinued_date") or "").strip()
+    return status == "現售" and stop_date in {"", "未停售"}
 
 
 def norm(value: str) -> str:
@@ -26,6 +34,8 @@ def merge() -> int:
     result = []
     matched = 0
     for row in master:
+        if not is_active(row):
+            continue
         candidates = by_name.get((row.get("company_code", ""), norm(row.get("product_full_name", ""))), [])
         supplement = candidates[0] if candidates else {}
         if supplement:
@@ -46,6 +56,29 @@ def merge() -> int:
             "tii_url": row["source_url"],
             "official_match": bool(supplement),
         })
+
+    # 圖片／人工核對的中華郵政現售商品先進入可查詢主目錄，
+    # 但保留待補 TII 編號的來源標記，不自行生成 TII 編號。
+    if POSTAL_CANDIDATES.exists():
+        for row in json.loads(POSTAL_CANDIDATES.read_text(encoding="utf-8")):
+            name = row.get("product_full_name", "")
+            product_id = "postal-evidence-" + hashlib.sha256(name.encode("utf-8")).hexdigest()[:20]
+            result.append({
+                "product_id": product_id,
+                "company_code": "220",
+                "company_name": "中華郵政壽險",
+                "product_name": name,
+                "official_url": "",
+                "source_url": "IMG_1173.PNG",
+                "categories": [],
+                "market_date": row.get("sales_date"),
+                "discontinued_date": "未停售",
+                "sales_status": "現售",
+                "last_checked": now(),
+                "record_source": "user_evidence_pending_tii",
+                "tii_url": "",
+                "official_match": False,
+            })
     save_catalog(result)
     rebuild_db(result, [], reset_history=False)
     print(f"[OK] TII master merged: {len(result)} records; official supplements matched={matched}")

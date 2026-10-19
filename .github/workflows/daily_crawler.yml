@@ -48,6 +48,12 @@ jobs:
           data = json.loads(path.read_text(encoding="utf-8"))
           if not data:
               raise SystemExit("爬蟲沒有取得商品，停止流程並保留既有網站資料")
+          data = [item for item in data
+                  if item.get("sales_status") == "現售"
+                  and (item.get("discontinued_date") or "") in ("", "未停售")]
+          if not data:
+              raise SystemExit("沒有明確現售商品，停止流程並保留既有網站資料")
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
           expected = {"國泰人壽", "南山人壽", "富邦人壽", "中華郵政壽險"}
           actual = {item.get("company_name") for item in data}
           missing = expected - actual
@@ -68,6 +74,9 @@ jobs:
           source = Path("tii_insurance_data/structured_products_final.json")
           target = Path("data/products.json")
           data = json.loads(source.read_text(encoding="utf-8"))
+          data = [item for item in data
+                  if item.get("sales_status") == "現售"
+                  and (item.get("discontinued_date") or "") in ("", "未停售")]
           if not data:
               raise SystemExit("分類結果為空，停止流程並保留既有網站資料")
           target.parent.mkdir(exist_ok=True)

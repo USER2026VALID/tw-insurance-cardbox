@@ -79,6 +79,13 @@ def normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
 
+def is_active_record(record: dict) -> bool:
+    """網站與匯出只呈現明確現售／未停售商品。"""
+    status = (record.get("sales_status") or "").strip()
+    discontinued = (record.get("discontinued_date") or "").strip()
+    return status == "現售" and discontinued in {"", "未停售"}
+
+
 def stable_id(company_code: str, name: str, url: str) -> str:
     raw = f"{company_code}|{normalize(name)}|{url}".encode("utf-8")
     return hashlib.sha256(raw).hexdigest()[:20]
@@ -200,7 +207,7 @@ def load_catalog() -> list[dict]:
 
 def save_catalog(records: Iterable[dict]) -> None:
     CATALOG_DIR.mkdir(parents=True, exist_ok=True)
-    ordered = sorted(records, key=lambda x: (x.get("company_name", ""), x.get("product_name", "")))
+    ordered = sorted((r for r in records if is_active_record(r)), key=lambda x: (x.get("company_name", ""), x.get("product_name", "")))
     CATALOG_JSON.write_text(json.dumps(ordered, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
@@ -272,7 +279,7 @@ def sync() -> int:
 
 
 def export_metadata() -> int:
-    records = load_catalog()
+    records = [r for r in load_catalog() if is_active_record(r)]
     if not records:
         raise RuntimeError("catalog/catalog.json 沒有商品資料")
     target = ROOT / "tii_insurance_data" / "all_products_metadata.json"
