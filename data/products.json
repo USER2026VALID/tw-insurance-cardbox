@@ -41684,6 +41684,108 @@
     "id": "prod-209-0823",
     "company": "富邦",
     "company_color": "bg-blue-600",
+    "release_month": "103/08/",
+    "is_new": false,
+    "new_tag": "待補日期",
+    "product_full_name": "富邦人壽大專院校學生團體保險骨折未住院津貼附加條款",
+    "product_code": "tii-209-209213A11A00300",
+    "contract_type": "主約",
+    "sales_status": "現售",
+    "approval_number": "官方商品目錄，待補正式文號",
+    "age_range_display": "0~65 歲",
+    "min_issue_age": 0,
+    "max_issue_age": 65,
+    "max_renewal_age": null,
+    "is_guaranteed_renewal": false,
+    "has_227_restriction": false,
+    "categories": [
+      "醫療(定額)"
+    ],
+    "feature_chips": [
+      "住院",
+      "骨折",
+      "主約"
+    ],
+    "age_rules": [
+      {
+        "term": "標準年期",
+        "max_age": 65
+      }
+    ],
+    "sum_assured_limits": {
+      "unit": "依保單條款/DM",
+      "min": "依投保規則",
+      "max": "依投保規則",
+      "notes": "免 API 規則引擎自動分類，詳細保額限制請參閱商品 DM。"
+    },
+    "coverage_highlights": [
+      {
+        "name": "主要契約保障項目",
+        "summary": "依據「富邦人壽大專院校學生團體保險骨折未住院津貼附加條款」正式保單條款與核保規定辦理給付。",
+        "waiting_period": 0,
+        "clause": "保單條款",
+        "page": 1
+      }
+    ],
+    "evidence_quote": "詳見正式保單條款與商品簡介 DM 文件。",
+    "source_page": 1,
+    "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209213A11A00300"
+  },
+  {
+    "id": "prod-209-0824",
+    "company": "富邦",
+    "company_color": "bg-blue-600",
+    "release_month": "103/08/",
+    "is_new": false,
+    "new_tag": "待補日期",
+    "product_full_name": "富邦人壽大專院校學生團體保險骨折未住院津貼附加條款",
+    "product_code": "tii-209-209213AZ1A00221A11Z10000000",
+    "contract_type": "主約",
+    "sales_status": "現售",
+    "approval_number": "官方商品目錄，待補正式文號",
+    "age_range_display": "0~65 歲",
+    "min_issue_age": 0,
+    "max_issue_age": 65,
+    "max_renewal_age": null,
+    "is_guaranteed_renewal": false,
+    "has_227_restriction": false,
+    "categories": [
+      "醫療(定額)"
+    ],
+    "feature_chips": [
+      "住院",
+      "骨折",
+      "主約"
+    ],
+    "age_rules": [
+      {
+        "term": "標準年期",
+        "max_age": 65
+      }
+    ],
+    "sum_assured_limits": {
+      "unit": "依保單條款/DM",
+      "min": "依投保規則",
+      "max": "依投保規則",
+      "notes": "免 API 規則引擎自動分類，詳細保額限制請參閱商品 DM。"
+    },
+    "coverage_highlights": [
+      {
+        "name": "主要契約保障項目",
+        "summary": "依據「富邦人壽大專院校學生團體保險骨折未住院津貼附加條款」正式保單條款與核保規定辦理給付。",
+        "waiting_period": 0,
+        "clause": "保單條款",
+        "page": 1
+      }
+    ],
+    "evidence_quote": "詳見正式保單條款與商品簡介 DM 文件。",
+    "source_page": 1,
+    "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209213AZ1A00221A11Z10000000"
+  },
+  {
+    "id": "prod-209-0825",
+    "company": "富邦",
+    "company_color": "bg-blue-600",
     "release_month": "114/01/",
     "is_new": false,
     "new_tag": "待補日期",
@@ -41730,7 +41832,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209213MZ1A00921A11Z10000014"
   },
   {
-    "id": "prod-209-0824",
+    "id": "prod-209-0826",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "107/09/",
@@ -41779,7 +41881,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209213MZ1A00921A11Z10000009"
   },
   {
-    "id": "prod-209-0825",
+    "id": "prod-209-0827",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "",
@@ -41829,7 +41931,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351MZ5B00412A11Z10000000"
   },
   {
-    "id": "prod-209-0826",
+    "id": "prod-209-0828",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "099/12/",
@@ -41878,7 +41980,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191E11A00400"
   },
   {
-    "id": "prod-209-0827",
+    "id": "prod-209-0829",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/08/",
@@ -41929,7 +42031,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ9G00121A11Z10000002"
   },
   {
-    "id": "prod-209-0828",
+    "id": "prod-209-0830",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "107/09/",
@@ -41979,7 +42081,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209213MZ1A00421A11Z10000009"
   },
   {
-    "id": "prod-209-0829",
+    "id": "prod-209-0831",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -42030,7 +42132,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ4B00222A11Z10000004"
   },
   {
-    "id": "prod-209-0830",
+    "id": "prod-209-0832",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/08/",
@@ -42080,7 +42182,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ2A02723A11Z10000000"
   },
   {
-    "id": "prod-209-0831",
+    "id": "prod-209-0833",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/08/",
@@ -42131,7 +42233,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1A00911A11E10000000"
   },
   {
-    "id": "prod-209-0832",
+    "id": "prod-209-0834",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/08/",
@@ -42181,7 +42283,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209291EZ1A00121A11Z10000003"
   },
   {
-    "id": "prod-209-0833",
+    "id": "prod-209-0835",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "101/01/",
@@ -42234,7 +42336,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351M12B00301"
   },
   {
-    "id": "prod-209-0834",
+    "id": "prod-209-0836",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/08/",
@@ -42285,7 +42387,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A00321A11Z10000001"
   },
   {
-    "id": "prod-209-0835",
+    "id": "prod-209-0837",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -42336,7 +42438,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A00321A11Z10000007"
   },
   {
-    "id": "prod-209-0836",
+    "id": "prod-209-0838",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -42387,7 +42489,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351RZ5B00121A11Z10000011"
   },
   {
-    "id": "prod-209-0837",
+    "id": "prod-209-0839",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "105/01/",
@@ -42438,7 +42540,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351RZ5B00121A11Z10000003"
   },
   {
-    "id": "prod-209-0838",
+    "id": "prod-209-0840",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/03/",
@@ -42490,7 +42592,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211RZ1A01521A11Z10000000"
   },
   {
-    "id": "prod-209-0839",
+    "id": "prod-209-0841",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/01/",
@@ -42540,7 +42642,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191AZ1A00123A11Z10000006"
   },
   {
-    "id": "prod-209-0840",
+    "id": "prod-209-0842",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -42589,7 +42691,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421EU1A00123Z11C90000011"
   },
   {
-    "id": "prod-209-0841",
+    "id": "prod-209-0843",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/03/",
@@ -42638,7 +42740,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421EU1A00223Z11C90000006"
   },
   {
-    "id": "prod-209-0842",
+    "id": "prod-209-0844",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -42687,7 +42789,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421EU1A00223Z11C90000007"
   },
   {
-    "id": "prod-209-0843",
+    "id": "prod-209-0845",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "",
@@ -42739,7 +42841,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MU1A00113A11C90000000"
   },
   {
-    "id": "prod-209-0844",
+    "id": "prod-209-0846",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "110/03/",
@@ -42791,7 +42893,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MU1A00123A11C90000008"
   },
   {
-    "id": "prod-209-0845",
+    "id": "prod-209-0847",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/01/",
@@ -42843,7 +42945,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MU1A00123A11C90000009"
   },
   {
-    "id": "prod-209-0846",
+    "id": "prod-209-0848",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "107/03/",
@@ -42895,7 +42997,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MU1A00123A11C90000001"
   },
   {
-    "id": "prod-209-0847",
+    "id": "prod-209-0849",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "",
@@ -42947,7 +43049,57 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MU1A00113A11C90000002"
   },
   {
-    "id": "prod-209-0848",
+    "id": "prod-209-0850",
+    "company": "富邦",
+    "company_color": "bg-blue-600",
+    "release_month": "103/09/",
+    "is_new": false,
+    "new_tag": "待補日期",
+    "product_full_name": "富邦人壽富利人生還本終身保險(第2次部分變更)",
+    "product_code": "tii-209-209121MZ1A01723A11Z10000002",
+    "contract_type": "主約",
+    "sales_status": "現售",
+    "approval_number": "官方商品目錄，待補正式文號",
+    "age_range_display": "0~60 歲",
+    "min_issue_age": 0,
+    "max_issue_age": 60,
+    "max_renewal_age": null,
+    "is_guaranteed_renewal": true,
+    "has_227_restriction": false,
+    "categories": [
+      "終身"
+    ],
+    "feature_chips": [
+      "終身",
+      "主約"
+    ],
+    "age_rules": [
+      {
+        "term": "標準年期",
+        "max_age": 60
+      }
+    ],
+    "sum_assured_limits": {
+      "unit": "依保單條款/DM",
+      "min": "依投保規則",
+      "max": "依投保規則",
+      "notes": "免 API 規則引擎自動分類，詳細保額限制請參閱商品 DM。"
+    },
+    "coverage_highlights": [
+      {
+        "name": "主要契約保障項目",
+        "summary": "依據「富邦人壽富利人生還本終身保險(第2次部分變更)」正式保單條款與核保規定辦理給付。",
+        "waiting_period": 0,
+        "clause": "保單條款",
+        "page": 1
+      }
+    ],
+    "evidence_quote": "詳見正式保單條款與商品簡介 DM 文件。",
+    "source_page": 1,
+    "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A01723A11Z10000002"
+  },
+  {
+    "id": "prod-209-0851",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "102/03/",
@@ -42999,7 +43151,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121M11A07400"
   },
   {
-    "id": "prod-209-0849",
+    "id": "prod-209-0852",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/12/",
@@ -43051,7 +43203,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1B00423A11Z10000004"
   },
   {
-    "id": "prod-209-0850",
+    "id": "prod-209-0853",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/07/",
@@ -43103,7 +43255,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A03123A11Z90000005"
   },
   {
-    "id": "prod-209-0851",
+    "id": "prod-209-0854",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "111/04/",
@@ -43153,7 +43305,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MA2A01722A11Z10000002"
   },
   {
-    "id": "prod-209-0852",
+    "id": "prod-209-0855",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "111/12/",
@@ -43203,7 +43355,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MA2A01722A11Z10000003"
   },
   {
-    "id": "prod-209-0853",
+    "id": "prod-209-0856",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -43255,7 +43407,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA2A01323A11Z10000001"
   },
   {
-    "id": "prod-209-0854",
+    "id": "prod-209-0857",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/03/",
@@ -43307,7 +43459,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA2A01323A11Z10000003"
   },
   {
-    "id": "prod-209-0855",
+    "id": "prod-209-0858",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/08/",
@@ -43358,7 +43510,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9D00221A11Z10000003"
   },
   {
-    "id": "prod-209-0856",
+    "id": "prod-209-0859",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -43408,7 +43560,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05723B11Z10000001"
   },
   {
-    "id": "prod-209-0857",
+    "id": "prod-209-0860",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -43460,7 +43612,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A08423B11Z10000000"
   },
   {
-    "id": "prod-209-0858",
+    "id": "prod-209-0861",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/07/",
@@ -43512,7 +43664,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A08123B11Z10000000"
   },
   {
-    "id": "prod-209-0859",
+    "id": "prod-209-0862",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -43564,7 +43716,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04823A11Z10000001"
   },
   {
-    "id": "prod-209-0860",
+    "id": "prod-209-0863",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -43614,7 +43766,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A03823A11Z10000001"
   },
   {
-    "id": "prod-209-0861",
+    "id": "prod-209-0864",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "111/12/",
@@ -43664,7 +43816,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A00123A11Z90000018"
   },
   {
-    "id": "prod-209-0862",
+    "id": "prod-209-0865",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -43714,7 +43866,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A00823A11Z90000021"
   },
   {
-    "id": "prod-209-0863",
+    "id": "prod-209-0866",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/09/",
@@ -43764,7 +43916,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A00723A11Z90000008"
   },
   {
-    "id": "prod-209-0864",
+    "id": "prod-209-0867",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/01/",
@@ -43814,7 +43966,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A00723A11Z90000018"
   },
   {
-    "id": "prod-209-0865",
+    "id": "prod-209-0868",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -43866,7 +44018,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03423A11Z10000005"
   },
   {
-    "id": "prod-209-0866",
+    "id": "prod-209-0869",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -43918,7 +44070,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA9B00423A11E10000002"
   },
   {
-    "id": "prod-209-0867",
+    "id": "prod-209-0870",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/01/",
@@ -43968,7 +44120,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MA2A01822A11Z10000000"
   },
   {
-    "id": "prod-209-0868",
+    "id": "prod-209-0871",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/06/",
@@ -44020,7 +44172,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B02123A11Z10000000"
   },
   {
-    "id": "prod-209-0869",
+    "id": "prod-209-0872",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "100/07/",
@@ -44069,7 +44221,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121M12A01003"
   },
   {
-    "id": "prod-209-0870",
+    "id": "prod-209-0873",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/07/",
@@ -44121,7 +44273,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A05223B11Z10000000"
   },
   {
-    "id": "prod-209-0871",
+    "id": "prod-209-0874",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -44173,7 +44325,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04623B11Z10000002"
   },
   {
-    "id": "prod-209-0872",
+    "id": "prod-209-0875",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "085/01/",
@@ -44222,7 +44374,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209231M11A00100"
   },
   {
-    "id": "prod-209-0873",
+    "id": "prod-209-0876",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/08/",
@@ -44272,7 +44424,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209291MZ1A00221A11Z10000002"
   },
   {
-    "id": "prod-209-0874",
+    "id": "prod-209-0877",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/09/",
@@ -44324,7 +44476,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211RZ1A01621A11Z10000000"
   },
   {
-    "id": "prod-209-0875",
+    "id": "prod-209-0878",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/11/",
@@ -44374,7 +44526,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ1A00322A11Z10000000"
   },
   {
-    "id": "prod-209-0876",
+    "id": "prod-209-0879",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -44425,7 +44577,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1A00723A11Z10000002"
   },
   {
-    "id": "prod-209-0877",
+    "id": "prod-209-0880",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/05/",
@@ -44474,7 +44626,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209221MZ1A01221A11Z10000000"
   },
   {
-    "id": "prod-209-0878",
+    "id": "prod-209-0881",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/10/",
@@ -44525,7 +44677,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209221MZ1A00921A11Z10000001"
   },
   {
-    "id": "prod-209-0879",
+    "id": "prod-209-0882",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/06/",
@@ -44574,7 +44726,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391RZ1D00421A11Z10000001"
   },
   {
-    "id": "prod-209-0880",
+    "id": "prod-209-0883",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/01/",
@@ -44623,7 +44775,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209221MZ1A00321A11Z10000011"
   },
   {
-    "id": "prod-209-0881",
+    "id": "prod-209-0884",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/01/",
@@ -44672,7 +44824,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311AZ1A00121A11Z10000001"
   },
   {
-    "id": "prod-209-0882",
+    "id": "prod-209-0885",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/06/",
@@ -44723,7 +44875,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209221RZ1A00521A11Z10000009"
   },
   {
-    "id": "prod-209-0883",
+    "id": "prod-209-0886",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/01/",
@@ -44772,7 +44924,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391AZ1A00221A11Z10000008"
   },
   {
-    "id": "prod-209-0884",
+    "id": "prod-209-0887",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/05/",
@@ -44821,7 +44973,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391RZ1A01821A12Z10000002"
   },
   {
-    "id": "prod-209-0885",
+    "id": "prod-209-0888",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "100/04/",
@@ -44870,7 +45022,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391A12D00100"
   },
   {
-    "id": "prod-209-0886",
+    "id": "prod-209-0889",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/07/",
@@ -44922,7 +45074,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A05123B11Z10000000"
   },
   {
-    "id": "prod-209-0887",
+    "id": "prod-209-0890",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/09/",
@@ -44971,7 +45123,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209221MZ1A01021A11Z10000002"
   },
   {
-    "id": "prod-209-0888",
+    "id": "prod-209-0891",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -45020,7 +45172,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391RZ1A01921A12Z10000001"
   },
   {
-    "id": "prod-209-0889",
+    "id": "prod-209-0892",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "098/09/",
@@ -45071,7 +45223,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209317A11A00802"
   },
   {
-    "id": "prod-209-0890",
+    "id": "prod-209-0893",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/03/",
@@ -45121,7 +45273,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211MZ1A01522A11Z10000000"
   },
   {
-    "id": "prod-209-0891",
+    "id": "prod-209-0894",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/08/",
@@ -45172,7 +45324,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321RZ1A00521A11Z10000000"
   },
   {
-    "id": "prod-209-0892",
+    "id": "prod-209-0895",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -45222,7 +45374,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1A00522A31Z10000002"
   },
   {
-    "id": "prod-209-0893",
+    "id": "prod-209-0896",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -45273,7 +45425,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321RZ1A00422A11Z10000003"
   },
   {
-    "id": "prod-209-0894",
+    "id": "prod-209-0897",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "103/05/",
@@ -45323,7 +45475,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209193M11B00107"
   },
   {
-    "id": "prod-209-0895",
+    "id": "prod-209-0898",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/03/",
@@ -45373,7 +45525,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A06023A11Z10000000"
   },
   {
-    "id": "prod-209-0896",
+    "id": "prod-209-0899",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -45424,7 +45576,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209361MZ6B00623A11E10000000"
   },
   {
-    "id": "prod-209-0897",
+    "id": "prod-209-0900",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "110/07/",
@@ -45474,7 +45626,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A00723Z11Z90000002"
   },
   {
-    "id": "prod-209-0898",
+    "id": "prod-209-0901",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/01/",
@@ -45524,7 +45676,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A00523A11Z90000062"
   },
   {
-    "id": "prod-209-0899",
+    "id": "prod-209-0902",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/09/",
@@ -45574,7 +45726,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A00523A11Z90000072"
   },
   {
-    "id": "prod-209-0900",
+    "id": "prod-209-0903",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/12/",
@@ -45624,7 +45776,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A01923A11Z90000002"
   },
   {
-    "id": "prod-209-0901",
+    "id": "prod-209-0904",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/08/",
@@ -45674,7 +45826,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A01623A11Z90000002"
   },
   {
-    "id": "prod-209-0902",
+    "id": "prod-209-0905",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "110/11/",
@@ -45724,7 +45876,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A00923Z11Z90000006"
   },
   {
-    "id": "prod-209-0903",
+    "id": "prod-209-0906",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -45773,7 +45925,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A01223A11Z90000008"
   },
   {
-    "id": "prod-209-0904",
+    "id": "prod-209-0907",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/09/",
@@ -45822,7 +45974,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A01523A11Z90000009"
   },
   {
-    "id": "prod-209-0905",
+    "id": "prod-209-0908",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -45871,7 +46023,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A01723A11Z90000004"
   },
   {
-    "id": "prod-209-0906",
+    "id": "prod-209-0909",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/12/",
@@ -45920,7 +46072,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A02023A11Z90000000"
   },
   {
-    "id": "prod-209-0907",
+    "id": "prod-209-0910",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/09/",
@@ -45969,7 +46121,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A01423A11Z90000009"
   },
   {
-    "id": "prod-209-0908",
+    "id": "prod-209-0911",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "100/07/",
@@ -46018,7 +46170,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191E31A00116"
   },
   {
-    "id": "prod-209-0909",
+    "id": "prod-209-0912",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/06/",
@@ -46067,7 +46219,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191E31A00131"
   },
   {
-    "id": "prod-209-0910",
+    "id": "prod-209-0913",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -46116,7 +46268,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A00423A11Z90000064"
   },
   {
-    "id": "prod-209-0911",
+    "id": "prod-209-0914",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "101/07/",
@@ -46165,7 +46317,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209393E12G00100"
   },
   {
-    "id": "prod-209-0912",
+    "id": "prod-209-0915",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "101/07/",
@@ -46214,7 +46366,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311E11A10300"
   },
   {
-    "id": "prod-209-0913",
+    "id": "prod-209-0916",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -46264,7 +46416,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1G00222A11E10000001"
   },
   {
-    "id": "prod-209-0914",
+    "id": "prod-209-0917",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/05/",
@@ -46316,7 +46468,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MA1A00823A11Z10000005"
   },
   {
-    "id": "prod-209-0915",
+    "id": "prod-209-0918",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/10/",
@@ -46367,7 +46519,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209313MZ1A00121A11Z10000013"
   },
   {
-    "id": "prod-209-0916",
+    "id": "prod-209-0919",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -46417,7 +46569,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ2A02123A11Z10000004"
   },
   {
-    "id": "prod-209-0917",
+    "id": "prod-209-0920",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -46468,7 +46620,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B00623A11Z10000010"
   },
   {
-    "id": "prod-209-0918",
+    "id": "prod-209-0921",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "101/09/",
@@ -46520,7 +46672,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209141M31A00141"
   },
   {
-    "id": "prod-209-0919",
+    "id": "prod-209-0922",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "107/10/",
@@ -46572,7 +46724,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191MV1A00123A11Z90000073"
   },
   {
-    "id": "prod-209-0920",
+    "id": "prod-209-0923",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/07/",
@@ -46623,7 +46775,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209133MZ1A00221A11Z10000015"
   },
   {
-    "id": "prod-209-0921",
+    "id": "prod-209-0924",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -46674,7 +46826,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209323RZ1A00221A11Z10000010"
   },
   {
-    "id": "prod-209-0922",
+    "id": "prod-209-0925",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/08/",
@@ -46725,7 +46877,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209323EZ1A00221A11Z10000000"
   },
   {
-    "id": "prod-209-0923",
+    "id": "prod-209-0926",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -46776,7 +46928,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209323RZ1A00421A11Z10000010"
   },
   {
-    "id": "prod-209-0924",
+    "id": "prod-209-0927",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -46827,7 +46979,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209323RZ1A00321A11Z10000010"
   },
   {
-    "id": "prod-209-0925",
+    "id": "prod-209-0928",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "111/12/",
@@ -46877,7 +47029,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209313MZ1A00921A11Z10000001"
   },
   {
-    "id": "prod-209-0926",
+    "id": "prod-209-0929",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -46928,7 +47080,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B00323A11Z10000011"
   },
   {
-    "id": "prod-209-0927",
+    "id": "prod-209-0930",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/07/",
@@ -46977,7 +47129,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311RZ1A03321A11Z10000003"
   },
   {
-    "id": "prod-209-0928",
+    "id": "prod-209-0931",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/08/",
@@ -47028,7 +47180,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ9G00221A11Z10000001"
   },
   {
-    "id": "prod-209-0929",
+    "id": "prod-209-0932",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/08/",
@@ -47079,7 +47231,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9D00321A11Z10000001"
   },
   {
-    "id": "prod-209-0930",
+    "id": "prod-209-0933",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -47131,7 +47283,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1B00223A11Z10000014"
   },
   {
-    "id": "prod-209-0931",
+    "id": "prod-209-0934",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/06/",
@@ -47180,7 +47332,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391RZ1D00321A11Z10000001"
   },
   {
-    "id": "prod-209-0932",
+    "id": "prod-209-0935",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/05/",
@@ -47232,7 +47384,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MA1A01023A11Z10000004"
   },
   {
-    "id": "prod-209-0933",
+    "id": "prod-209-0936",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -47284,7 +47436,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321RZ1A00123A11Z10000014"
   },
   {
-    "id": "prod-209-0934",
+    "id": "prod-209-0937",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/01/",
@@ -47336,7 +47488,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A06723B11Z10000002"
   },
   {
-    "id": "prod-209-0935",
+    "id": "prod-209-0938",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -47386,7 +47538,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ2A02223A11Z10000004"
   },
   {
-    "id": "prod-209-0936",
+    "id": "prod-209-0939",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/05/",
@@ -47438,7 +47590,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MA1A00923A11Z10000006"
   },
   {
-    "id": "prod-209-0937",
+    "id": "prod-209-0940",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/01/",
@@ -47490,7 +47642,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9B01623A11E10000002"
   },
   {
-    "id": "prod-209-0938",
+    "id": "prod-209-0941",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -47541,7 +47693,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B00523A11Z10000011"
   },
   {
-    "id": "prod-209-0939",
+    "id": "prod-209-0942",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -47592,7 +47744,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B00523A11Z10000012"
   },
   {
-    "id": "prod-209-0940",
+    "id": "prod-209-0943",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/01/",
@@ -47641,7 +47793,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209221MZ1A00221A11Z10000012"
   },
   {
-    "id": "prod-209-0941",
+    "id": "prod-209-0944",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/06/",
@@ -47692,7 +47844,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209221RZ1A00421A11Z10000011"
   },
   {
-    "id": "prod-209-0942",
+    "id": "prod-209-0945",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "105/08/",
@@ -47743,7 +47895,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209221RZ1A00421A11Z10000007"
   },
   {
-    "id": "prod-209-0943",
+    "id": "prod-209-0946",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/01/",
@@ -47792,7 +47944,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391AZ1A00121A11Z10000010"
   },
   {
-    "id": "prod-209-0944",
+    "id": "prod-209-0947",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/01/",
@@ -47841,7 +47993,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391AZ1D00121A11Z10000003"
   },
   {
-    "id": "prod-209-0945",
+    "id": "prod-209-0948",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/05/",
@@ -47890,7 +48042,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391RZ1A01721A12Z10000002"
   },
   {
-    "id": "prod-209-0946",
+    "id": "prod-209-0949",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/08/",
@@ -47940,7 +48092,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311RZ1A03222A11Z10000001"
   },
   {
-    "id": "prod-209-0947",
+    "id": "prod-209-0950",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/08/",
@@ -47991,7 +48143,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311RZ1A03521A11E10000001"
   },
   {
-    "id": "prod-209-0948",
+    "id": "prod-209-0951",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/02/",
@@ -48043,7 +48195,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209293MZ1A00121A11Z10000014"
   },
   {
-    "id": "prod-209-0949",
+    "id": "prod-209-0952",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -48095,7 +48247,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03923B11Z10000004"
   },
   {
-    "id": "prod-209-0950",
+    "id": "prod-209-0953",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "111/12/",
@@ -48144,7 +48296,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A03422A11Z10000002"
   },
   {
-    "id": "prod-209-0951",
+    "id": "prod-209-0954",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "111/08/",
@@ -48196,7 +48348,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A06523B11Z10000001"
   },
   {
-    "id": "prod-209-0952",
+    "id": "prod-209-0955",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -48248,7 +48400,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04423B11Z10000005"
   },
   {
-    "id": "prod-209-0953",
+    "id": "prod-209-0956",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "107/10/",
@@ -48298,7 +48450,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1A00412A31Z10000000"
   },
   {
-    "id": "prod-209-0954",
+    "id": "prod-209-0957",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -48348,7 +48500,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1A00422A31Z10000003"
   },
   {
-    "id": "prod-209-0955",
+    "id": "prod-209-0958",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -48398,7 +48550,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A04723A11Z10000003"
   },
   {
-    "id": "prod-209-0956",
+    "id": "prod-209-0959",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/09/",
@@ -48450,7 +48602,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A02723A11Z10000001"
   },
   {
-    "id": "prod-209-0957",
+    "id": "prod-209-0960",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/05/",
@@ -48500,7 +48652,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ1A00422A11E10000000"
   },
   {
-    "id": "prod-209-0958",
+    "id": "prod-209-0961",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/05/",
@@ -48550,7 +48702,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ1A00522A11E10000000"
   },
   {
-    "id": "prod-209-0959",
+    "id": "prod-209-0962",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/08/",
@@ -48601,7 +48753,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9G00221A11Z10000003"
   },
   {
-    "id": "prod-209-0960",
+    "id": "prod-209-0963",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -48652,7 +48804,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B01123A11Z10000005"
   },
   {
-    "id": "prod-209-0961",
+    "id": "prod-209-0964",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -48702,7 +48854,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A04623A11Z10000002"
   },
   {
-    "id": "prod-209-0962",
+    "id": "prod-209-0965",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -48753,7 +48905,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131RZ1A00322A11Z10000001"
   },
   {
-    "id": "prod-209-0963",
+    "id": "prod-209-0966",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/07/",
@@ -48806,7 +48958,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209361MZ6B00423A11Z10000000"
   },
   {
-    "id": "prod-209-0964",
+    "id": "prod-209-0967",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/05/",
@@ -48856,7 +49008,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ1A00622A11E10000000"
   },
   {
-    "id": "prod-209-0965",
+    "id": "prod-209-0968",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -48907,7 +49059,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321MZ1A00222A11E10000001"
   },
   {
-    "id": "prod-209-0966",
+    "id": "prod-209-0969",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -48957,7 +49109,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B01422A11Z10000004"
   },
   {
-    "id": "prod-209-0967",
+    "id": "prod-209-0970",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -49006,7 +49158,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211MZ4G00222A11Z10000001"
   },
   {
-    "id": "prod-209-0968",
+    "id": "prod-209-0971",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/03/",
@@ -49056,7 +49208,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1G00322A11E10000000"
   },
   {
-    "id": "prod-209-0969",
+    "id": "prod-209-0972",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -49109,7 +49261,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351MZ5B00323A11Z10000014"
   },
   {
-    "id": "prod-209-0970",
+    "id": "prod-209-0973",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "110/08/",
@@ -49160,7 +49312,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209313EZ1A00121A11Z10000000"
   },
   {
-    "id": "prod-209-0971",
+    "id": "prod-209-0974",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/01/",
@@ -49210,7 +49362,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121M21A05802"
   },
   {
-    "id": "prod-209-0972",
+    "id": "prod-209-0975",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -49260,7 +49412,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05023A11Z10000001"
   },
   {
-    "id": "prod-209-0973",
+    "id": "prod-209-0976",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "102/01/",
@@ -49311,7 +49463,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209213A11A00101"
   },
   {
-    "id": "prod-209-0974",
+    "id": "prod-209-0977",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "110/01/",
@@ -49360,7 +49512,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209221MZ1A00121A11Z10000006"
   },
   {
-    "id": "prod-209-0975",
+    "id": "prod-209-0978",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "111/11/",
@@ -49411,7 +49563,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209133MZ1A00521A11Z10000011"
   },
   {
-    "id": "prod-209-0976",
+    "id": "prod-209-0979",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "108/01/",
@@ -49462,7 +49614,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209133MZ1A00521A11Z10000009"
   },
   {
-    "id": "prod-209-0977",
+    "id": "prod-209-0980",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "108/02/",
@@ -49514,7 +49666,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209491EZ1A00123A11Z10000000"
   },
   {
-    "id": "prod-209-0978",
+    "id": "prod-209-0981",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/01/",
@@ -49566,7 +49718,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211RZ2A00222A11Z10000002"
   },
   {
-    "id": "prod-209-0979",
+    "id": "prod-209-0982",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/06/",
@@ -49617,7 +49769,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391RZ1A02021A11Z10000000"
   },
   {
-    "id": "prod-209-0980",
+    "id": "prod-209-0983",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/07/",
@@ -49669,7 +49821,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321RZ1A00623A11Z10000001"
   },
   {
-    "id": "prod-209-0981",
+    "id": "prod-209-0984",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -49721,7 +49873,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A07723D11Z10000001"
   },
   {
-    "id": "prod-209-0982",
+    "id": "prod-209-0985",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -49773,7 +49925,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A05523A11Z10000004"
   },
   {
-    "id": "prod-209-0983",
+    "id": "prod-209-0986",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "098/07/",
@@ -49822,7 +49974,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209317E11A01000"
   },
   {
-    "id": "prod-209-0984",
+    "id": "prod-209-0987",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "098/06/",
@@ -49871,7 +50023,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209317E11A00900"
   },
   {
-    "id": "prod-209-0985",
+    "id": "prod-209-0988",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -49922,7 +50074,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321MZ1A00522A11Z10000000"
   },
   {
-    "id": "prod-209-0986",
+    "id": "prod-209-0989",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -49973,7 +50125,57 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321MZ9G00122A11Z10000002"
   },
   {
-    "id": "prod-209-0987",
+    "id": "prod-209-0990",
+    "company": "富邦",
+    "company_color": "bg-blue-600",
+    "release_month": "111/12/",
+    "is_new": false,
+    "new_tag": "待補日期",
+    "product_full_name": "富邦人壽癌症標靶治療藥物費用團體健康保險(第1次部分變更)",
+    "product_code": "tii-209-209323MZ1A00221A11Z10000001",
+    "contract_type": "主約",
+    "sales_status": "現售",
+    "approval_number": "官方商品目錄，待補正式文號",
+    "age_range_display": "0~65 歲",
+    "min_issue_age": 0,
+    "max_issue_age": 65,
+    "max_renewal_age": null,
+    "is_guaranteed_renewal": false,
+    "has_227_restriction": false,
+    "categories": [
+      "癌症險"
+    ],
+    "feature_chips": [
+      "癌症",
+      "主約"
+    ],
+    "age_rules": [
+      {
+        "term": "標準年期",
+        "max_age": 65
+      }
+    ],
+    "sum_assured_limits": {
+      "unit": "依保單條款/DM",
+      "min": "依投保規則",
+      "max": "依投保規則",
+      "notes": "免 API 規則引擎自動分類，詳細保額限制請參閱商品 DM。"
+    },
+    "coverage_highlights": [
+      {
+        "name": "主要契約保障項目",
+        "summary": "依據「富邦人壽癌症標靶治療藥物費用團體健康保險(第1次部分變更)」正式保單條款與核保規定辦理給付。",
+        "waiting_period": 0,
+        "clause": "保單條款",
+        "page": 1
+      }
+    ],
+    "evidence_quote": "詳見正式保單條款與商品簡介 DM 文件。",
+    "source_page": 1,
+    "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209323MZ1A00221A11Z10000001"
+  },
+  {
+    "id": "prod-209-0991",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/08/",
@@ -50024,7 +50226,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209291MZ1G00121A11Z10000002"
   },
   {
-    "id": "prod-209-0988",
+    "id": "prod-209-0992",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/08/",
@@ -50076,7 +50278,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ9B00823A11E10000000"
   },
   {
-    "id": "prod-209-0989",
+    "id": "prod-209-0993",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -50128,7 +50330,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A02323A11Z10000009"
   },
   {
-    "id": "prod-209-0990",
+    "id": "prod-209-0994",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/03/",
@@ -50180,7 +50382,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A04023A11Z90000005"
   },
   {
-    "id": "prod-209-0991",
+    "id": "prod-209-0995",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/09/",
@@ -50229,7 +50431,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A01023A11Z90000014"
   },
   {
-    "id": "prod-209-0992",
+    "id": "prod-209-0996",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "101/10/",
@@ -50281,7 +50483,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A00901"
   },
   {
-    "id": "prod-209-0993",
+    "id": "prod-209-0997",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "102/07/",
@@ -50333,7 +50535,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A00906"
   },
   {
-    "id": "prod-209-0994",
+    "id": "prod-209-0998",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/02/",
@@ -50385,7 +50587,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A04423A11Z90000004"
   },
   {
-    "id": "prod-209-0995",
+    "id": "prod-209-0999",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/08/",
@@ -50437,7 +50639,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A04423A11Z90000005"
   },
   {
-    "id": "prod-209-0996",
+    "id": "prod-209-1000",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "098/07/",
@@ -50487,7 +50689,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121M12B00206"
   },
   {
-    "id": "prod-209-0997",
+    "id": "prod-209-1001",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/05/",
@@ -50538,7 +50740,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B02023A11E10000000"
   },
   {
-    "id": "prod-209-0998",
+    "id": "prod-209-1002",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -50590,7 +50792,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351RZ1A00422A11Z10000002"
   },
   {
-    "id": "prod-209-0999",
+    "id": "prod-209-1003",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -50641,7 +50843,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321RZ1A00322A11Z10000004"
   },
   {
-    "id": "prod-209-1000",
+    "id": "prod-209-1004",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "101/10/",
@@ -50693,7 +50895,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01001"
   },
   {
-    "id": "prod-209-1001",
+    "id": "prod-209-1005",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "102/09/",
@@ -50745,7 +50947,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01007"
   },
   {
-    "id": "prod-209-1002",
+    "id": "prod-209-1006",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/03/",
@@ -50797,7 +50999,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A05023A11Z90000000"
   },
   {
-    "id": "prod-209-1003",
+    "id": "prod-209-1007",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/02/",
@@ -50849,7 +51051,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A04123A11Z90000004"
   },
   {
-    "id": "prod-209-1004",
+    "id": "prod-209-1008",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/02/",
@@ -50900,7 +51102,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321MZ9B00122A11E10000000"
   },
   {
-    "id": "prod-209-1005",
+    "id": "prod-209-1009",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -50950,7 +51152,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A04023B11Z10000004"
   },
   {
-    "id": "prod-209-1006",
+    "id": "prod-209-1010",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/08/",
@@ -51001,7 +51203,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321MZ1A00322A11E10000000"
   },
   {
-    "id": "prod-209-1007",
+    "id": "prod-209-1011",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/03/",
@@ -51051,7 +51253,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A06223A11Z10000000"
   },
   {
-    "id": "prod-209-1008",
+    "id": "prod-209-1012",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -51103,7 +51305,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03723B11Z10000005"
   },
   {
-    "id": "prod-209-1009",
+    "id": "prod-209-1013",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -51153,7 +51355,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A03623A11Z10000005"
   },
   {
-    "id": "prod-209-1010",
+    "id": "prod-209-1014",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -51203,7 +51405,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05123B11Z10000001"
   },
   {
-    "id": "prod-209-1011",
+    "id": "prod-209-1015",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -51253,7 +51455,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A04223A11Z10000005"
   },
   {
-    "id": "prod-209-1012",
+    "id": "prod-209-1016",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -51303,7 +51505,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A04123A11Z10000004"
   },
   {
-    "id": "prod-209-1013",
+    "id": "prod-209-1017",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -51353,7 +51555,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A04323B11Z10000004"
   },
   {
-    "id": "prod-209-1014",
+    "id": "prod-209-1018",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -51405,7 +51607,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04023A11Z10000005"
   },
   {
-    "id": "prod-209-1015",
+    "id": "prod-209-1019",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -51457,7 +51659,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A02823A11D10000007"
   },
   {
-    "id": "prod-209-1016",
+    "id": "prod-209-1020",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -51508,7 +51710,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04322A11Z10000001"
   },
   {
-    "id": "prod-209-1017",
+    "id": "prod-209-1021",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/10/",
@@ -51558,7 +51760,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311RZ1A03621A11Z10000000"
   },
   {
-    "id": "prod-209-1018",
+    "id": "prod-209-1022",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/06/",
@@ -51609,7 +51811,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211RZ1A01121A11A10000005"
   },
   {
-    "id": "prod-209-1019",
+    "id": "prod-209-1023",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -51659,7 +51861,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1A00822A11E10000001"
   },
   {
-    "id": "prod-209-1020",
+    "id": "prod-209-1024",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/06/",
@@ -51710,7 +51912,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03321A11A10000002"
   },
   {
-    "id": "prod-209-1021",
+    "id": "prod-209-1025",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/06/",
@@ -51760,7 +51962,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211MZ1A01221A11A10000005"
   },
   {
-    "id": "prod-209-1022",
+    "id": "prod-209-1026",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/02/",
@@ -51812,7 +52014,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A07023B11Z10000002"
   },
   {
-    "id": "prod-209-1023",
+    "id": "prod-209-1027",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/09/",
@@ -51864,7 +52066,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A04523B11Z10000001"
   },
   {
-    "id": "prod-209-1024",
+    "id": "prod-209-1028",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/12/",
@@ -51916,7 +52118,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A08323B11Z10000000"
   },
   {
-    "id": "prod-209-1025",
+    "id": "prod-209-1029",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -51968,7 +52170,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A07823B11Z10000001"
   },
   {
-    "id": "prod-209-1026",
+    "id": "prod-209-1030",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -52018,7 +52220,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05823B11Z10000001"
   },
   {
-    "id": "prod-209-1027",
+    "id": "prod-209-1031",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/07/",
@@ -52070,7 +52272,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A07923B11Z10000000"
   },
   {
-    "id": "prod-209-1028",
+    "id": "prod-209-1032",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -52120,7 +52322,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ9B02422B11E10000001"
   },
   {
-    "id": "prod-209-1029",
+    "id": "prod-209-1033",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -52170,7 +52372,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A04523B11Z10000003"
   },
   {
-    "id": "prod-209-1030",
+    "id": "prod-209-1034",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/06/",
@@ -52222,7 +52424,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A05023B11Z10000000"
   },
   {
-    "id": "prod-209-1031",
+    "id": "prod-209-1035",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -52274,7 +52476,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03523B11Z10000007"
   },
   {
-    "id": "prod-209-1032",
+    "id": "prod-209-1036",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -52323,7 +52525,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ5B00222B11Z10000000"
   },
   {
-    "id": "prod-209-1033",
+    "id": "prod-209-1037",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -52372,7 +52574,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05922B11Z10000000"
   },
   {
-    "id": "prod-209-1034",
+    "id": "prod-209-1038",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/08/",
@@ -52421,7 +52623,59 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A06522B11Z10000000"
   },
   {
-    "id": "prod-209-1035",
+    "id": "prod-209-1039",
+    "company": "富邦",
+    "company_color": "bg-blue-600",
+    "release_month": "115/01/",
+    "is_new": false,
+    "new_tag": "待補日期",
+    "product_full_name": "富邦人壽美富長紅外幣分紅終身壽險(第1次部分變更)",
+    "product_code": "tii-209-209131MZ1A04723B11Z10000001",
+    "contract_type": "主約",
+    "sales_status": "現售",
+    "approval_number": "官方商品目錄，待補正式文號",
+    "age_range_display": "0~60 歲",
+    "min_issue_age": 0,
+    "max_issue_age": 60,
+    "max_renewal_age": null,
+    "is_guaranteed_renewal": false,
+    "has_227_restriction": false,
+    "categories": [
+      "壽險",
+      "終身"
+    ],
+    "feature_chips": [
+      "壽險",
+      "終身",
+      "主約"
+    ],
+    "age_rules": [
+      {
+        "term": "標準年期",
+        "max_age": 60
+      }
+    ],
+    "sum_assured_limits": {
+      "unit": "依保單條款/DM",
+      "min": "依投保規則",
+      "max": "依投保規則",
+      "notes": "免 API 規則引擎自動分類，詳細保額限制請參閱商品 DM。"
+    },
+    "coverage_highlights": [
+      {
+        "name": "主要契約保障項目",
+        "summary": "依據「富邦人壽美富長紅外幣分紅終身壽險(第1次部分變更)」正式保單條款與核保規定辦理給付。",
+        "waiting_period": 0,
+        "clause": "保單條款",
+        "page": 1
+      }
+    ],
+    "evidence_quote": "詳見正式保單條款與商品簡介 DM 文件。",
+    "source_page": 1,
+    "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04723B11Z10000001"
+  },
+  {
+    "id": "prod-209-1040",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -52473,7 +52727,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03623B11Z10000005"
   },
   {
-    "id": "prod-209-1036",
+    "id": "prod-209-1041",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -52523,7 +52777,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05623B11Z10000001"
   },
   {
-    "id": "prod-209-1037",
+    "id": "prod-209-1042",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -52573,7 +52827,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A04823B11Z10000001"
   },
   {
-    "id": "prod-209-1038",
+    "id": "prod-209-1043",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -52623,7 +52877,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A03723B11Z10000004"
   },
   {
-    "id": "prod-209-1039",
+    "id": "prod-209-1044",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/01/",
@@ -52675,7 +52929,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A06623B11Z10000002"
   },
   {
-    "id": "prod-209-1040",
+    "id": "prod-209-1045",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -52727,7 +52981,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A06623B11Z10000005"
   },
   {
-    "id": "prod-209-1041",
+    "id": "prod-209-1046",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -52777,7 +53031,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05423B11Z10000001"
   },
   {
-    "id": "prod-209-1042",
+    "id": "prod-209-1047",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/05/",
@@ -52827,7 +53081,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A06423B11Z10000000"
   },
   {
-    "id": "prod-209-1043",
+    "id": "prod-209-1048",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/02/",
@@ -52879,7 +53133,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A07323B11Z10000002"
   },
   {
-    "id": "prod-209-1044",
+    "id": "prod-209-1049",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/03/",
@@ -52931,7 +53185,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A08623B11Z10000000"
   },
   {
-    "id": "prod-209-1045",
+    "id": "prod-209-1050",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -52983,7 +53237,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A03823B11Z10000004"
   },
   {
-    "id": "prod-209-1046",
+    "id": "prod-209-1051",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "098/10/",
@@ -53032,7 +53286,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209317A11A00203"
   },
   {
-    "id": "prod-209-1047",
+    "id": "prod-209-1052",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -53082,7 +53336,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391EZ1A00121A11Z10000004"
   },
   {
-    "id": "prod-209-1048",
+    "id": "prod-209-1053",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "101/06/",
@@ -53132,7 +53386,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191E31A00502"
   },
   {
-    "id": "prod-209-1049",
+    "id": "prod-209-1054",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/10/",
@@ -53182,7 +53436,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A00223A11Z90000045"
   },
   {
-    "id": "prod-209-1050",
+    "id": "prod-209-1055",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -53232,7 +53486,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A00223A11Z90000046"
   },
   {
-    "id": "prod-209-1051",
+    "id": "prod-209-1056",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "109/09/",
@@ -53282,7 +53536,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209243AZ1A00221A11Z10000007"
   },
   {
-    "id": "prod-209-1052",
+    "id": "prod-209-1057",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "098/09/",
@@ -53332,7 +53586,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209247E12D00100"
   },
   {
-    "id": "prod-209-1053",
+    "id": "prod-209-1058",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -53382,7 +53636,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A04923B11Z10000001"
   },
   {
-    "id": "prod-209-1054",
+    "id": "prod-209-1059",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "111/03/",
@@ -53432,7 +53686,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A00123A11Z90000018"
   },
   {
-    "id": "prod-209-1055",
+    "id": "prod-209-1060",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/01/",
@@ -53482,7 +53736,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A00123A11Z90000020"
   },
   {
-    "id": "prod-209-1056",
+    "id": "prod-209-1061",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -53532,7 +53786,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191EV1A00123A11Z90000027"
   },
   {
-    "id": "prod-209-1057",
+    "id": "prod-209-1062",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -53584,7 +53838,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04123A11Z10000004"
   },
   {
-    "id": "prod-209-1058",
+    "id": "prod-209-1063",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/01/",
@@ -53636,7 +53890,58 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA4B00823B11E10000001"
   },
   {
-    "id": "prod-209-1059",
+    "id": "prod-209-1064",
+    "company": "富邦",
+    "company_color": "bg-blue-600",
+    "release_month": "103/05/",
+    "is_new": false,
+    "new_tag": "待補日期",
+    "product_full_name": "富邦人壽薪富人生傷害暨健康一年定期壽險(第2次部分變更)",
+    "product_code": "tii-209-209191M19G00302",
+    "contract_type": "主約",
+    "sales_status": "現售",
+    "approval_number": "官方商品目錄，待補正式文號",
+    "age_range_display": "0~65 歲",
+    "min_issue_age": 0,
+    "max_issue_age": 65,
+    "max_renewal_age": null,
+    "is_guaranteed_renewal": false,
+    "has_227_restriction": false,
+    "categories": [
+      "意外傷害"
+    ],
+    "feature_chips": [
+      "傷害",
+      "一年期",
+      "主約"
+    ],
+    "age_rules": [
+      {
+        "term": "標準年期",
+        "max_age": 65
+      }
+    ],
+    "sum_assured_limits": {
+      "unit": "依保單條款/DM",
+      "min": "依投保規則",
+      "max": "依投保規則",
+      "notes": "免 API 規則引擎自動分類，詳細保額限制請參閱商品 DM。"
+    },
+    "coverage_highlights": [
+      {
+        "name": "主要契約保障項目",
+        "summary": "依據「富邦人壽薪富人生傷害暨健康一年定期壽險(第2次部分變更)」正式保單條款與核保規定辦理給付。",
+        "waiting_period": 0,
+        "clause": "保單條款",
+        "page": 1
+      }
+    ],
+    "evidence_quote": "詳見正式保單條款與商品簡介 DM 文件。",
+    "source_page": 1,
+    "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191M19G00302"
+  },
+  {
+    "id": "prod-209-1065",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "110/12/",
@@ -53685,7 +53990,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209193AZ1A00121A11Z10000012"
   },
   {
-    "id": "prod-209-1060",
+    "id": "prod-209-1066",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/11/",
@@ -53734,7 +54039,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209341RZ1A00522A11Z10000017"
   },
   {
-    "id": "prod-209-1061",
+    "id": "prod-209-1067",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/07/",
@@ -53786,7 +54091,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ6B00323A11E10000000"
   },
   {
-    "id": "prod-209-1062",
+    "id": "prod-209-1068",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/03/",
@@ -53838,7 +54143,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ6B00223A11E10000003"
   },
   {
-    "id": "prod-209-1063",
+    "id": "prod-209-1069",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -53890,7 +54195,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ6B00223A11E10000004"
   },
   {
-    "id": "prod-209-1064",
+    "id": "prod-209-1070",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "110/10/",
@@ -53940,7 +54245,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131AV1A00121A11Z90000009"
   },
   {
-    "id": "prod-209-1065",
+    "id": "prod-209-1071",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/04/",
@@ -53992,7 +54297,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MA2A02023A11Z10000002"
   },
   {
-    "id": "prod-209-1066",
+    "id": "prod-209-1072",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "099/09/",
@@ -54041,7 +54346,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121M11A04100"
   },
   {
-    "id": "prod-209-1067",
+    "id": "prod-209-1073",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -54093,7 +54398,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MA2A02123A11Z10000000"
   },
   {
-    "id": "prod-209-1068",
+    "id": "prod-209-1074",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/06/",
@@ -54145,7 +54450,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MA2A02223A11Z10000000"
   },
   {
-    "id": "prod-209-1069",
+    "id": "prod-209-1075",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -54196,7 +54501,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321MZ9B00222A11E10000000"
   },
   {
-    "id": "prod-209-1070",
+    "id": "prod-209-1076",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "",
@@ -54248,7 +54553,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01900"
   },
   {
-    "id": "prod-209-1071",
+    "id": "prod-209-1077",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "",
@@ -54300,7 +54605,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01901"
   },
   {
-    "id": "prod-209-1072",
+    "id": "prod-209-1078",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -54350,7 +54655,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05223A11Z10000001"
   },
   {
-    "id": "prod-209-1073",
+    "id": "prod-209-1079",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -54400,7 +54705,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A05323B11Z10000001"
   },
   {
-    "id": "prod-209-1074",
+    "id": "prod-209-1080",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/10/",
@@ -54450,7 +54755,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211MZ1A01321A11Z10000003"
   },
   {
-    "id": "prod-209-1075",
+    "id": "prod-209-1081",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/07/",
@@ -54503,7 +54808,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209361MZ6B00523A11E10000000"
   },
   {
-    "id": "prod-209-1076",
+    "id": "prod-209-1082",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -54556,7 +54861,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209361MZ6B00223A11E10000004"
   },
   {
-    "id": "prod-209-1077",
+    "id": "prod-209-1083",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -54608,7 +54913,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9B02223A11E10000001"
   },
   {
-    "id": "prod-209-1078",
+    "id": "prod-209-1084",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/01/",
@@ -54658,7 +54963,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ9B01922A11E10000001"
   },
   {
-    "id": "prod-209-1079",
+    "id": "prod-209-1085",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "110/02/",
@@ -54709,7 +55014,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391RZ1A01221A11Z10000001"
   },
   {
-    "id": "prod-209-1080",
+    "id": "prod-209-1086",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -54760,7 +55065,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351RZ1A00321A11Z10000003"
   },
   {
-    "id": "prod-209-1081",
+    "id": "prod-209-1087",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/06/",
@@ -54811,7 +55116,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391MZ9B02422A11E10000000"
   },
   {
-    "id": "prod-209-1082",
+    "id": "prod-209-1088",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/02/",
@@ -54861,7 +55166,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209353RZ1A00221A11Z10000005"
   },
   {
-    "id": "prod-209-1083",
+    "id": "prod-209-1089",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "098/06/",
@@ -54913,7 +55218,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351M12B00107"
   },
   {
-    "id": "prod-209-1084",
+    "id": "prod-209-1090",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -54965,7 +55270,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209341RZ1A00222A11Z10000010"
   },
   {
-    "id": "prod-209-1085",
+    "id": "prod-209-1091",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -55017,7 +55322,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311RZ1A00223A11Z10000009"
   },
   {
-    "id": "prod-209-1086",
+    "id": "prod-209-1092",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -55068,7 +55373,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B00223A11Z10000011"
   },
   {
-    "id": "prod-209-1087",
+    "id": "prod-209-1093",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -55120,7 +55425,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A02023A11D10000012"
   },
   {
-    "id": "prod-209-1088",
+    "id": "prod-209-1094",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/01/",
@@ -55172,7 +55477,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A02023A11D10000009"
   },
   {
-    "id": "prod-209-1089",
+    "id": "prod-209-1095",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -55222,7 +55527,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ9B02522A11E10000001"
   },
   {
-    "id": "prod-209-1090",
+    "id": "prod-209-1096",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -55272,7 +55577,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ9B02622A11E10000001"
   },
   {
-    "id": "prod-209-1091",
+    "id": "prod-209-1097",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -55322,7 +55627,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A06323B11Z10000000"
   },
   {
-    "id": "prod-209-1092",
+    "id": "prod-209-1098",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -55374,7 +55679,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MB1A00323A11Z10000007"
   },
   {
-    "id": "prod-209-1093",
+    "id": "prod-209-1099",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -55425,7 +55730,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B01523A11Z10000002"
   },
   {
-    "id": "prod-209-1094",
+    "id": "prod-209-1100",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "101/09/",
@@ -55475,7 +55780,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121M12A01401"
   },
   {
-    "id": "prod-209-1095",
+    "id": "prod-209-1101",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "101/10/",
@@ -55524,7 +55829,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121M12A01601"
   },
   {
-    "id": "prod-209-1096",
+    "id": "prod-209-1102",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/07/",
@@ -55574,7 +55879,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A02623A11C90000000"
   },
   {
-    "id": "prod-209-1097",
+    "id": "prod-209-1103",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/07/",
@@ -55626,7 +55931,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A05223A11C90000000"
   },
   {
-    "id": "prod-209-1098",
+    "id": "prod-209-1104",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/05/",
@@ -55678,7 +55983,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ9B02023A11Z10000000"
   },
   {
-    "id": "prod-209-1099",
+    "id": "prod-209-1105",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "112/01/",
@@ -55730,7 +56035,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MA1A01523A11Z10000000"
   },
   {
-    "id": "prod-209-1100",
+    "id": "prod-209-1106",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -55782,7 +56087,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04923B11Z10000000"
   },
   {
-    "id": "prod-209-1101",
+    "id": "prod-209-1107",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/12/",
@@ -55832,7 +56137,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321MZ2B00622A11Z10000001"
   },
   {
-    "id": "prod-209-1102",
+    "id": "prod-209-1108",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -55881,7 +56186,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391RZ1A01622A11Z10000001"
   },
   {
-    "id": "prod-209-1103",
+    "id": "prod-209-1109",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "108/01/",
@@ -55933,7 +56238,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A02723A11Z10000001"
   },
   {
-    "id": "prod-209-1104",
+    "id": "prod-209-1110",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/08/",
@@ -55983,7 +56288,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ2A00123A11Z10000001"
   },
   {
-    "id": "prod-209-1105",
+    "id": "prod-209-1111",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/03/",
@@ -56033,7 +56338,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A06123B11Z10000000"
   },
   {
-    "id": "prod-209-1106",
+    "id": "prod-209-1112",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/03/",
@@ -56084,7 +56389,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209321MZ1A00622A11Z10000000"
   },
   {
-    "id": "prod-209-1107",
+    "id": "prod-209-1113",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/09/",
@@ -56136,7 +56441,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209351MZ1A00123A11Z10000006"
   },
   {
-    "id": "prod-209-1108",
+    "id": "prod-209-1114",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/08/",
@@ -56186,7 +56491,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A02723A11C90000000"
   },
   {
-    "id": "prod-209-1109",
+    "id": "prod-209-1115",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/08/",
@@ -56238,7 +56543,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A05323A11C90000000"
   },
   {
-    "id": "prod-209-1110",
+    "id": "prod-209-1116",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/04/",
@@ -56290,7 +56595,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209411MA1A00422B11Z10000000"
   },
   {
-    "id": "prod-209-1111",
+    "id": "prod-209-1117",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
@@ -56340,7 +56645,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209411MZ1A00222A11Z10000000"
   },
   {
-    "id": "prod-209-1112",
+    "id": "prod-209-1118",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/07/",
@@ -56392,7 +56697,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209311MZ1B01723A11Z10000000"
   },
   {
-    "id": "prod-209-1113",
+    "id": "prod-209-1119",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "113/12/",
@@ -56442,7 +56747,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A02023A11C90000004"
   },
   {
-    "id": "prod-209-1114",
+    "id": "prod-209-1120",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/03/",
@@ -56494,7 +56799,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A04523A11C90000006"
   },
   {
-    "id": "prod-209-1115",
+    "id": "prod-209-1121",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "101/07/",
@@ -56544,7 +56849,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121M12G00104"
   },
   {
-    "id": "prod-209-1116",
+    "id": "prod-209-1122",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/08/",
@@ -56596,7 +56901,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209411MA1A00323A11Z10000002"
   },
   {
-    "id": "prod-209-1117",
+    "id": "prod-209-1123",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/03/",
@@ -56646,7 +56951,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MV1A02223A11C90000004"
   },
   {
-    "id": "prod-209-1118",
+    "id": "prod-209-1124",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "105/11/",
@@ -56698,7 +57003,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A01813A12Z10000000"
   },
   {
-    "id": "prod-209-1119",
+    "id": "prod-209-1125",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/11/",
@@ -56748,7 +57053,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391EZ1A00223A11Z10000000"
   },
   {
-    "id": "prod-209-1120",
+    "id": "prod-209-1126",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "110/10/",
@@ -56799,7 +57104,58 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209313AZ1A01121A11Z10000000"
   },
   {
-    "id": "prod-209-1121",
+    "id": "prod-209-1127",
+    "company": "富邦",
+    "company_color": "bg-blue-600",
+    "release_month": "102/04/",
+    "is_new": false,
+    "new_tag": "待補日期",
+    "product_full_name": "富邦人壽閤家有禮傷害暨健康一年定期保險",
+    "product_code": "tii-209-209391M12G00700",
+    "contract_type": "主約",
+    "sales_status": "現售",
+    "approval_number": "官方商品目錄，待補正式文號",
+    "age_range_display": "0~65 歲",
+    "min_issue_age": 0,
+    "max_issue_age": 65,
+    "max_renewal_age": null,
+    "is_guaranteed_renewal": false,
+    "has_227_restriction": false,
+    "categories": [
+      "意外傷害"
+    ],
+    "feature_chips": [
+      "傷害",
+      "一年期",
+      "主約"
+    ],
+    "age_rules": [
+      {
+        "term": "標準年期",
+        "max_age": 65
+      }
+    ],
+    "sum_assured_limits": {
+      "unit": "依保單條款/DM",
+      "min": "依投保規則",
+      "max": "依投保規則",
+      "notes": "免 API 規則引擎自動分類，詳細保額限制請參閱商品 DM。"
+    },
+    "coverage_highlights": [
+      {
+        "name": "主要契約保障項目",
+        "summary": "依據「富邦人壽閤家有禮傷害暨健康一年定期保險」正式保單條款與核保規定辦理給付。",
+        "waiting_period": 0,
+        "clause": "保單條款",
+        "page": 1
+      }
+    ],
+    "evidence_quote": "詳見正式保單條款與商品簡介 DM 文件。",
+    "source_page": 1,
+    "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391M12G00700"
+  },
+  {
+    "id": "prod-209-1128",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "107/09/",
@@ -56848,7 +57204,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211EZ1A00321A11Z10000003"
   },
   {
-    "id": "prod-209-1122",
+    "id": "prod-209-1129",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "102/11/",
@@ -56900,7 +57256,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421M31A01400"
   },
   {
-    "id": "prod-209-1123",
+    "id": "prod-209-1130",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "104/08/",
@@ -56952,7 +57308,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209421MV1A01123A11C90000005"
   },
   {
-    "id": "prod-209-1124",
+    "id": "prod-209-1131",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/06/",
@@ -57004,7 +57360,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ5B00413B11Z10000000"
   },
   {
-    "id": "prod-209-1125",
+    "id": "prod-209-1132",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -57054,7 +57410,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MZ1A03923B11Z10000004"
   },
   {
-    "id": "prod-209-1126",
+    "id": "prod-209-1133",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "098/06/",
@@ -57103,7 +57459,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191E31A00301"
   },
   {
-    "id": "prod-209-1127",
+    "id": "prod-209-1134",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "099/05/",
@@ -57152,7 +57508,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209191E31A00202"
   },
   {
-    "id": "prod-209-1128",
+    "id": "prod-209-1135",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/04/",
@@ -57204,7 +57560,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209411MA1A00522B11Z10000000"
   },
   {
-    "id": "prod-209-1129",
+    "id": "prod-209-1136",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "114/01/",
@@ -57256,7 +57612,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MA1A07623B11Z10000001"
   },
   {
-    "id": "prod-209-1130",
+    "id": "prod-209-1137",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/07/",
@@ -57308,7 +57664,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209361MZ1A00322A11E10000000"
   },
   {
-    "id": "prod-209-1131",
+    "id": "prod-209-1138",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -57360,7 +57716,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209361MZ1A00222A11E10000002"
   },
   {
-    "id": "prod-209-1132",
+    "id": "prod-209-1139",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -57411,7 +57767,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209211RZ1A01321A11Z10000001"
   },
   {
-    "id": "prod-209-1133",
+    "id": "prod-209-1140",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "098/09/",
@@ -57464,7 +57820,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209217A11A00304"
   },
   {
-    "id": "prod-209-1134",
+    "id": "prod-209-1141",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "110/09/",
@@ -57516,7 +57872,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209121MA2A01623A11Z10000000"
   },
   {
-    "id": "prod-209-1135",
+    "id": "prod-209-1142",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/01/",
@@ -57568,7 +57924,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209131MZ1A04223A11Z10000004"
   },
   {
-    "id": "prod-209-1136",
+    "id": "prod-209-1143",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "103/05/",
@@ -57617,7 +57973,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209391A11D00101"
   },
   {
-    "id": "prod-209-1137",
+    "id": "prod-209-1144",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "100/01/",
@@ -57666,7 +58022,7 @@
     "source_url": "https://insprod.tii.org.tw/DetailList.aspx?productId=209491E21A00200"
   },
   {
-    "id": "prod-209-1138",
+    "id": "prod-209-1145",
     "company": "富邦",
     "company_color": "bg-blue-600",
     "release_month": "115/04/",
