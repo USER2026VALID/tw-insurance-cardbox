@@ -38,9 +38,10 @@ jobs:
         run: |
           python -m unittest discover -v
 
-      - name: 執行保發中心商品爬蟲 (Crawl TII Products)
+      - name: 匯出已同步的現售主目錄 (Export Active Master Catalog)
         run: |
-          python tii_full_crawler.py
+          python merge_tii_catalog.py
+          python catalog_sync.py export-metadata
           python - <<'PY'
           import json
           from pathlib import Path
