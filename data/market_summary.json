@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T08:25:40.229919+00:00",
-  "active_count": 1138,
+  "generated_at": "2026-10-21T08:26:34.775937+00:00",
+  "active_count": 1145,
   "method": {
     "title": "主打候選透明代理指標",
     "description": "資料未包含銷售量、保費收入、搜尋量或市占率，因此不能宣稱熱門排行；分數僅依現有商品欄位找出較適合優先檢視的主約候選。",
@@ -15,40 +15,40 @@
   "companies": [
     {
       "company": "富邦",
-      "count": 489,
-      "share": 0.4297,
-      "main_contract_count": 430,
+      "count": 496,
+      "share": 0.4332,
+      "main_contract_count": 437,
       "rider_count": 59,
       "top_categories": [
         {
           "name": "醫療(定額)",
-          "count": 178,
-          "share": 0.364
+          "count": 180,
+          "share": 0.3629
         },
         {
           "name": "終身",
-          "count": 127,
-          "share": 0.2597
+          "count": 129,
+          "share": 0.2601
         },
         {
           "name": "意外傷害",
-          "count": 68,
-          "share": 0.1391
+          "count": 70,
+          "share": 0.1411
         },
         {
           "name": "投資型",
           "count": 59,
-          "share": 0.1207
+          "share": 0.119
         },
         {
           "name": "壽險",
-          "count": 53,
-          "share": 0.1084
+          "count": 54,
+          "share": 0.1089
         },
         {
           "name": "年金險",
           "count": 53,
-          "share": 0.1084
+          "share": 0.1069
         }
       ],
       "candidates": [
@@ -63,7 +63,7 @@
           "score": 8
         },
         {
-          "id": "prod-209-0848",
+          "id": "prod-209-0851",
           "name": "富邦人壽富利新貴增額終身保險",
           "categories": [
             "儲蓄型",
@@ -73,7 +73,7 @@
           "score": 8
         },
         {
-          "id": "prod-209-1065",
+          "id": "prod-209-1071",
           "name": "富邦人壽豐盛年年利率變動型終身保險(第2次部分變更)",
           "categories": [
             "儲蓄型",
@@ -83,7 +83,7 @@
           "score": 8
         },
         {
-          "id": "prod-209-1067",
+          "id": "prod-209-1073",
           "name": "富邦人壽豐鑽年年利率變動型終身保險",
           "categories": [
             "儲蓄型",
@@ -93,7 +93,7 @@
           "score": 8
         },
         {
-          "id": "prod-209-1068",
+          "id": "prod-209-1074",
           "name": "富邦人壽豐順年年利率變動型終身保險",
           "categories": [
             "儲蓄型",
@@ -107,7 +107,7 @@
     {
       "company": "國泰",
       "count": 319,
-      "share": 0.2803,
+      "share": 0.2786,
       "main_contract_count": 269,
       "rider_count": 50,
       "top_categories": [
@@ -198,7 +198,7 @@
     {
       "company": "南山",
       "count": 314,
-      "share": 0.2759,
+      "share": 0.2742,
       "main_contract_count": 272,
       "rider_count": 42,
       "top_categories": [
@@ -289,7 +289,7 @@
     {
       "company": "中華郵政壽險",
       "count": 16,
-      "share": 0.0141,
+      "share": 0.014,
       "main_contract_count": 12,
       "rider_count": 4,
       "top_categories": [
