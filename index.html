@@ -122,6 +122,21 @@
     </div>
   </section>
 
+  <!-- Active Product Distribution Dashboard -->
+  <section id="market-dashboard" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 w-full">
+    <div class="rounded-2xl bg-slate-900 text-white shadow-xl overflow-hidden">
+      <div class="p-5 sm:p-6 border-b border-white/10 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-3">
+        <div>
+          <p class="text-xs uppercase tracking-[0.18em] text-cyan-300 font-semibold">Active Portfolio Brief</p>
+          <h2 class="text-xl sm:text-2xl font-bold mt-1">現售商品分布與主打候選</h2>
+          <p class="text-sm text-slate-300 mt-2 max-w-3xl">以目前現售商品的險種結構、主附約與資料完整度建立檢視優先順序；這不是銷售量或市場占有率排名。</p>
+        </div>
+        <span id="market-method-note" class="text-xs text-slate-400"></span>
+      </div>
+      <div id="market-company-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-px bg-white/10"></div>
+    </div>
+  </section>
+
   <!-- Main Card Gallery View (Zettelkasten Cards Grid) -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full">
     <!-- Active filters bar -->
@@ -591,6 +606,8 @@
     const activeTagIndicator = document.getElementById("active-tag-indicator");
     const activeTagName = document.getElementById("active-tag-name");
     const clearActiveTagBtn = document.getElementById("clear-active-tag-btn");
+    const marketCompanyGrid = document.getElementById("market-company-grid");
+    const marketMethodNote = document.getElementById("market-method-note");
 
     // Drawer Elements
     const detailDrawer = document.getElementById("detail-drawer");
@@ -627,6 +644,45 @@
       datasetSummary.textContent = total > 0
         ? `${total.toLocaleString("zh-TW")} 個商品 · ${companies} 家公司 · ${source}${latest ? ` · ${latest}` : ""}`
         : "目前沒有可用的同步商品資料";
+    }
+
+    function prominenceScore(p) {
+      return (p.contract_type === "主約" ? 2 : 0)
+        + (p.is_guaranteed_renewal ? 2 : 0)
+        + Math.min(3, (p.categories || []).length)
+        + Math.min(3, (p.coverage_highlights || []).length)
+        + Math.min(2, Math.floor((p.feature_chips || []).length / 3));
+    }
+
+    function renderMarketDashboard() {
+      const groups = new Map();
+      insuranceProducts.filter(p => p.sales_status === "現售").forEach(p => {
+        const company = p.company || "未標示";
+        if (!groups.has(company)) groups.set(company, []);
+        groups.get(company).push(p);
+      });
+      const total = [...groups.values()].reduce((sum, group) => sum + group.length, 0);
+      const companyColors = { "富邦": "bg-blue-500", "國泰": "bg-emerald-500", "南山": "bg-sky-500", "中華郵政壽險": "bg-amber-500" };
+      marketMethodNote.textContent = `${total.toLocaleString("zh-TW")} 筆現售資料 · 規則式候選`;
+      marketCompanyGrid.innerHTML = [...groups.entries()].sort((a, b) => b[1].length - a[1].length).map(([company, group]) => {
+        const counts = {};
+        group.forEach(p => (p.categories || []).forEach(c => counts[c] = (counts[c] || 0) + 1));
+        const topCategories = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 3);
+        const candidates = [...group].sort((a, b) => prominenceScore(b) - prominenceScore(a) || (a.product_full_name || "").localeCompare(b.product_full_name || "", "zh-Hant")).slice(0, 3);
+        const share = total ? (group.length / total * 100).toFixed(1) : "0.0";
+        return `<article class="bg-slate-900 p-5 min-w-0">
+          <div class="flex items-start justify-between gap-3">
+            <div><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full ${companyColors[company] || 'bg-violet-500'}"></span><h3 class="font-bold text-lg">${company}</h3></div><p class="text-xs text-slate-400 mt-1">${group.length.toLocaleString("zh-TW")} 筆 · 佔四家公司 ${share}%</p></div>
+            <span class="text-xs px-2 py-1 rounded-full bg-white/10 text-slate-300">${group.filter(p => p.contract_type === "主約").length} 主約</span>
+          </div>
+          <div class="mt-4"><p class="text-[11px] uppercase tracking-wider text-slate-500">商品結構較集中於</p><div class="flex flex-wrap gap-1.5 mt-2">${topCategories.map(([name, count]) => `<span class="text-xs px-2 py-1 rounded-md bg-white/10 text-cyan-100">${name} ${count}</span>`).join("") || '<span class="text-xs text-slate-500">尚無分類</span>'}</div></div>
+          <div class="mt-4"><p class="text-[11px] uppercase tracking-wider text-slate-500">主打候選（優先檢視）</p><ol class="mt-2 space-y-2">${candidates.map(p => `<li class="text-xs leading-snug text-slate-200"><button class="text-left hover:text-cyan-300 transition" data-market-product="${p.id}">${p.product_full_name || "未命名商品"}</button><span class="block text-[10px] text-slate-500 mt-0.5">${(p.categories || []).slice(0, 2).join(" · ") || "未分類"} · 指標 ${prominenceScore(p)}</span></li>`).join("")}</ol></div>
+        </article>`;
+      }).join("");
+      marketCompanyGrid.querySelectorAll("[data-market-product]").forEach(btn => btn.addEventListener("click", () => {
+        const product = insuranceProducts.find(p => String(p.id) === btn.dataset.marketProduct);
+        if (product) openDrawer(product);
+      }));
     }
 
     // Toast helper
@@ -1113,6 +1169,7 @@
       }
       initFilterPills();
       updateDatasetSummary(source);
+      renderMarketDashboard();
       renderCards();
     }
     loadDataAndInit();

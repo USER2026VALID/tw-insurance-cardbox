@@ -83,6 +83,9 @@ jobs:
           target.parent.mkdir(exist_ok=True)
           target.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
           print(f"驗證通過：{len(data)} 張前端卡片")
+
+      - name: 產生公司主打候選摘要 (Build Market Summary)
+        run: python market_analysis.py
           PY
 
       - name: 準備 GitHub Pages 網站檔案 (Prepare Pages Artifact)
@@ -109,6 +112,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           [ -f data/products.json ] && git add data/products.json || true
+          [ -f data/market_summary.json ] && git add data/market_summary.json || true
           [ -f tii_insurance_data/all_products_metadata.json ] && git add tii_insurance_data/all_products_metadata.json || true
           if git diff --staged --quiet; then
             echo "沒有新上架商品，跳過提交。"
