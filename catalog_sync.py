@@ -289,6 +289,7 @@ def export_metadata() -> int:
         "company_name": r["company_name"],
         "product_full_name": r["product_name"],
         "product_code": r["product_id"],
+        "official_product_code": r.get("official_product_code", ""),
         "approval_date": r.get("market_date") or "",
         "approval_number": "官方商品目錄，待補正式文號",
         "pdf_url": "",

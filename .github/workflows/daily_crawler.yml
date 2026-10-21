@@ -84,10 +84,6 @@ jobs:
           target.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
           print(f"驗證通過：{len(data)} 張前端卡片")
 
-      - name: 產生公司主打候選摘要 (Build Market Summary)
-        run: python market_analysis.py
-          PY
-
       - name: 準備 GitHub Pages 網站檔案 (Prepare Pages Artifact)
         run: |
           mkdir -p site

@@ -38,6 +38,16 @@ BRAND_COLORS = {
     "友邦": "bg-rose-600",
 }
 
+# 已由官方商品頁／官方文件核對的代碼；其餘商品不猜測，保留 TII 編號。
+OFFICIAL_CODE_HINTS = {
+    "南山人壽安心溢百重大傷病終身保險": "NCIC",
+    "南山人壽長享平安終身傷害保險": "SUPA",
+    "南山人壽鑫富雙享外幣變額壽險": "URVLSP",
+    "南山人壽鑫富雙享變額壽險": "RVLSP",
+    "富邦人壽新安心悠遊海外突發疾病醫療健康保險附約": "EOHM",
+    "國泰人壽醫定安心手術醫療終身保險": "JWI",
+}
+
 def download_pdf(url: str, save_path: str) -> bool:
     """下載條款或 DM PDF 並快取於本地"""
     if not url:
@@ -274,6 +284,29 @@ def extract_code_from_name(name: str, default_code: str) -> str:
         return matches[-1]
     return default_code or "TII"
 
+
+def extract_official_code(name: str) -> str:
+    for product_name, code in OFFICIAL_CODE_HINTS.items():
+        if product_name in name:
+            return code
+    matches = re.findall(r"[\(（]([A-Z][A-Z0-9-]{1,8})[\)）]", name)
+    return matches[-1] if matches else ""
+
+
+def normalize_approval_date(value: str) -> tuple[str, str]:
+    """將民國／西元日期統一成 YYYY/MM 與 MM-DD。"""
+    value = (value or "").replace("-", "/").strip()
+    match = re.search(r"(\d{3,4})/(\d{1,2})(?:/(\d{1,2}))?", value)
+    if not match:
+        return "", "待補日期"
+    year, month, day = match.groups()
+    month = int(month)
+    if len(year) == 3:
+        year = str(int(year) + 1911)
+    release_month = f"{year}/{month:02d}"
+    mm_dd = f"{month:02d}-{int(day):02d}" if day else f"{month:02d}"
+    return release_month, mm_dd
+
 def main():
     if not os.path.exists(INPUT_METADATA_FILE):
         print(f"[!] 找不到輸入檔案: {INPUT_METADATA_FILE}，請先執行 tii_full_crawler.py！")
@@ -319,10 +352,10 @@ def main():
             }]
 
         short_comp = item.get("company_name", "").replace("人壽", "").replace("保險股份有限公司", "").replace("法商法國巴黎", "法巴")
-        approval_date = item.get("approval_date", "").replace("-", "/")
-        release_month = approval_date[:7] if len(approval_date) >= 7 else ""
-        mm_dd = approval_date[5:10].replace("/", "-") if len(approval_date) >= 10 else "待補日期"
-        is_new = bool(release_month) and release_month in ("2026/10", "115/10")
+        release_month, mm_dd = normalize_approval_date(item.get("approval_date", ""))
+        from datetime import datetime
+        now = datetime.now()
+        is_new = release_month == f"{now.year}/{now.month:02d}"
 
         card = {
             "id": f"prod-{item['company_code']}-{idx+1:04d}",
@@ -333,6 +366,8 @@ def main():
             "new_tag": f"新 {mm_dd}" if is_new else mm_dd,
             "product_full_name": pname,
             "product_code": extract_code_from_name(pname, item.get("product_code", "")),
+            "official_product_code": item.get("official_product_code") or extract_official_code(pname),
+            "tii_product_code": item.get("product_code", ""),
             "contract_type": rules["contract_type"],
             "sales_status": item.get("sales_status", rules["sales_status"]),
             "approval_number": item.get("approval_number", "依保發中心備查文號"),

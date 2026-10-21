@@ -10,6 +10,7 @@ from catalog_sync import CATALOG_DIR, load_catalog, now, rebuild_db, save_catalo
 
 MASTER = CATALOG_DIR / "tii_master.json"
 POSTAL_CANDIDATES = CATALOG_DIR / "post_undiscontinued_candidates.json"
+OFFICIAL_ADDITIONS = CATALOG_DIR / "official_current_additions.json"
 
 
 def is_active(row: dict) -> bool:
@@ -78,6 +79,27 @@ def merge() -> int:
                 "record_source": "user_evidence_pending_tii",
                 "tii_url": "",
                 "official_match": False,
+            })
+
+    # 官方網站已公布、但 TII 尚未收錄的近期新品，保留官方來源與英文代碼。
+    if OFFICIAL_ADDITIONS.exists():
+        for row in json.loads(OFFICIAL_ADDITIONS.read_text(encoding="utf-8")):
+            result.append({
+                "product_id": f"official-{row['company_code']}-{row['official_product_code']}",
+                "company_code": row["company_code"],
+                "company_name": row["company_name"],
+                "product_name": row["product_full_name"],
+                "official_url": row["source_url"],
+                "source_url": row["evidence_url"],
+                "categories": [],
+                "market_date": row["approval_date"],
+                "discontinued_date": "未停售",
+                "sales_status": "現售",
+                "last_checked": now(),
+                "record_source": "official_current_addition",
+                "tii_url": "",
+                "official_match": True,
+                "official_product_code": row["official_product_code"],
             })
     save_catalog(result)
     rebuild_db(result, [], reset_history=False)
