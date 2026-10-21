@@ -1,0 +1,42 @@
+{
+  "review_month": "2026-10",
+  "scope": "國泰人壽、南山人壽、富邦人壽、中華郵政壽險",
+  "method": "以各公司官方商品頁、資訊公開頁、最新消息頁交叉查核；沒有官方名稱與代碼證據的商品不臆測新增。",
+  "confirmed_new_products": [
+    {
+      "company": "南山人壽",
+      "name": "南山人壽安心溢百重大傷病終身保險",
+      "official_code": "NCIC",
+      "sources": [
+        "https://www.nanshanlife.com.tw/nanshanlife/product/104/513/",
+        "https://www.nanshanlife.com.tw/nanshanlife/news/newscenter/1701/"
+      ]
+    },
+    {
+      "company": "南山人壽",
+      "name": "南山人壽長享平安終身傷害保險",
+      "official_code": "SUPA",
+      "sources": [
+        "https://www.nanshanlife.com.tw/nanshanlife/product/135/512/",
+        "https://www.nanshanlife.com.tw/nanshanlife/features-elderly-product/"
+      ]
+    }
+  ],
+  "no_additional_product_confirmed": [
+    {
+      "company": "國泰人壽",
+      "source": "https://www.cathaylife.com.tw/official/laws-policies/public-info/info-insurance",
+      "finding": "官方商品資訊頁本月更新，但目前可讀內容未提供可核對的新商品名稱與英文代碼。"
+    },
+    {
+      "company": "富邦人壽",
+      "source": "https://www.fubon.com/life/",
+      "finding": "官方首頁與商品分類頁可見現有商品，但本次查核未找到本月新增且可核對英文代碼的商品。"
+    },
+    {
+      "company": "中華郵政壽險",
+      "source": "https://www.post.gov.tw/post/internet/Insurance/ad_more_banner.jsp?ID=496&ad_area=232",
+      "finding": "官方壽險宣傳頁本月更新內容以活動與公告為主，未發現本月新增商品名稱或英文代碼。"
+    }
+  ]
+}

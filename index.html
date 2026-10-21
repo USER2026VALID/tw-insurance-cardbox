@@ -787,7 +787,7 @@
           </button>
         `).join("");
 
-        // Status tag (e.g. 新 10-09)
+        // Status tag：只顯示本月新品，不顯示日期。
         const newTagBadge = item.new_tag
           ? `<span class="text-[11px] font-medium px-1.5 py-0.2 rounded ${item.is_new ? 'bg-rose-50 text-rose-600 border border-rose-200' : 'bg-slate-100 text-slate-600 border border-slate-200'}">${item.new_tag}</span>`
           : "";
@@ -802,9 +802,6 @@
                 <div class="flex items-center gap-1.5">
                   <span class="text-xs font-semibold px-2 py-0.5 rounded text-white ${item.company_color}">
                     ${item.company}
-                  </span>
-                  <span class="text-xs text-slate-500 font-mono">
-                    ${item.release_month}
                   </span>
                 </div>
                 <button data-fav-id="${item.id}" class="fav-btn p-1 rounded-md hover:bg-slate-50 transition" title="收藏保單">
@@ -831,7 +828,7 @@
 
             <!-- Footer: Code on left, Age range on right -->
             <div class="pt-2.5 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-medium">
-              <span class="font-mono text-slate-700">${item.product_code || '---'}</span>
+              <span class="font-mono text-slate-700">${item.official_product_code || item.product_code || '待核對官方代碼'}</span>
               <span class="text-slate-600">${item.age_range_display}</span>
             </div>
           </div>
@@ -885,9 +882,7 @@
       currentOpenProduct = p;
       drawerCompanyBadge.className = `px-2.5 py-0.5 rounded text-xs font-semibold text-white ${p.company_color}`;
       drawerCompanyBadge.textContent = p.company + "人壽";
-      drawerProductCode.textContent = p.official_product_code
-        ? `官方代碼 ${p.official_product_code}`
-        : (p.product_code ? `TII ${p.product_code}` : "尚未查得官方代碼");
+      drawerProductCode.textContent = p.official_product_code || p.product_code || "待核對官方代碼";
       drawerStatusBadge.className = p.sales_status === "現售"
         ? "px-2 py-0.5 rounded text-xs font-medium bg-emerald-500/20 text-emerald-300 border border-emerald-400/30"
         : "px-2 py-0.5 rounded text-xs font-medium bg-amber-500/20 text-amber-300 border border-amber-400/30";

@@ -38,7 +38,7 @@ BRAND_COLORS = {
     "友邦": "bg-rose-600",
 }
 
-# 已由官方商品頁／官方文件核對的代碼；其餘商品不猜測，保留 TII 編號。
+# 已由官方商品頁／官方文件核對的代碼；其餘商品不猜測，不將 TII 編號當作英文代碼。
 OFFICIAL_CODE_HINTS = {
     "南山人壽安心溢百重大傷病終身保險": "NCIC",
     "南山人壽長享平安終身傷害保險": "SUPA",
@@ -282,7 +282,13 @@ def extract_code_from_name(name: str, default_code: str) -> str:
     matches = re.findall(r"[\(（]([A-Z0-9]{2,8})[\)）]", name)
     if matches:
         return matches[-1]
-    return default_code or "TII"
+    return ""
+
+
+def clean_product_name(name: str) -> str:
+    """顯示正式商品本名，不把第幾次部分變更當成商品名稱。"""
+    cleaned = re.sub(r"\s*[\(（]\s*第\s*\d+\s*次(?:部分)?變更\s*[\)）]", "", name)
+    return re.sub(r"\s{2,}", " ", cleaned).strip()
 
 
 def extract_official_code(name: str) -> str:
@@ -320,7 +326,8 @@ def main():
     final_cards = []
 
     for idx, item in enumerate(meta_list):
-        pname = item.get("product_full_name", "").strip()
+        raw_name = item.get("product_full_name", "").strip()
+        pname = clean_product_name(raw_name)
         if not pname:
             continue
 
@@ -361,12 +368,13 @@ def main():
             "id": f"prod-{item['company_code']}-{idx+1:04d}",
             "company": short_comp,
             "company_color": BRAND_COLORS.get(short_comp, "bg-slate-700"),
-            "release_month": release_month,
+            # 日期留在 TII/catalog 母資料；前端卡片不再呈現日期。
+            "release_month": "",
             "is_new": is_new,
-            "new_tag": f"新 {mm_dd}" if is_new else mm_dd,
+            "new_tag": "本月新品" if is_new else "",
             "product_full_name": pname,
-            "product_code": extract_code_from_name(pname, item.get("product_code", "")),
-            "official_product_code": item.get("official_product_code") or extract_official_code(pname),
+            "product_code": item.get("official_product_code") or extract_official_code(raw_name) or extract_code_from_name(raw_name, ""),
+            "official_product_code": item.get("official_product_code") or extract_official_code(raw_name),
             "tii_product_code": item.get("product_code", ""),
             "contract_type": rules["contract_type"],
             "sales_status": item.get("sales_status", rules["sales_status"]),
