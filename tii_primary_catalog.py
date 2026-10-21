@@ -18,10 +18,11 @@ CATALOG_DIR = ROOT / "catalog"
 MASTER_FILE = CATALOG_DIR / "tii_master.json"
 CHECKPOINT_FILE = CATALOG_DIR / "tii_master_checkpoint.json"
 COMPANY_CODES = {"204", "206", "209", "220"}
-DEFAULT_START_PAGE = 2600
-DEFAULT_END_PAGE = 3400
+DEFAULT_START_PAGE = 1
+DEFAULT_END_PAGE = 4000
 WORKERS = 4
 PAGES_PER_BATCH = 25
+INNER_WORKERS = 4
 
 
 def read_json(path: Path, default):
@@ -35,17 +36,27 @@ def write_json(path: Path, value) -> None:
 
 def fetch_pages(pages: list[int]) -> tuple[list[dict], list[int], list[int]]:
     session = make_session()
-    found: list[dict] = []
-    completed, failed = [], []
-    for page in pages:
+    def fetch_one(page: int) -> tuple[int, list[dict], str | None]:
         try:
             response = session.get(f"{TII_RESULT_URL}?page={page}", timeout=REQUEST_TIMEOUT)
             response.raise_for_status()
-            found.extend(row for row in parse_result_page(response.text) if row.get("company_code") in COMPANY_CODES)
-            completed.append(page)
+            rows = [row for row in parse_result_page(response.text) if row.get("company_code") in COMPANY_CODES]
+            return page, rows, None
         except Exception as exc:
-            print(f"[WARN] TII page {page} failed: {exc}")
-            failed.append(page)
+            return page, [], str(exc)
+
+    found: list[dict] = []
+    completed, failed = [], []
+    with ThreadPoolExecutor(max_workers=INNER_WORKERS) as executor:
+        futures = [executor.submit(fetch_one, page) for page in pages]
+        for future in as_completed(futures):
+            page, rows, error = future.result()
+            if error:
+                print(f"[WARN] TII page {page} failed: {error}")
+                failed.append(page)
+            else:
+                found.extend(rows)
+                completed.append(page)
     return found, completed, failed
 
 

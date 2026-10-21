@@ -178,12 +178,10 @@ def classify_by_name_and_text(name: str, full_text: str) -> Dict[str, Any]:
         chips.append("主約")
 
     if not categories:
-        categories.append("醫療(定額)")
+        categories.append("待分類")
 
     # 4. 保證續保與 2-2-7 手術限制偵測
-    is_guaranteed_renewal = bool(
-        re.search(r"保證續保|不得拒絕續保|終身保險", combined)
-    )
+    is_guaranteed_renewal = bool(re.search(r"保證續保|不得拒絕續保", combined))
     has_227_restriction = bool(
         re.search(r"第二部第二章第七節|2-2-7|二—二—七", full_text)
     )
@@ -195,8 +193,8 @@ def classify_by_name_and_text(name: str, full_text: str) -> Dict[str, Any]:
     elif re.search(r"第三十日|30\s*日|三十日", full_text):
         waiting_days = 30
 
-    # 6. 投保年齡區間偵測 (從 DM 或條款文字匹配，若條款未載則依險種慣例給出預設參考值)
-    min_age, max_age = 0, 65
+    # 6. 投保年齡區間偵測；沒有官方文件證據時標示待查，不製造預設年齡。
+    min_age, max_age = None, None
     age_match = re.search(r"投保年齡[：:\s]*(?:自|從)?(?:出生滿\d+日|0\s*歲|(\d{1,2})\s*歲)[至~～\-](\d{2})\s*歲", full_text)
     if age_match:
         min_age = int(age_match.group(1)) if age_match.group(1) else 0
@@ -206,7 +204,7 @@ def classify_by_name_and_text(name: str, full_text: str) -> Dict[str, Any]:
     elif "終身" in name:
         min_age, max_age = 0, 60
 
-    age_range_display = f"{min_age}~{max_age} 歲"
+    age_range_display = f"{min_age}~{max_age} 歲" if min_age is not None else "待查承保年齡"
 
     return {
         "contract_type": contract_type,
@@ -287,7 +285,7 @@ def extract_code_from_name(name: str, default_code: str) -> str:
 
 def clean_product_name(name: str) -> str:
     """顯示正式商品本名，不把第幾次部分變更當成商品名稱。"""
-    cleaned = re.sub(r"\s*[\(（]\s*第\s*\d+\s*次(?:部分)?變更\s*[\)）]", "", name)
+    cleaned = re.sub(r"\s*[\(（]\s*第\s*[0-9一二三四五六七八九十百]+\s*次(?:部分|部份)?變更\s*[\)）]", "", name)
     return re.sub(r"\s{2,}", " ", cleaned).strip()
 
 

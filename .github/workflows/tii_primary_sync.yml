@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       start_page:
-        description: 'TII 起始頁（預設壽險資料區段）'
+        description: 'TII 起始頁（完整資料庫）'
         required: true
-        default: '2600'
+        default: '1'
       end_page:
         description: 'TII 結束頁'
         required: true
-        default: '3400'
+        default: '4000'
       workers:
         description: '並行工作數（建議 2-4）'
         required: true
@@ -22,7 +22,7 @@ permissions:
 jobs:
   tii-master:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

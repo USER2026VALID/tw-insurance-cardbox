@@ -69,8 +69,8 @@ def merge() -> int:
                 "company_code": "220",
                 "company_name": "中華郵政壽險",
                 "product_name": name,
-                "official_url": "",
-                "source_url": "IMG_1173.PNG",
+                "official_url": "https://www.post.gov.tw/post/internet/Insurance/",
+                "source_url": "https://www.post.gov.tw/post/internet/Insurance/",
                 "categories": [],
                 "market_date": row.get("sales_date"),
                 "discontinued_date": "未停售",
@@ -79,6 +79,7 @@ def merge() -> int:
                 "record_source": "user_evidence_pending_tii",
                 "tii_url": "",
                 "official_match": False,
+                "official_product_code": row.get("official_product_code", ""),
             })
 
     # 官方網站已公布、但 TII 尚未收錄的近期新品，保留官方來源與英文代碼。
