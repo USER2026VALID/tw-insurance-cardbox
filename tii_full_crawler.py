@@ -36,9 +36,9 @@ PDF_DIR = os.path.join(OUTPUT_DIR, "pdf_files")
 SCAN_START_PAGE = 2000
 PAGE_SIZE = 50
 MAX_WORKERS = 4
-REQUEST_TIMEOUT = 45
+REQUEST_TIMEOUT = (10, 25)
 PAGES_PER_WORKER = 100
-RETRY_TOTAL = 4
+RETRY_TOTAL = 2
 
 
 def normalize(value: str) -> str:
@@ -69,9 +69,21 @@ def make_session() -> requests.Session:
         respect_retry_after_header=True,
     )
     session.mount("https://", HTTPAdapter(max_retries=retry, pool_connections=4, pool_maxsize=4))
-    # 結果頁的公開表單允許每頁 50 筆；不繞過驗證碼或存取控制。
-    session.get(TII_RESULT_URL + "?page=1", timeout=REQUEST_TIMEOUT)
-    session.post(TII_RESULT_URL + "?page=1", data={"PageCrt": str(PAGE_SIZE)}, timeout=REQUEST_TIMEOUT)
+    # TII 偶爾會暫時無法連線；初始化失敗不可讓整批掃描直接中止。
+    # 實際頁面請求仍會依 checkpoint 重試，初始化只作為 best-effort warm-up。
+    for method, kwargs in (
+        (session.get, {"url": TII_RESULT_URL + "?page=1"}),
+        (session.post, {"url": TII_RESULT_URL + "?page=1", "data": {"PageCrt": str(PAGE_SIZE)}}),
+    ):
+        for attempt in range(3):
+            try:
+                method(timeout=REQUEST_TIMEOUT, **kwargs)
+                break
+            except requests.RequestException as exc:
+                if attempt == 2:
+                    print(f"[WARN] TII warm-up skipped after retries: {exc}")
+                else:
+                    time.sleep(2 ** attempt)
     return session
 
 
